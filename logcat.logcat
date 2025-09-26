@@ -1,0 +1,6188 @@
+{
+  "metadata": {
+    "device": {
+      "deviceId": "192.168.43.1:5555",
+      "name": "REV Robotics Control Hub v1.0",
+      "serialNumber": "192.168.43.1:5555",
+      "isOnline": true,
+      "release": "7.1.2",
+      "sdk": 25,
+      "featureLevel": 25,
+      "model": "Control Hub v1.0",
+      "type": "HANDHELD",
+      "isEmulator": false
+    },
+    "filter": "",
+    "projectApplicationIds": [
+      "com.qualcomm.ftcrobotcontroller.test",
+      "com.qualcomm.ftcrobotcontroller"
+    ]
+  },
+  "logcatMessages": [
+    {
+      "header": {
+        "logLevel": "VERBOSE",
+        "pid": 6990,
+        "tid": 7138,
+        "applicationId": "com.qualcomm.ftcrobotcontroller",
+        "processName": "com.qualcomm.ftcrobotcontroller",
+        "tag": "ThreadPool",
+        "timestamp": {
+          "seconds": 1758907420,
+          "nanos": 978000000
+        }
+      },
+      "message": "container(0x047790e5: default scheduler) added id\u003d343 TID\u003d0 count\u003d14"
+    },
+    {
+      "header": {
+        "logLevel": "INFO",
+        "pid": 6990,
+        "tid": 7188,
+        "applicationId": "com.qualcomm.ftcrobotcontroller",
+        "processName": "com.qualcomm.ftcrobotcontroller",
+        "tag": "FTC",
+        "timestamp": {
+          "seconds": 1758907424,
+          "nanos": 557000000
+        }
+      },
+      "message": "Phase\u003dconst Target\u003d1000.0 Vel\u003d-0.0 V\u003d12.620000000000001 A\u003d0.0 Error\u003d100.0"
+    },
+    {
+      "header": {
+        "logLevel": "INFO",
+        "pid": 6990,
+        "tid": 7188,
+        "applicationId": "com.qualcomm.ftcrobotcontroller",
+        "processName": "com.qualcomm.ftcrobotcontroller",
+        "tag": "FTC",
+        "timestamp": {
+          "seconds": 1758907424,
+          "nanos": 580000000
+        }
+      },
+      "message": "Phase\u003dconst Target\u003d1000.0 Vel\u003d60.0 V\u003d12.498000000000001 A\u003d1490.0 Error\u003d100.0"
+    },
+    {
+      "header": {
+        "logLevel": "INFO",
+        "pid": 6990,
+        "tid": 7188,
+        "applicationId": "com.qualcomm.ftcrobotcontroller",
+        "processName": "com.qualcomm.ftcrobotcontroller",
+        "tag": "FTC",
+        "timestamp": {
+          "seconds": 1758907424,
+          "nanos": 607000000
+        }
+      },
+      "message": "Phase\u003dconst Target\u003d1000.0 Vel\u003d560.0 V\u003d12.559000000000001 A\u003d1035.0 Error\u003d64.0"
+    },
+    {
+      "header": {
+        "logLevel": "INFO",
+        "pid": 6990,
+        "tid": 7188,
+        "applicationId": "com.qualcomm.ftcrobotcontroller",
+        "processName": "com.qualcomm.ftcrobotcontroller",
+        "tag": "FTC",
+        "timestamp": {
+          "seconds": 1758907424,
+          "nanos": 627000000
+        }
+      },
+      "message": "Phase\u003dconst Target\u003d1000.0 Vel\u003d920.0 V\u003d12.616 A\u003d302.0 Error\u003d24.0"
+    },
+    {
+      "header": {
+        "logLevel": "INFO",
+        "pid": 6990,
+        "tid": 7188,
+        "applicationId": "com.qualcomm.ftcrobotcontroller",
+        "processName": "com.qualcomm.ftcrobotcontroller",
+        "tag": "FTC",
+        "timestamp": {
+          "seconds": 1758907424,
+          "nanos": 649000000
+        }
+      },
+      "message": "Phase\u003dconst Target\u003d1000.0 Vel\u003d1020.0 V\u003d12.616 A\u003d142.0 Error\u003d0.0"
+    },
+    {
+      "header": {
+        "logLevel": "INFO",
+        "pid": 6990,
+        "tid": 7188,
+        "applicationId": "com.qualcomm.ftcrobotcontroller",
+        "processName": "com.qualcomm.ftcrobotcontroller",
+        "tag": "FTC",
+        "timestamp": {
+          "seconds": 1758907424,
+          "nanos": 670000000
+        }
+      },
+      "message": "Phase\u003dconst Target\u003d1000.0 Vel\u003d980.0 V\u003d12.620000000000001 A\u003d80.0 Error\u003d0.0"
+    },
+    {
+      "header": {
+        "logLevel": "INFO",
+        "pid": 6990,
+        "tid": 7188,
+        "applicationId": "com.qualcomm.ftcrobotcontroller",
+        "processName": "com.qualcomm.ftcrobotcontroller",
+        "tag": "FTC",
+        "timestamp": {
+          "seconds": 1758907424,
+          "nanos": 687000000
+        }
+      },
+      "message": "Phase\u003dconst Target\u003d1000.0 Vel\u003d900.0 V\u003d12.616 A\u003d51.0 Error\u003d6.0"
+    },
+    {
+      "header": {
+        "logLevel": "INFO",
+        "pid": 6990,
+        "tid": 7188,
+        "applicationId": "com.qualcomm.ftcrobotcontroller",
+        "processName": "com.qualcomm.ftcrobotcontroller",
+        "tag": "FTC",
+        "timestamp": {
+          "seconds": 1758907424,
+          "nanos": 703000000
+        }
+      },
+      "message": "Phase\u003dconst Target\u003d1000.0 Vel\u003d840.0 V\u003d12.620000000000001 A\u003d51.0 Error\u003d14.000000000000002"
+    },
+    {
+      "header": {
+        "logLevel": "INFO",
+        "pid": 6990,
+        "tid": 7188,
+        "applicationId": "com.qualcomm.ftcrobotcontroller",
+        "processName": "com.qualcomm.ftcrobotcontroller",
+        "tag": "FTC",
+        "timestamp": {
+          "seconds": 1758907424,
+          "nanos": 720000000
+        }
+      },
+      "message": "Phase\u003dconst Target\u003d1000.0 Vel\u003d800.0 V\u003d12.616 A\u003d65.0 Error\u003d20.0"
+    },
+    {
+      "header": {
+        "logLevel": "INFO",
+        "pid": 6990,
+        "tid": 7188,
+        "applicationId": "com.qualcomm.ftcrobotcontroller",
+        "processName": "com.qualcomm.ftcrobotcontroller",
+        "tag": "FTC",
+        "timestamp": {
+          "seconds": 1758907424,
+          "nanos": 737000000
+        }
+      },
+      "message": "Phase\u003dconst Target\u003d1000.0 Vel\u003d720.0 V\u003d12.616 A\u003d80.0 Error\u003d24.0"
+    },
+    {
+      "header": {
+        "logLevel": "INFO",
+        "pid": 6990,
+        "tid": 7188,
+        "applicationId": "com.qualcomm.ftcrobotcontroller",
+        "processName": "com.qualcomm.ftcrobotcontroller",
+        "tag": "FTC",
+        "timestamp": {
+          "seconds": 1758907424,
+          "nanos": 754000000
+        }
+      },
+      "message": "Phase\u003dconst Target\u003d1000.0 Vel\u003d660.0 V\u003d12.616 A\u003d91.0 Error\u003d30.0"
+    },
+    {
+      "header": {
+        "logLevel": "INFO",
+        "pid": 6990,
+        "tid": 7188,
+        "applicationId": "com.qualcomm.ftcrobotcontroller",
+        "processName": "com.qualcomm.ftcrobotcontroller",
+        "tag": "FTC",
+        "timestamp": {
+          "seconds": 1758907424,
+          "nanos": 773000000
+        }
+      },
+      "message": "Phase\u003dconst Target\u003d1000.0 Vel\u003d600.0 V\u003d12.611 A\u003d153.0 Error\u003d38.0"
+    },
+    {
+      "header": {
+        "logLevel": "INFO",
+        "pid": 6990,
+        "tid": 7188,
+        "applicationId": "com.qualcomm.ftcrobotcontroller",
+        "processName": "com.qualcomm.ftcrobotcontroller",
+        "tag": "FTC",
+        "timestamp": {
+          "seconds": 1758907424,
+          "nanos": 789000000
+        }
+      },
+      "message": "Phase\u003dconst Target\u003d1000.0 Vel\u003d580.0 V\u003d12.607000000000001 A\u003d200.0 Error\u003d42.0"
+    },
+    {
+      "header": {
+        "logLevel": "INFO",
+        "pid": 6990,
+        "tid": 7188,
+        "applicationId": "com.qualcomm.ftcrobotcontroller",
+        "processName": "com.qualcomm.ftcrobotcontroller",
+        "tag": "FTC",
+        "timestamp": {
+          "seconds": 1758907424,
+          "nanos": 806000000
+        }
+      },
+      "message": "Phase\u003dconst Target\u003d1000.0 Vel\u003d540.0 V\u003d12.607000000000001 A\u003d215.0 Error\u003d44.0"
+    },
+    {
+      "header": {
+        "logLevel": "INFO",
+        "pid": 6990,
+        "tid": 7188,
+        "applicationId": "com.qualcomm.ftcrobotcontroller",
+        "processName": "com.qualcomm.ftcrobotcontroller",
+        "tag": "FTC",
+        "timestamp": {
+          "seconds": 1758907424,
+          "nanos": 823000000
+        }
+      },
+      "message": "Phase\u003dconst Target\u003d1000.0 Vel\u003d540.0 V\u003d12.603 A\u003d291.0 Error\u003d44.0"
+    },
+    {
+      "header": {
+        "logLevel": "INFO",
+        "pid": 6990,
+        "tid": 7188,
+        "applicationId": "com.qualcomm.ftcrobotcontroller",
+        "processName": "com.qualcomm.ftcrobotcontroller",
+        "tag": "FTC",
+        "timestamp": {
+          "seconds": 1758907424,
+          "nanos": 838000000
+        }
+      },
+      "message": "Phase\u003dconst Target\u003d1000.0 Vel\u003d560.0 V\u003d12.603 A\u003d317.0 Error\u003d44.0"
+    },
+    {
+      "header": {
+        "logLevel": "INFO",
+        "pid": 6990,
+        "tid": 7188,
+        "applicationId": "com.qualcomm.ftcrobotcontroller",
+        "processName": "com.qualcomm.ftcrobotcontroller",
+        "tag": "FTC",
+        "timestamp": {
+          "seconds": 1758907424,
+          "nanos": 854000000
+        }
+      },
+      "message": "Phase\u003dconst Target\u003d1000.0 Vel\u003d580.0 V\u003d12.603 A\u003d313.0 Error\u003d44.0"
+    },
+    {
+      "header": {
+        "logLevel": "INFO",
+        "pid": 6990,
+        "tid": 7188,
+        "applicationId": "com.qualcomm.ftcrobotcontroller",
+        "processName": "com.qualcomm.ftcrobotcontroller",
+        "tag": "FTC",
+        "timestamp": {
+          "seconds": 1758907424,
+          "nanos": 870000000
+        }
+      },
+      "message": "Phase\u003dconst Target\u003d1000.0 Vel\u003d580.0 V\u003d12.598 A\u003d324.0 Error\u003d42.0"
+    },
+    {
+      "header": {
+        "logLevel": "INFO",
+        "pid": 6990,
+        "tid": 7188,
+        "applicationId": "com.qualcomm.ftcrobotcontroller",
+        "processName": "com.qualcomm.ftcrobotcontroller",
+        "tag": "FTC",
+        "timestamp": {
+          "seconds": 1758907424,
+          "nanos": 885000000
+        }
+      },
+      "message": "Phase\u003dconst Target\u003d1000.0 Vel\u003d600.0 V\u003d12.603 A\u003d324.0 Error\u003d40.0"
+    },
+    {
+      "header": {
+        "logLevel": "INFO",
+        "pid": 6990,
+        "tid": 7188,
+        "applicationId": "com.qualcomm.ftcrobotcontroller",
+        "processName": "com.qualcomm.ftcrobotcontroller",
+        "tag": "FTC",
+        "timestamp": {
+          "seconds": 1758907424,
+          "nanos": 900000000
+        }
+      },
+      "message": "Phase\u003dconst Target\u003d1000.0 Vel\u003d640.0 V\u003d12.603 A\u003d306.0 Error\u003d38.0"
+    },
+    {
+      "header": {
+        "logLevel": "INFO",
+        "pid": 6990,
+        "tid": 7188,
+        "applicationId": "com.qualcomm.ftcrobotcontroller",
+        "processName": "com.qualcomm.ftcrobotcontroller",
+        "tag": "FTC",
+        "timestamp": {
+          "seconds": 1758907424,
+          "nanos": 916000000
+        }
+      },
+      "message": "Phase\u003dconst Target\u003d1000.0 Vel\u003d640.0 V\u003d12.607000000000001 A\u003d280.0 Error\u003d36.0"
+    },
+    {
+      "header": {
+        "logLevel": "INFO",
+        "pid": 6990,
+        "tid": 7188,
+        "applicationId": "com.qualcomm.ftcrobotcontroller",
+        "processName": "com.qualcomm.ftcrobotcontroller",
+        "tag": "FTC",
+        "timestamp": {
+          "seconds": 1758907424,
+          "nanos": 933000000
+        }
+      },
+      "message": "Phase\u003dconst Target\u003d1000.0 Vel\u003d660.0 V\u003d12.607000000000001 A\u003d207.0 Error\u003d34.0"
+    },
+    {
+      "header": {
+        "logLevel": "INFO",
+        "pid": 6990,
+        "tid": 7188,
+        "applicationId": "com.qualcomm.ftcrobotcontroller",
+        "processName": "com.qualcomm.ftcrobotcontroller",
+        "tag": "FTC",
+        "timestamp": {
+          "seconds": 1758907424,
+          "nanos": 949000000
+        }
+      },
+      "message": "Phase\u003dconst Target\u003d1000.0 Vel\u003d660.0 V\u003d12.607000000000001 A\u003d204.0 Error\u003d34.0"
+    },
+    {
+      "header": {
+        "logLevel": "INFO",
+        "pid": 6990,
+        "tid": 7188,
+        "applicationId": "com.qualcomm.ftcrobotcontroller",
+        "processName": "com.qualcomm.ftcrobotcontroller",
+        "tag": "FTC",
+        "timestamp": {
+          "seconds": 1758907424,
+          "nanos": 965000000
+        }
+      },
+      "message": "Phase\u003dconst Target\u003d1000.0 Vel\u003d640.0 V\u003d12.607000000000001 A\u003d207.0 Error\u003d36.0"
+    },
+    {
+      "header": {
+        "logLevel": "INFO",
+        "pid": 6990,
+        "tid": 7188,
+        "applicationId": "com.qualcomm.ftcrobotcontroller",
+        "processName": "com.qualcomm.ftcrobotcontroller",
+        "tag": "FTC",
+        "timestamp": {
+          "seconds": 1758907424,
+          "nanos": 979000000
+        }
+      },
+      "message": "Phase\u003dconst Target\u003d1000.0 Vel\u003d620.0 V\u003d12.607000000000001 A\u003d255.0 Error\u003d38.0"
+    },
+    {
+      "header": {
+        "logLevel": "INFO",
+        "pid": 6990,
+        "tid": 7188,
+        "applicationId": "com.qualcomm.ftcrobotcontroller",
+        "processName": "com.qualcomm.ftcrobotcontroller",
+        "tag": "FTC",
+        "timestamp": {
+          "seconds": 1758907424,
+          "nanos": 995000000
+        }
+      },
+      "message": "Phase\u003dconst Target\u003d1000.0 Vel\u003d620.0 V\u003d12.607000000000001 A\u003d255.0 Error\u003d36.0"
+    },
+    {
+      "header": {
+        "logLevel": "INFO",
+        "pid": 6990,
+        "tid": 7188,
+        "applicationId": "com.qualcomm.ftcrobotcontroller",
+        "processName": "com.qualcomm.ftcrobotcontroller",
+        "tag": "FTC",
+        "timestamp": {
+          "seconds": 1758907425,
+          "nanos": 9000000
+        }
+      },
+      "message": "Phase\u003dconst Target\u003d1000.0 Vel\u003d620.0 V\u003d12.603 A\u003d266.0 Error\u003d38.0"
+    },
+    {
+      "header": {
+        "logLevel": "INFO",
+        "pid": 6990,
+        "tid": 7188,
+        "applicationId": "com.qualcomm.ftcrobotcontroller",
+        "processName": "com.qualcomm.ftcrobotcontroller",
+        "tag": "FTC",
+        "timestamp": {
+          "seconds": 1758907425,
+          "nanos": 26000000
+        }
+      },
+      "message": "Phase\u003dconst Target\u003d1000.0 Vel\u003d640.0 V\u003d12.603 A\u003d291.0 Error\u003d36.0"
+    },
+    {
+      "header": {
+        "logLevel": "INFO",
+        "pid": 6990,
+        "tid": 7188,
+        "applicationId": "com.qualcomm.ftcrobotcontroller",
+        "processName": "com.qualcomm.ftcrobotcontroller",
+        "tag": "FTC",
+        "timestamp": {
+          "seconds": 1758907425,
+          "nanos": 47000000
+        }
+      },
+      "message": "Phase\u003dconst Target\u003d1000.0 Vel\u003d640.0 V\u003d12.607000000000001 A\u003d291.0 Error\u003d36.0"
+    },
+    {
+      "header": {
+        "logLevel": "INFO",
+        "pid": 6990,
+        "tid": 7188,
+        "applicationId": "com.qualcomm.ftcrobotcontroller",
+        "processName": "com.qualcomm.ftcrobotcontroller",
+        "tag": "FTC",
+        "timestamp": {
+          "seconds": 1758907425,
+          "nanos": 65000000
+        }
+      },
+      "message": "Phase\u003dconst Target\u003d1000.0 Vel\u003d660.0 V\u003d12.603 A\u003d280.0 Error\u003d34.0"
+    },
+    {
+      "header": {
+        "logLevel": "INFO",
+        "pid": 6990,
+        "tid": 7188,
+        "applicationId": "com.qualcomm.ftcrobotcontroller",
+        "processName": "com.qualcomm.ftcrobotcontroller",
+        "tag": "FTC",
+        "timestamp": {
+          "seconds": 1758907425,
+          "nanos": 81000000
+        }
+      },
+      "message": "Phase\u003dconst Target\u003d1000.0 Vel\u003d680.0 V\u003d12.603 A\u003d273.0 Error\u003d32.0"
+    },
+    {
+      "header": {
+        "logLevel": "INFO",
+        "pid": 6990,
+        "tid": 7188,
+        "applicationId": "com.qualcomm.ftcrobotcontroller",
+        "processName": "com.qualcomm.ftcrobotcontroller",
+        "tag": "FTC",
+        "timestamp": {
+          "seconds": 1758907425,
+          "nanos": 98000000
+        }
+      },
+      "message": "Phase\u003dconst Target\u003d1000.0 Vel\u003d680.0 V\u003d12.607000000000001 A\u003d262.0 Error\u003d32.0"
+    },
+    {
+      "header": {
+        "logLevel": "INFO",
+        "pid": 6990,
+        "tid": 7188,
+        "applicationId": "com.qualcomm.ftcrobotcontroller",
+        "processName": "com.qualcomm.ftcrobotcontroller",
+        "tag": "FTC",
+        "timestamp": {
+          "seconds": 1758907425,
+          "nanos": 112000000
+        }
+      },
+      "message": "Phase\u003dconst Target\u003d1000.0 Vel\u003d680.0 V\u003d12.603 A\u003d262.0 Error\u003d32.0"
+    },
+    {
+      "header": {
+        "logLevel": "INFO",
+        "pid": 6990,
+        "tid": 7188,
+        "applicationId": "com.qualcomm.ftcrobotcontroller",
+        "processName": "com.qualcomm.ftcrobotcontroller",
+        "tag": "FTC",
+        "timestamp": {
+          "seconds": 1758907425,
+          "nanos": 126000000
+        }
+      },
+      "message": "Phase\u003dconst Target\u003d1000.0 Vel\u003d680.0 V\u003d12.603 A\u003d258.0 Error\u003d32.0"
+    },
+    {
+      "header": {
+        "logLevel": "INFO",
+        "pid": 6990,
+        "tid": 7188,
+        "applicationId": "com.qualcomm.ftcrobotcontroller",
+        "processName": "com.qualcomm.ftcrobotcontroller",
+        "tag": "FTC",
+        "timestamp": {
+          "seconds": 1758907425,
+          "nanos": 139000000
+        }
+      },
+      "message": "Phase\u003dconst Target\u003d1000.0 Vel\u003d680.0 V\u003d12.603 A\u003d255.0 Error\u003d32.0"
+    },
+    {
+      "header": {
+        "logLevel": "INFO",
+        "pid": 6990,
+        "tid": 7188,
+        "applicationId": "com.qualcomm.ftcrobotcontroller",
+        "processName": "com.qualcomm.ftcrobotcontroller",
+        "tag": "FTC",
+        "timestamp": {
+          "seconds": 1758907425,
+          "nanos": 152000000
+        }
+      },
+      "message": "Phase\u003dconst Target\u003d1000.0 Vel\u003d700.0 V\u003d12.603 A\u003d258.0 Error\u003d30.0"
+    },
+    {
+      "header": {
+        "logLevel": "INFO",
+        "pid": 6990,
+        "tid": 7188,
+        "applicationId": "com.qualcomm.ftcrobotcontroller",
+        "processName": "com.qualcomm.ftcrobotcontroller",
+        "tag": "FTC",
+        "timestamp": {
+          "seconds": 1758907425,
+          "nanos": 165000000
+        }
+      },
+      "message": "Phase\u003dconst Target\u003d1000.0 Vel\u003d700.0 V\u003d12.603 A\u003d251.0 Error\u003d30.0"
+    },
+    {
+      "header": {
+        "logLevel": "INFO",
+        "pid": 6990,
+        "tid": 7188,
+        "applicationId": "com.qualcomm.ftcrobotcontroller",
+        "processName": "com.qualcomm.ftcrobotcontroller",
+        "tag": "FTC",
+        "timestamp": {
+          "seconds": 1758907425,
+          "nanos": 178000000
+        }
+      },
+      "message": "Phase\u003dconst Target\u003d1000.0 Vel\u003d700.0 V\u003d12.607000000000001 A\u003d251.0 Error\u003d30.0"
+    },
+    {
+      "header": {
+        "logLevel": "INFO",
+        "pid": 6990,
+        "tid": 7188,
+        "applicationId": "com.qualcomm.ftcrobotcontroller",
+        "processName": "com.qualcomm.ftcrobotcontroller",
+        "tag": "FTC",
+        "timestamp": {
+          "seconds": 1758907425,
+          "nanos": 193000000
+        }
+      },
+      "message": "Phase\u003dconst Target\u003d1000.0 Vel\u003d680.0 V\u003d12.603 A\u003d258.0 Error\u003d32.0"
+    },
+    {
+      "header": {
+        "logLevel": "INFO",
+        "pid": 6990,
+        "tid": 7188,
+        "applicationId": "com.qualcomm.ftcrobotcontroller",
+        "processName": "com.qualcomm.ftcrobotcontroller",
+        "tag": "FTC",
+        "timestamp": {
+          "seconds": 1758907425,
+          "nanos": 206000000
+        }
+      },
+      "message": "Phase\u003dconst Target\u003d1000.0 Vel\u003d680.0 V\u003d12.607000000000001 A\u003d255.0 Error\u003d32.0"
+    },
+    {
+      "header": {
+        "logLevel": "INFO",
+        "pid": 6990,
+        "tid": 7188,
+        "applicationId": "com.qualcomm.ftcrobotcontroller",
+        "processName": "com.qualcomm.ftcrobotcontroller",
+        "tag": "FTC",
+        "timestamp": {
+          "seconds": 1758907425,
+          "nanos": 220000000
+        }
+      },
+      "message": "Phase\u003dconst Target\u003d1000.0 Vel\u003d680.0 V\u003d12.603 A\u003d277.0 Error\u003d32.0"
+    },
+    {
+      "header": {
+        "logLevel": "INFO",
+        "pid": 6990,
+        "tid": 7188,
+        "applicationId": "com.qualcomm.ftcrobotcontroller",
+        "processName": "com.qualcomm.ftcrobotcontroller",
+        "tag": "FTC",
+        "timestamp": {
+          "seconds": 1758907425,
+          "nanos": 235000000
+        }
+      },
+      "message": "Phase\u003dconst Target\u003d1000.0 Vel\u003d700.0 V\u003d12.598 A\u003d302.0 Error\u003d32.0"
+    },
+    {
+      "header": {
+        "logLevel": "INFO",
+        "pid": 6990,
+        "tid": 7188,
+        "applicationId": "com.qualcomm.ftcrobotcontroller",
+        "processName": "com.qualcomm.ftcrobotcontroller",
+        "tag": "FTC",
+        "timestamp": {
+          "seconds": 1758907425,
+          "nanos": 248000000
+        }
+      },
+      "message": "Phase\u003dconst Target\u003d1000.0 Vel\u003d720.0 V\u003d12.607000000000001 A\u003d287.0 Error\u003d28.000000000000004"
+    },
+    {
+      "header": {
+        "logLevel": "INFO",
+        "pid": 6990,
+        "tid": 7188,
+        "applicationId": "com.qualcomm.ftcrobotcontroller",
+        "processName": "com.qualcomm.ftcrobotcontroller",
+        "tag": "FTC",
+        "timestamp": {
+          "seconds": 1758907425,
+          "nanos": 260000000
+        }
+      },
+      "message": "Phase\u003dconst Target\u003d1000.0 Vel\u003d720.0 V\u003d12.603 A\u003d284.0 Error\u003d28.000000000000004"
+    },
+    {
+      "header": {
+        "logLevel": "INFO",
+        "pid": 6990,
+        "tid": 7188,
+        "applicationId": "com.qualcomm.ftcrobotcontroller",
+        "processName": "com.qualcomm.ftcrobotcontroller",
+        "tag": "FTC",
+        "timestamp": {
+          "seconds": 1758907425,
+          "nanos": 274000000
+        }
+      },
+      "message": "Phase\u003dconst Target\u003d1000.0 Vel\u003d720.0 V\u003d12.607000000000001 A\u003d266.0 Error\u003d28.000000000000004"
+    },
+    {
+      "header": {
+        "logLevel": "INFO",
+        "pid": 6990,
+        "tid": 7188,
+        "applicationId": "com.qualcomm.ftcrobotcontroller",
+        "processName": "com.qualcomm.ftcrobotcontroller",
+        "tag": "FTC",
+        "timestamp": {
+          "seconds": 1758907425,
+          "nanos": 289000000
+        }
+      },
+      "message": "Phase\u003dconst Target\u003d1000.0 Vel\u003d740.0 V\u003d12.607000000000001 A\u003d233.0 Error\u003d26.0"
+    },
+    {
+      "header": {
+        "logLevel": "INFO",
+        "pid": 6990,
+        "tid": 7188,
+        "applicationId": "com.qualcomm.ftcrobotcontroller",
+        "processName": "com.qualcomm.ftcrobotcontroller",
+        "tag": "FTC",
+        "timestamp": {
+          "seconds": 1758907425,
+          "nanos": 303000000
+        }
+      },
+      "message": "Phase\u003dconst Target\u003d1000.0 Vel\u003d720.0 V\u003d12.607000000000001 A\u003d229.0 Error\u003d28.000000000000004"
+    },
+    {
+      "header": {
+        "logLevel": "INFO",
+        "pid": 6990,
+        "tid": 7188,
+        "applicationId": "com.qualcomm.ftcrobotcontroller",
+        "processName": "com.qualcomm.ftcrobotcontroller",
+        "tag": "FTC",
+        "timestamp": {
+          "seconds": 1758907425,
+          "nanos": 318000000
+        }
+      },
+      "message": "Phase\u003dconst Target\u003d1000.0 Vel\u003d720.0 V\u003d12.603 A\u003d236.0 Error\u003d28.000000000000004"
+    },
+    {
+      "header": {
+        "logLevel": "INFO",
+        "pid": 6990,
+        "tid": 7188,
+        "applicationId": "com.qualcomm.ftcrobotcontroller",
+        "processName": "com.qualcomm.ftcrobotcontroller",
+        "tag": "FTC",
+        "timestamp": {
+          "seconds": 1758907425,
+          "nanos": 332000000
+        }
+      },
+      "message": "Phase\u003dconst Target\u003d1000.0 Vel\u003d700.0 V\u003d12.603 A\u003d266.0 Error\u003d28.000000000000004"
+    },
+    {
+      "header": {
+        "logLevel": "INFO",
+        "pid": 6990,
+        "tid": 7188,
+        "applicationId": "com.qualcomm.ftcrobotcontroller",
+        "processName": "com.qualcomm.ftcrobotcontroller",
+        "tag": "FTC",
+        "timestamp": {
+          "seconds": 1758907425,
+          "nanos": 346000000
+        }
+      },
+      "message": "Phase\u003dconst Target\u003d1000.0 Vel\u003d720.0 V\u003d12.603 A\u003d280.0 Error\u003d28.000000000000004"
+    },
+    {
+      "header": {
+        "logLevel": "INFO",
+        "pid": 6990,
+        "tid": 7188,
+        "applicationId": "com.qualcomm.ftcrobotcontroller",
+        "processName": "com.qualcomm.ftcrobotcontroller",
+        "tag": "FTC",
+        "timestamp": {
+          "seconds": 1758907425,
+          "nanos": 358000000
+        }
+      },
+      "message": "Phase\u003dconst Target\u003d1000.0 Vel\u003d720.0 V\u003d12.598 A\u003d273.0 Error\u003d28.000000000000004"
+    },
+    {
+      "header": {
+        "logLevel": "INFO",
+        "pid": 6990,
+        "tid": 7188,
+        "applicationId": "com.qualcomm.ftcrobotcontroller",
+        "processName": "com.qualcomm.ftcrobotcontroller",
+        "tag": "FTC",
+        "timestamp": {
+          "seconds": 1758907425,
+          "nanos": 371000000
+        }
+      },
+      "message": "Phase\u003dconst Target\u003d1000.0 Vel\u003d720.0 V\u003d12.603 A\u003d280.0 Error\u003d28.000000000000004"
+    },
+    {
+      "header": {
+        "logLevel": "INFO",
+        "pid": 6990,
+        "tid": 7188,
+        "applicationId": "com.qualcomm.ftcrobotcontroller",
+        "processName": "com.qualcomm.ftcrobotcontroller",
+        "tag": "FTC",
+        "timestamp": {
+          "seconds": 1758907425,
+          "nanos": 385000000
+        }
+      },
+      "message": "Phase\u003dconst Target\u003d1000.0 Vel\u003d740.0 V\u003d12.598 A\u003d306.0 Error\u003d26.0"
+    },
+    {
+      "header": {
+        "logLevel": "INFO",
+        "pid": 6990,
+        "tid": 7188,
+        "applicationId": "com.qualcomm.ftcrobotcontroller",
+        "processName": "com.qualcomm.ftcrobotcontroller",
+        "tag": "FTC",
+        "timestamp": {
+          "seconds": 1758907425,
+          "nanos": 398000000
+        }
+      },
+      "message": "Phase\u003dconst Target\u003d1000.0 Vel\u003d740.0 V\u003d12.598 A\u003d302.0 Error\u003d26.0"
+    },
+    {
+      "header": {
+        "logLevel": "INFO",
+        "pid": 6990,
+        "tid": 7188,
+        "applicationId": "com.qualcomm.ftcrobotcontroller",
+        "processName": "com.qualcomm.ftcrobotcontroller",
+        "tag": "FTC",
+        "timestamp": {
+          "seconds": 1758907425,
+          "nanos": 410000000
+        }
+      },
+      "message": "Phase\u003dconst Target\u003d1000.0 Vel\u003d760.0 V\u003d12.603 A\u003d295.0 Error\u003d26.0"
+    },
+    {
+      "header": {
+        "logLevel": "INFO",
+        "pid": 6990,
+        "tid": 7188,
+        "applicationId": "com.qualcomm.ftcrobotcontroller",
+        "processName": "com.qualcomm.ftcrobotcontroller",
+        "tag": "FTC",
+        "timestamp": {
+          "seconds": 1758907425,
+          "nanos": 423000000
+        }
+      },
+      "message": "Phase\u003dconst Target\u003d1000.0 Vel\u003d780.0 V\u003d12.603 A\u003d280.0 Error\u003d24.0"
+    },
+    {
+      "header": {
+        "logLevel": "INFO",
+        "pid": 6990,
+        "tid": 7188,
+        "applicationId": "com.qualcomm.ftcrobotcontroller",
+        "processName": "com.qualcomm.ftcrobotcontroller",
+        "tag": "FTC",
+        "timestamp": {
+          "seconds": 1758907425,
+          "nanos": 436000000
+        }
+      },
+      "message": "Phase\u003dconst Target\u003d1000.0 Vel\u003d780.0 V\u003d12.607000000000001 A\u003d240.0 Error\u003d22.0"
+    },
+    {
+      "header": {
+        "logLevel": "INFO",
+        "pid": 6990,
+        "tid": 7188,
+        "applicationId": "com.qualcomm.ftcrobotcontroller",
+        "processName": "com.qualcomm.ftcrobotcontroller",
+        "tag": "FTC",
+        "timestamp": {
+          "seconds": 1758907425,
+          "nanos": 449000000
+        }
+      },
+      "message": "Phase\u003dconst Target\u003d1000.0 Vel\u003d760.0 V\u003d12.607000000000001 A\u003d207.0 Error\u003d24.0"
+    },
+    {
+      "header": {
+        "logLevel": "INFO",
+        "pid": 6990,
+        "tid": 7188,
+        "applicationId": "com.qualcomm.ftcrobotcontroller",
+        "processName": "com.qualcomm.ftcrobotcontroller",
+        "tag": "FTC",
+        "timestamp": {
+          "seconds": 1758907425,
+          "nanos": 462000000
+        }
+      },
+      "message": "Phase\u003dconst Target\u003d1000.0 Vel\u003d760.0 V\u003d12.607000000000001 A\u003d207.0 Error\u003d22.0"
+    },
+    {
+      "header": {
+        "logLevel": "INFO",
+        "pid": 6990,
+        "tid": 7188,
+        "applicationId": "com.qualcomm.ftcrobotcontroller",
+        "processName": "com.qualcomm.ftcrobotcontroller",
+        "tag": "FTC",
+        "timestamp": {
+          "seconds": 1758907425,
+          "nanos": 477000000
+        }
+      },
+      "message": "Phase\u003dconst Target\u003d1000.0 Vel\u003d760.0 V\u003d12.607000000000001 A\u003d240.0 Error\u003d24.0"
+    },
+    {
+      "header": {
+        "logLevel": "INFO",
+        "pid": 6990,
+        "tid": 7188,
+        "applicationId": "com.qualcomm.ftcrobotcontroller",
+        "processName": "com.qualcomm.ftcrobotcontroller",
+        "tag": "FTC",
+        "timestamp": {
+          "seconds": 1758907425,
+          "nanos": 492000000
+        }
+      },
+      "message": "Phase\u003dconst Target\u003d1000.0 Vel\u003d760.0 V\u003d12.607000000000001 A\u003d251.0 Error\u003d26.0"
+    },
+    {
+      "header": {
+        "logLevel": "INFO",
+        "pid": 6990,
+        "tid": 7188,
+        "applicationId": "com.qualcomm.ftcrobotcontroller",
+        "processName": "com.qualcomm.ftcrobotcontroller",
+        "tag": "FTC",
+        "timestamp": {
+          "seconds": 1758907425,
+          "nanos": 507000000
+        }
+      },
+      "message": "Phase\u003dconst Target\u003d1000.0 Vel\u003d740.0 V\u003d12.603 A\u003d258.0 Error\u003d26.0"
+    },
+    {
+      "header": {
+        "logLevel": "INFO",
+        "pid": 6990,
+        "tid": 7188,
+        "applicationId": "com.qualcomm.ftcrobotcontroller",
+        "processName": "com.qualcomm.ftcrobotcontroller",
+        "tag": "FTC",
+        "timestamp": {
+          "seconds": 1758907425,
+          "nanos": 523000000
+        }
+      },
+      "message": "Phase\u003dconst Target\u003d1000.0 Vel\u003d740.0 V\u003d12.603 A\u003d258.0 Error\u003d26.0"
+    },
+    {
+      "header": {
+        "logLevel": "INFO",
+        "pid": 6990,
+        "tid": 7188,
+        "applicationId": "com.qualcomm.ftcrobotcontroller",
+        "processName": "com.qualcomm.ftcrobotcontroller",
+        "tag": "FTC",
+        "timestamp": {
+          "seconds": 1758907425,
+          "nanos": 540000000
+        }
+      },
+      "message": "Phase\u003dconst Target\u003d1000.0 Vel\u003d740.0 V\u003d12.598 A\u003d306.0 Error\u003d26.0"
+    },
+    {
+      "header": {
+        "logLevel": "INFO",
+        "pid": 6990,
+        "tid": 7188,
+        "applicationId": "com.qualcomm.ftcrobotcontroller",
+        "processName": "com.qualcomm.ftcrobotcontroller",
+        "tag": "FTC",
+        "timestamp": {
+          "seconds": 1758907425,
+          "nanos": 558000000
+        }
+      },
+      "message": "Phase\u003dconst Target\u003d1000.0 Vel\u003d760.0 V\u003d12.603 A\u003d287.0 Error\u003d24.0"
+    },
+    {
+      "header": {
+        "logLevel": "INFO",
+        "pid": 6990,
+        "tid": 7188,
+        "applicationId": "com.qualcomm.ftcrobotcontroller",
+        "processName": "com.qualcomm.ftcrobotcontroller",
+        "tag": "FTC",
+        "timestamp": {
+          "seconds": 1758907425,
+          "nanos": 575000000
+        }
+      },
+      "message": "Phase\u003dconst Target\u003d1000.0 Vel\u003d760.0 V\u003d12.603 A\u003d284.0 Error\u003d24.0"
+    },
+    {
+      "header": {
+        "logLevel": "INFO",
+        "pid": 6990,
+        "tid": 7188,
+        "applicationId": "com.qualcomm.ftcrobotcontroller",
+        "processName": "com.qualcomm.ftcrobotcontroller",
+        "tag": "FTC",
+        "timestamp": {
+          "seconds": 1758907425,
+          "nanos": 590000000
+        }
+      },
+      "message": "Phase\u003dconst Target\u003d1000.0 Vel\u003d780.0 V\u003d12.598 A\u003d273.0 Error\u003d22.0"
+    },
+    {
+      "header": {
+        "logLevel": "INFO",
+        "pid": 6990,
+        "tid": 7188,
+        "applicationId": "com.qualcomm.ftcrobotcontroller",
+        "processName": "com.qualcomm.ftcrobotcontroller",
+        "tag": "FTC",
+        "timestamp": {
+          "seconds": 1758907425,
+          "nanos": 604000000
+        }
+      },
+      "message": "Phase\u003dconst Target\u003d1000.0 Vel\u003d780.0 V\u003d12.598 A\u003d273.0 Error\u003d22.0"
+    },
+    {
+      "header": {
+        "logLevel": "INFO",
+        "pid": 6990,
+        "tid": 7188,
+        "applicationId": "com.qualcomm.ftcrobotcontroller",
+        "processName": "com.qualcomm.ftcrobotcontroller",
+        "tag": "FTC",
+        "timestamp": {
+          "seconds": 1758907425,
+          "nanos": 616000000
+        }
+      },
+      "message": "Phase\u003dconst Target\u003d1000.0 Vel\u003d800.0 V\u003d12.603 A\u003d266.0 Error\u003d20.0"
+    },
+    {
+      "header": {
+        "logLevel": "INFO",
+        "pid": 6990,
+        "tid": 7188,
+        "applicationId": "com.qualcomm.ftcrobotcontroller",
+        "processName": "com.qualcomm.ftcrobotcontroller",
+        "tag": "FTC",
+        "timestamp": {
+          "seconds": 1758907425,
+          "nanos": 629000000
+        }
+      },
+      "message": "Phase\u003dconst Target\u003d1000.0 Vel\u003d800.0 V\u003d12.603 A\u003d262.0 Error\u003d20.0"
+    },
+    {
+      "header": {
+        "logLevel": "INFO",
+        "pid": 6990,
+        "tid": 7188,
+        "applicationId": "com.qualcomm.ftcrobotcontroller",
+        "processName": "com.qualcomm.ftcrobotcontroller",
+        "tag": "FTC",
+        "timestamp": {
+          "seconds": 1758907425,
+          "nanos": 642000000
+        }
+      },
+      "message": "Phase\u003dconst Target\u003d1000.0 Vel\u003d800.0 V\u003d12.598 A\u003d262.0 Error\u003d20.0"
+    },
+    {
+      "header": {
+        "logLevel": "INFO",
+        "pid": 6990,
+        "tid": 7188,
+        "applicationId": "com.qualcomm.ftcrobotcontroller",
+        "processName": "com.qualcomm.ftcrobotcontroller",
+        "tag": "FTC",
+        "timestamp": {
+          "seconds": 1758907425,
+          "nanos": 655000000
+        }
+      },
+      "message": "Phase\u003dconst Target\u003d1000.0 Vel\u003d800.0 V\u003d12.603 A\u003d258.0 Error\u003d20.0"
+    },
+    {
+      "header": {
+        "logLevel": "INFO",
+        "pid": 6990,
+        "tid": 7188,
+        "applicationId": "com.qualcomm.ftcrobotcontroller",
+        "processName": "com.qualcomm.ftcrobotcontroller",
+        "tag": "FTC",
+        "timestamp": {
+          "seconds": 1758907425,
+          "nanos": 668000000
+        }
+      },
+      "message": "Phase\u003dconst Target\u003d1000.0 Vel\u003d800.0 V\u003d12.603 A\u003d258.0 Error\u003d20.0"
+    },
+    {
+      "header": {
+        "logLevel": "INFO",
+        "pid": 6990,
+        "tid": 7188,
+        "applicationId": "com.qualcomm.ftcrobotcontroller",
+        "processName": "com.qualcomm.ftcrobotcontroller",
+        "tag": "FTC",
+        "timestamp": {
+          "seconds": 1758907425,
+          "nanos": 681000000
+        }
+      },
+      "message": "Phase\u003dconst Target\u003d1000.0 Vel\u003d800.0 V\u003d12.598 A\u003d258.0 Error\u003d20.0"
+    },
+    {
+      "header": {
+        "logLevel": "INFO",
+        "pid": 6990,
+        "tid": 7188,
+        "applicationId": "com.qualcomm.ftcrobotcontroller",
+        "processName": "com.qualcomm.ftcrobotcontroller",
+        "tag": "FTC",
+        "timestamp": {
+          "seconds": 1758907425,
+          "nanos": 693000000
+        }
+      },
+      "message": "Phase\u003dconst Target\u003d1000.0 Vel\u003d800.0 V\u003d12.598 A\u003d258.0 Error\u003d20.0"
+    },
+    {
+      "header": {
+        "logLevel": "INFO",
+        "pid": 6990,
+        "tid": 7188,
+        "applicationId": "com.qualcomm.ftcrobotcontroller",
+        "processName": "com.qualcomm.ftcrobotcontroller",
+        "tag": "FTC",
+        "timestamp": {
+          "seconds": 1758907425,
+          "nanos": 706000000
+        }
+      },
+      "message": "Phase\u003dconst Target\u003d1000.0 Vel\u003d800.0 V\u003d12.598 A\u003d251.0 Error\u003d20.0"
+    },
+    {
+      "header": {
+        "logLevel": "INFO",
+        "pid": 6990,
+        "tid": 7188,
+        "applicationId": "com.qualcomm.ftcrobotcontroller",
+        "processName": "com.qualcomm.ftcrobotcontroller",
+        "tag": "FTC",
+        "timestamp": {
+          "seconds": 1758907425,
+          "nanos": 718000000
+        }
+      },
+      "message": "Phase\u003dconst Target\u003d1000.0 Vel\u003d800.0 V\u003d12.607000000000001 A\u003d255.0 Error\u003d20.0"
+    },
+    {
+      "header": {
+        "logLevel": "INFO",
+        "pid": 6990,
+        "tid": 7188,
+        "applicationId": "com.qualcomm.ftcrobotcontroller",
+        "processName": "com.qualcomm.ftcrobotcontroller",
+        "tag": "FTC",
+        "timestamp": {
+          "seconds": 1758907425,
+          "nanos": 731000000
+        }
+      },
+      "message": "Phase\u003dconst Target\u003d1000.0 Vel\u003d800.0 V\u003d12.603 A\u003d255.0 Error\u003d20.0"
+    },
+    {
+      "header": {
+        "logLevel": "INFO",
+        "pid": 6990,
+        "tid": 7188,
+        "applicationId": "com.qualcomm.ftcrobotcontroller",
+        "processName": "com.qualcomm.ftcrobotcontroller",
+        "tag": "FTC",
+        "timestamp": {
+          "seconds": 1758907425,
+          "nanos": 744000000
+        }
+      },
+      "message": "Phase\u003dconst Target\u003d1000.0 Vel\u003d800.0 V\u003d12.598 A\u003d255.0 Error\u003d20.0"
+    },
+    {
+      "header": {
+        "logLevel": "INFO",
+        "pid": 6990,
+        "tid": 7188,
+        "applicationId": "com.qualcomm.ftcrobotcontroller",
+        "processName": "com.qualcomm.ftcrobotcontroller",
+        "tag": "FTC",
+        "timestamp": {
+          "seconds": 1758907425,
+          "nanos": 757000000
+        }
+      },
+      "message": "Phase\u003dconst Target\u003d1000.0 Vel\u003d800.0 V\u003d12.598 A\u003d258.0 Error\u003d20.0"
+    },
+    {
+      "header": {
+        "logLevel": "INFO",
+        "pid": 6990,
+        "tid": 7188,
+        "applicationId": "com.qualcomm.ftcrobotcontroller",
+        "processName": "com.qualcomm.ftcrobotcontroller",
+        "tag": "FTC",
+        "timestamp": {
+          "seconds": 1758907425,
+          "nanos": 769000000
+        }
+      },
+      "message": "Phase\u003dconst Target\u003d1000.0 Vel\u003d800.0 V\u003d12.603 A\u003d255.0 Error\u003d20.0"
+    },
+    {
+      "header": {
+        "logLevel": "INFO",
+        "pid": 6990,
+        "tid": 7188,
+        "applicationId": "com.qualcomm.ftcrobotcontroller",
+        "processName": "com.qualcomm.ftcrobotcontroller",
+        "tag": "FTC",
+        "timestamp": {
+          "seconds": 1758907425,
+          "nanos": 782000000
+        }
+      },
+      "message": "Phase\u003dconst Target\u003d1000.0 Vel\u003d800.0 V\u003d12.603 A\u003d258.0 Error\u003d20.0"
+    },
+    {
+      "header": {
+        "logLevel": "INFO",
+        "pid": 6990,
+        "tid": 7188,
+        "applicationId": "com.qualcomm.ftcrobotcontroller",
+        "processName": "com.qualcomm.ftcrobotcontroller",
+        "tag": "FTC",
+        "timestamp": {
+          "seconds": 1758907425,
+          "nanos": 795000000
+        }
+      },
+      "message": "Phase\u003dconst Target\u003d1000.0 Vel\u003d800.0 V\u003d12.598 A\u003d251.0 Error\u003d20.0"
+    },
+    {
+      "header": {
+        "logLevel": "INFO",
+        "pid": 6990,
+        "tid": 7188,
+        "applicationId": "com.qualcomm.ftcrobotcontroller",
+        "processName": "com.qualcomm.ftcrobotcontroller",
+        "tag": "FTC",
+        "timestamp": {
+          "seconds": 1758907425,
+          "nanos": 807000000
+        }
+      },
+      "message": "Phase\u003dconst Target\u003d1000.0 Vel\u003d800.0 V\u003d12.603 A\u003d255.0 Error\u003d20.0"
+    },
+    {
+      "header": {
+        "logLevel": "INFO",
+        "pid": 6990,
+        "tid": 7188,
+        "applicationId": "com.qualcomm.ftcrobotcontroller",
+        "processName": "com.qualcomm.ftcrobotcontroller",
+        "tag": "FTC",
+        "timestamp": {
+          "seconds": 1758907425,
+          "nanos": 820000000
+        }
+      },
+      "message": "Phase\u003dconst Target\u003d1000.0 Vel\u003d820.0 V\u003d12.603 A\u003d255.0 Error\u003d18.0"
+    },
+    {
+      "header": {
+        "logLevel": "INFO",
+        "pid": 6990,
+        "tid": 7188,
+        "applicationId": "com.qualcomm.ftcrobotcontroller",
+        "processName": "com.qualcomm.ftcrobotcontroller",
+        "tag": "FTC",
+        "timestamp": {
+          "seconds": 1758907425,
+          "nanos": 834000000
+        }
+      },
+      "message": "Phase\u003dconst Target\u003d1000.0 Vel\u003d820.0 V\u003d12.603 A\u003d251.0 Error\u003d18.0"
+    },
+    {
+      "header": {
+        "logLevel": "INFO",
+        "pid": 6990,
+        "tid": 7188,
+        "applicationId": "com.qualcomm.ftcrobotcontroller",
+        "processName": "com.qualcomm.ftcrobotcontroller",
+        "tag": "FTC",
+        "timestamp": {
+          "seconds": 1758907425,
+          "nanos": 847000000
+        }
+      },
+      "message": "Phase\u003dconst Target\u003d1000.0 Vel\u003d820.0 V\u003d12.603 A\u003d255.0 Error\u003d18.0"
+    },
+    {
+      "header": {
+        "logLevel": "INFO",
+        "pid": 6990,
+        "tid": 7188,
+        "applicationId": "com.qualcomm.ftcrobotcontroller",
+        "processName": "com.qualcomm.ftcrobotcontroller",
+        "tag": "FTC",
+        "timestamp": {
+          "seconds": 1758907425,
+          "nanos": 859000000
+        }
+      },
+      "message": "Phase\u003dconst Target\u003d1000.0 Vel\u003d800.0 V\u003d12.607000000000001 A\u003d251.0 Error\u003d18.0"
+    },
+    {
+      "header": {
+        "logLevel": "INFO",
+        "pid": 6990,
+        "tid": 7188,
+        "applicationId": "com.qualcomm.ftcrobotcontroller",
+        "processName": "com.qualcomm.ftcrobotcontroller",
+        "tag": "FTC",
+        "timestamp": {
+          "seconds": 1758907425,
+          "nanos": 872000000
+        }
+      },
+      "message": "Phase\u003dconst Target\u003d1000.0 Vel\u003d800.0 V\u003d12.603 A\u003d251.0 Error\u003d20.0"
+    },
+    {
+      "header": {
+        "logLevel": "INFO",
+        "pid": 6990,
+        "tid": 7188,
+        "applicationId": "com.qualcomm.ftcrobotcontroller",
+        "processName": "com.qualcomm.ftcrobotcontroller",
+        "tag": "FTC",
+        "timestamp": {
+          "seconds": 1758907425,
+          "nanos": 885000000
+        }
+      },
+      "message": "Phase\u003dconst Target\u003d1000.0 Vel\u003d800.0 V\u003d12.598 A\u003d269.0 Error\u003d20.0"
+    },
+    {
+      "header": {
+        "logLevel": "INFO",
+        "pid": 6990,
+        "tid": 7188,
+        "applicationId": "com.qualcomm.ftcrobotcontroller",
+        "processName": "com.qualcomm.ftcrobotcontroller",
+        "tag": "FTC",
+        "timestamp": {
+          "seconds": 1758907425,
+          "nanos": 897000000
+        }
+      },
+      "message": "Phase\u003dconst Target\u003d1000.0 Vel\u003d800.0 V\u003d12.589 A\u003d302.0 Error\u003d20.0"
+    },
+    {
+      "header": {
+        "logLevel": "INFO",
+        "pid": 6990,
+        "tid": 7188,
+        "applicationId": "com.qualcomm.ftcrobotcontroller",
+        "processName": "com.qualcomm.ftcrobotcontroller",
+        "tag": "FTC",
+        "timestamp": {
+          "seconds": 1758907425,
+          "nanos": 910000000
+        }
+      },
+      "message": "Phase\u003dconst Target\u003d1000.0 Vel\u003d820.0 V\u003d12.594 A\u003d295.0 Error\u003d20.0"
+    },
+    {
+      "header": {
+        "logLevel": "INFO",
+        "pid": 6990,
+        "tid": 7188,
+        "applicationId": "com.qualcomm.ftcrobotcontroller",
+        "processName": "com.qualcomm.ftcrobotcontroller",
+        "tag": "FTC",
+        "timestamp": {
+          "seconds": 1758907425,
+          "nanos": 923000000
+        }
+      },
+      "message": "Phase\u003dconst Target\u003d1000.0 Vel\u003d820.0 V\u003d12.594 A\u003d298.0 Error\u003d18.0"
+    },
+    {
+      "header": {
+        "logLevel": "INFO",
+        "pid": 6990,
+        "tid": 7188,
+        "applicationId": "com.qualcomm.ftcrobotcontroller",
+        "processName": "com.qualcomm.ftcrobotcontroller",
+        "tag": "FTC",
+        "timestamp": {
+          "seconds": 1758907425,
+          "nanos": 937000000
+        }
+      },
+      "message": "Phase\u003dconst Target\u003d1000.0 Vel\u003d820.0 V\u003d12.598 A\u003d284.0 Error\u003d18.0"
+    },
+    {
+      "header": {
+        "logLevel": "INFO",
+        "pid": 6990,
+        "tid": 7188,
+        "applicationId": "com.qualcomm.ftcrobotcontroller",
+        "processName": "com.qualcomm.ftcrobotcontroller",
+        "tag": "FTC",
+        "timestamp": {
+          "seconds": 1758907425,
+          "nanos": 951000000
+        }
+      },
+      "message": "Phase\u003dconst Target\u003d1000.0 Vel\u003d840.0 V\u003d12.598 A\u003d280.0 Error\u003d16.0"
+    },
+    {
+      "header": {
+        "logLevel": "INFO",
+        "pid": 6990,
+        "tid": 7188,
+        "applicationId": "com.qualcomm.ftcrobotcontroller",
+        "processName": "com.qualcomm.ftcrobotcontroller",
+        "tag": "FTC",
+        "timestamp": {
+          "seconds": 1758907425,
+          "nanos": 966000000
+        }
+      },
+      "message": "Phase\u003dconst Target\u003d1000.0 Vel\u003d840.0 V\u003d12.598 A\u003d273.0 Error\u003d16.0"
+    },
+    {
+      "header": {
+        "logLevel": "VERBOSE",
+        "pid": 6990,
+        "tid": 7028,
+        "applicationId": "com.qualcomm.ftcrobotcontroller",
+        "processName": "com.qualcomm.ftcrobotcontroller",
+        "tag": "ThreadPool",
+        "timestamp": {
+          "seconds": 1758907425,
+          "nanos": 977000000
+        }
+      },
+      "message": "container(0x047790e5: default scheduler) added id\u003d346 TID\u003d0 count\u003d15"
+    },
+    {
+      "header": {
+        "logLevel": "INFO",
+        "pid": 6990,
+        "tid": 7188,
+        "applicationId": "com.qualcomm.ftcrobotcontroller",
+        "processName": "com.qualcomm.ftcrobotcontroller",
+        "tag": "FTC",
+        "timestamp": {
+          "seconds": 1758907425,
+          "nanos": 982000000
+        }
+      },
+      "message": "Phase\u003dconst Target\u003d1000.0 Vel\u003d860.0 V\u003d12.598 A\u003d269.0 Error\u003d16.0"
+    },
+    {
+      "header": {
+        "logLevel": "INFO",
+        "pid": 6990,
+        "tid": 7188,
+        "applicationId": "com.qualcomm.ftcrobotcontroller",
+        "processName": "com.qualcomm.ftcrobotcontroller",
+        "tag": "FTC",
+        "timestamp": {
+          "seconds": 1758907425,
+          "nanos": 998000000
+        }
+      },
+      "message": "Phase\u003dconst Target\u003d1000.0 Vel\u003d840.0 V\u003d12.603 A\u003d269.0 Error\u003d16.0"
+    },
+    {
+      "header": {
+        "logLevel": "INFO",
+        "pid": 6990,
+        "tid": 7188,
+        "applicationId": "com.qualcomm.ftcrobotcontroller",
+        "processName": "com.qualcomm.ftcrobotcontroller",
+        "tag": "FTC",
+        "timestamp": {
+          "seconds": 1758907426,
+          "nanos": 15000000
+        }
+      },
+      "message": "Phase\u003dconst Target\u003d1000.0 Vel\u003d840.0 V\u003d12.603 A\u003d262.0 Error\u003d14.000000000000002"
+    },
+    {
+      "header": {
+        "logLevel": "INFO",
+        "pid": 6990,
+        "tid": 7188,
+        "applicationId": "com.qualcomm.ftcrobotcontroller",
+        "processName": "com.qualcomm.ftcrobotcontroller",
+        "tag": "FTC",
+        "timestamp": {
+          "seconds": 1758907426,
+          "nanos": 31000000
+        }
+      },
+      "message": "Phase\u003dconst Target\u003d1000.0 Vel\u003d840.0 V\u003d12.603 A\u003d266.0 Error\u003d14.000000000000002"
+    },
+    {
+      "header": {
+        "logLevel": "INFO",
+        "pid": 6990,
+        "tid": 7188,
+        "applicationId": "com.qualcomm.ftcrobotcontroller",
+        "processName": "com.qualcomm.ftcrobotcontroller",
+        "tag": "FTC",
+        "timestamp": {
+          "seconds": 1758907426,
+          "nanos": 51000000
+        }
+      },
+      "message": "Phase\u003dconst Target\u003d1000.0 Vel\u003d840.0 V\u003d12.598 A\u003d240.0 Error\u003d16.0"
+    },
+    {
+      "header": {
+        "logLevel": "INFO",
+        "pid": 6990,
+        "tid": 7188,
+        "applicationId": "com.qualcomm.ftcrobotcontroller",
+        "processName": "com.qualcomm.ftcrobotcontroller",
+        "tag": "FTC",
+        "timestamp": {
+          "seconds": 1758907426,
+          "nanos": 67000000
+        }
+      },
+      "message": "Phase\u003dconst Target\u003d1000.0 Vel\u003d840.0 V\u003d12.598 A\u003d225.0 Error\u003d16.0"
+    },
+    {
+      "header": {
+        "logLevel": "INFO",
+        "pid": 6990,
+        "tid": 7188,
+        "applicationId": "com.qualcomm.ftcrobotcontroller",
+        "processName": "com.qualcomm.ftcrobotcontroller",
+        "tag": "FTC",
+        "timestamp": {
+          "seconds": 1758907426,
+          "nanos": 78000000
+        }
+      },
+      "message": "Phase\u003dconst Target\u003d1000.0 Vel\u003d840.0 V\u003d12.603 A\u003d229.0 Error\u003d16.0"
+    },
+    {
+      "header": {
+        "logLevel": "INFO",
+        "pid": 6990,
+        "tid": 7188,
+        "applicationId": "com.qualcomm.ftcrobotcontroller",
+        "processName": "com.qualcomm.ftcrobotcontroller",
+        "tag": "FTC",
+        "timestamp": {
+          "seconds": 1758907426,
+          "nanos": 91000000
+        }
+      },
+      "message": "Phase\u003dconst Target\u003d1000.0 Vel\u003d840.0 V\u003d12.598 A\u003d236.0 Error\u003d16.0"
+    },
+    {
+      "header": {
+        "logLevel": "INFO",
+        "pid": 6990,
+        "tid": 7188,
+        "applicationId": "com.qualcomm.ftcrobotcontroller",
+        "processName": "com.qualcomm.ftcrobotcontroller",
+        "tag": "FTC",
+        "timestamp": {
+          "seconds": 1758907426,
+          "nanos": 102000000
+        }
+      },
+      "message": "Phase\u003dconst Target\u003d1000.0 Vel\u003d840.0 V\u003d12.594 A\u003d266.0 Error\u003d16.0"
+    },
+    {
+      "header": {
+        "logLevel": "INFO",
+        "pid": 6990,
+        "tid": 7188,
+        "applicationId": "com.qualcomm.ftcrobotcontroller",
+        "processName": "com.qualcomm.ftcrobotcontroller",
+        "tag": "FTC",
+        "timestamp": {
+          "seconds": 1758907426,
+          "nanos": 113000000
+        }
+      },
+      "message": "Phase\u003dconst Target\u003d1000.0 Vel\u003d840.0 V\u003d12.594 A\u003d280.0 Error\u003d16.0"
+    },
+    {
+      "header": {
+        "logLevel": "INFO",
+        "pid": 6990,
+        "tid": 7188,
+        "applicationId": "com.qualcomm.ftcrobotcontroller",
+        "processName": "com.qualcomm.ftcrobotcontroller",
+        "tag": "FTC",
+        "timestamp": {
+          "seconds": 1758907426,
+          "nanos": 125000000
+        }
+      },
+      "message": "Phase\u003dconst Target\u003d1000.0 Vel\u003d840.0 V\u003d12.594 A\u003d280.0 Error\u003d16.0"
+    },
+    {
+      "header": {
+        "logLevel": "INFO",
+        "pid": 6990,
+        "tid": 7188,
+        "applicationId": "com.qualcomm.ftcrobotcontroller",
+        "processName": "com.qualcomm.ftcrobotcontroller",
+        "tag": "FTC",
+        "timestamp": {
+          "seconds": 1758907426,
+          "nanos": 137000000
+        }
+      },
+      "message": "Phase\u003dconst Target\u003d1000.0 Vel\u003d840.0 V\u003d12.598 A\u003d277.0 Error\u003d16.0"
+    },
+    {
+      "header": {
+        "logLevel": "INFO",
+        "pid": 6990,
+        "tid": 7188,
+        "applicationId": "com.qualcomm.ftcrobotcontroller",
+        "processName": "com.qualcomm.ftcrobotcontroller",
+        "tag": "FTC",
+        "timestamp": {
+          "seconds": 1758907426,
+          "nanos": 148000000
+        }
+      },
+      "message": "Phase\u003dconst Target\u003d1000.0 Vel\u003d820.0 V\u003d12.594 A\u003d313.0 Error\u003d18.0"
+    },
+    {
+      "header": {
+        "logLevel": "INFO",
+        "pid": 6990,
+        "tid": 7188,
+        "applicationId": "com.qualcomm.ftcrobotcontroller",
+        "processName": "com.qualcomm.ftcrobotcontroller",
+        "tag": "FTC",
+        "timestamp": {
+          "seconds": 1758907426,
+          "nanos": 160000000
+        }
+      },
+      "message": "Phase\u003dconst Target\u003d1000.0 Vel\u003d860.0 V\u003d12.594 A\u003d313.0 Error\u003d16.0"
+    },
+    {
+      "header": {
+        "logLevel": "INFO",
+        "pid": 6990,
+        "tid": 7188,
+        "applicationId": "com.qualcomm.ftcrobotcontroller",
+        "processName": "com.qualcomm.ftcrobotcontroller",
+        "tag": "FTC",
+        "timestamp": {
+          "seconds": 1758907426,
+          "nanos": 173000000
+        }
+      },
+      "message": "Phase\u003dconst Target\u003d1000.0 Vel\u003d840.0 V\u003d12.598 A\u003d309.0 Error\u003d14.000000000000002"
+    },
+    {
+      "header": {
+        "logLevel": "INFO",
+        "pid": 6990,
+        "tid": 7188,
+        "applicationId": "com.qualcomm.ftcrobotcontroller",
+        "processName": "com.qualcomm.ftcrobotcontroller",
+        "tag": "FTC",
+        "timestamp": {
+          "seconds": 1758907426,
+          "nanos": 185000000
+        }
+      },
+      "message": "Phase\u003dconst Target\u003d1000.0 Vel\u003d860.0 V\u003d12.598 A\u003d306.0 Error\u003d14.000000000000002"
+    },
+    {
+      "header": {
+        "logLevel": "INFO",
+        "pid": 6990,
+        "tid": 7188,
+        "applicationId": "com.qualcomm.ftcrobotcontroller",
+        "processName": "com.qualcomm.ftcrobotcontroller",
+        "tag": "FTC",
+        "timestamp": {
+          "seconds": 1758907426,
+          "nanos": 198000000
+        }
+      },
+      "message": "Phase\u003dconst Target\u003d1000.0 Vel\u003d880.0 V\u003d12.598 A\u003d266.0 Error\u003d12.0"
+    },
+    {
+      "header": {
+        "logLevel": "INFO",
+        "pid": 6990,
+        "tid": 7188,
+        "applicationId": "com.qualcomm.ftcrobotcontroller",
+        "processName": "com.qualcomm.ftcrobotcontroller",
+        "tag": "FTC",
+        "timestamp": {
+          "seconds": 1758907426,
+          "nanos": 211000000
+        }
+      },
+      "message": "Phase\u003dconst Target\u003d1000.0 Vel\u003d880.0 V\u003d12.607000000000001 A\u003d251.0 Error\u003d12.0"
+    },
+    {
+      "header": {
+        "logLevel": "INFO",
+        "pid": 6990,
+        "tid": 7188,
+        "applicationId": "com.qualcomm.ftcrobotcontroller",
+        "processName": "com.qualcomm.ftcrobotcontroller",
+        "tag": "FTC",
+        "timestamp": {
+          "seconds": 1758907426,
+          "nanos": 223000000
+        }
+      },
+      "message": "Phase\u003dconst Target\u003d1000.0 Vel\u003d900.0 V\u003d12.607000000000001 A\u003d244.0 Error\u003d12.0"
+    },
+    {
+      "header": {
+        "logLevel": "INFO",
+        "pid": 6990,
+        "tid": 7188,
+        "applicationId": "com.qualcomm.ftcrobotcontroller",
+        "processName": "com.qualcomm.ftcrobotcontroller",
+        "tag": "FTC",
+        "timestamp": {
+          "seconds": 1758907426,
+          "nanos": 236000000
+        }
+      },
+      "message": "Phase\u003dconst Target\u003d1000.0 Vel\u003d880.0 V\u003d12.603 A\u003d240.0 Error\u003d12.0"
+    },
+    {
+      "header": {
+        "logLevel": "INFO",
+        "pid": 6990,
+        "tid": 7188,
+        "applicationId": "com.qualcomm.ftcrobotcontroller",
+        "processName": "com.qualcomm.ftcrobotcontroller",
+        "tag": "FTC",
+        "timestamp": {
+          "seconds": 1758907426,
+          "nanos": 248000000
+        }
+      },
+      "message": "Phase\u003dconst Target\u003d1000.0 Vel\u003d880.0 V\u003d12.603 A\u003d247.0 Error\u003d12.0"
+    },
+    {
+      "header": {
+        "logLevel": "INFO",
+        "pid": 6990,
+        "tid": 7188,
+        "applicationId": "com.qualcomm.ftcrobotcontroller",
+        "processName": "com.qualcomm.ftcrobotcontroller",
+        "tag": "FTC",
+        "timestamp": {
+          "seconds": 1758907426,
+          "nanos": 260000000
+        }
+      },
+      "message": "Phase\u003dconst Target\u003d1000.0 Vel\u003d880.0 V\u003d12.598 A\u003d251.0 Error\u003d12.0"
+    },
+    {
+      "header": {
+        "logLevel": "INFO",
+        "pid": 6990,
+        "tid": 7188,
+        "applicationId": "com.qualcomm.ftcrobotcontroller",
+        "processName": "com.qualcomm.ftcrobotcontroller",
+        "tag": "FTC",
+        "timestamp": {
+          "seconds": 1758907426,
+          "nanos": 273000000
+        }
+      },
+      "message": "Phase\u003dconst Target\u003d1000.0 Vel\u003d860.0 V\u003d12.598 A\u003d251.0 Error\u003d12.0"
+    },
+    {
+      "header": {
+        "logLevel": "INFO",
+        "pid": 6990,
+        "tid": 7188,
+        "applicationId": "com.qualcomm.ftcrobotcontroller",
+        "processName": "com.qualcomm.ftcrobotcontroller",
+        "tag": "FTC",
+        "timestamp": {
+          "seconds": 1758907426,
+          "nanos": 285000000
+        }
+      },
+      "message": "Phase\u003dconst Target\u003d1000.0 Vel\u003d860.0 V\u003d12.598 A\u003d258.0 Error\u003d14.000000000000002"
+    },
+    {
+      "header": {
+        "logLevel": "INFO",
+        "pid": 6990,
+        "tid": 7188,
+        "applicationId": "com.qualcomm.ftcrobotcontroller",
+        "processName": "com.qualcomm.ftcrobotcontroller",
+        "tag": "FTC",
+        "timestamp": {
+          "seconds": 1758907426,
+          "nanos": 297000000
+        }
+      },
+      "message": "Phase\u003dconst Target\u003d1000.0 Vel\u003d860.0 V\u003d12.603 A\u003d255.0 Error\u003d14.000000000000002"
+    },
+    {
+      "header": {
+        "logLevel": "INFO",
+        "pid": 6990,
+        "tid": 7188,
+        "applicationId": "com.qualcomm.ftcrobotcontroller",
+        "processName": "com.qualcomm.ftcrobotcontroller",
+        "tag": "FTC",
+        "timestamp": {
+          "seconds": 1758907426,
+          "nanos": 310000000
+        }
+      },
+      "message": "Phase\u003dconst Target\u003d1000.0 Vel\u003d860.0 V\u003d12.598 A\u003d262.0 Error\u003d14.000000000000002"
+    },
+    {
+      "header": {
+        "logLevel": "INFO",
+        "pid": 6990,
+        "tid": 7188,
+        "applicationId": "com.qualcomm.ftcrobotcontroller",
+        "processName": "com.qualcomm.ftcrobotcontroller",
+        "tag": "FTC",
+        "timestamp": {
+          "seconds": 1758907426,
+          "nanos": 322000000
+        }
+      },
+      "message": "Phase\u003dconst Target\u003d1000.0 Vel\u003d860.0 V\u003d12.603 A\u003d258.0 Error\u003d14.000000000000002"
+    },
+    {
+      "header": {
+        "logLevel": "INFO",
+        "pid": 6990,
+        "tid": 7188,
+        "applicationId": "com.qualcomm.ftcrobotcontroller",
+        "processName": "com.qualcomm.ftcrobotcontroller",
+        "tag": "FTC",
+        "timestamp": {
+          "seconds": 1758907426,
+          "nanos": 334000000
+        }
+      },
+      "message": "Phase\u003dconst Target\u003d1000.0 Vel\u003d880.0 V\u003d12.598 A\u003d258.0 Error\u003d14.000000000000002"
+    },
+    {
+      "header": {
+        "logLevel": "INFO",
+        "pid": 6990,
+        "tid": 7188,
+        "applicationId": "com.qualcomm.ftcrobotcontroller",
+        "processName": "com.qualcomm.ftcrobotcontroller",
+        "tag": "FTC",
+        "timestamp": {
+          "seconds": 1758907426,
+          "nanos": 346000000
+        }
+      },
+      "message": "Phase\u003dconst Target\u003d1000.0 Vel\u003d860.0 V\u003d12.598 A\u003d269.0 Error\u003d14.000000000000002"
+    },
+    {
+      "header": {
+        "logLevel": "INFO",
+        "pid": 6990,
+        "tid": 7188,
+        "applicationId": "com.qualcomm.ftcrobotcontroller",
+        "processName": "com.qualcomm.ftcrobotcontroller",
+        "tag": "FTC",
+        "timestamp": {
+          "seconds": 1758907426,
+          "nanos": 359000000
+        }
+      },
+      "message": "Phase\u003dconst Target\u003d1000.0 Vel\u003d860.0 V\u003d12.598 A\u003d295.0 Error\u003d14.000000000000002"
+    },
+    {
+      "header": {
+        "logLevel": "INFO",
+        "pid": 6990,
+        "tid": 7188,
+        "applicationId": "com.qualcomm.ftcrobotcontroller",
+        "processName": "com.qualcomm.ftcrobotcontroller",
+        "tag": "FTC",
+        "timestamp": {
+          "seconds": 1758907426,
+          "nanos": 371000000
+        }
+      },
+      "message": "Phase\u003dconst Target\u003d1000.0 Vel\u003d860.0 V\u003d12.598 A\u003d298.0 Error\u003d14.000000000000002"
+    },
+    {
+      "header": {
+        "logLevel": "INFO",
+        "pid": 6990,
+        "tid": 7188,
+        "applicationId": "com.qualcomm.ftcrobotcontroller",
+        "processName": "com.qualcomm.ftcrobotcontroller",
+        "tag": "FTC",
+        "timestamp": {
+          "seconds": 1758907426,
+          "nanos": 383000000
+        }
+      },
+      "message": "Phase\u003dconst Target\u003d1000.0 Vel\u003d860.0 V\u003d12.598 A\u003d302.0 Error\u003d14.000000000000002"
+    },
+    {
+      "header": {
+        "logLevel": "INFO",
+        "pid": 6990,
+        "tid": 7188,
+        "applicationId": "com.qualcomm.ftcrobotcontroller",
+        "processName": "com.qualcomm.ftcrobotcontroller",
+        "tag": "FTC",
+        "timestamp": {
+          "seconds": 1758907426,
+          "nanos": 395000000
+        }
+      },
+      "message": "Phase\u003dconst Target\u003d1000.0 Vel\u003d880.0 V\u003d12.594 A\u003d298.0 Error\u003d12.0"
+    },
+    {
+      "header": {
+        "logLevel": "INFO",
+        "pid": 6990,
+        "tid": 7188,
+        "applicationId": "com.qualcomm.ftcrobotcontroller",
+        "processName": "com.qualcomm.ftcrobotcontroller",
+        "tag": "FTC",
+        "timestamp": {
+          "seconds": 1758907426,
+          "nanos": 408000000
+        }
+      },
+      "message": "Phase\u003dconst Target\u003d1000.0 Vel\u003d880.0 V\u003d12.603 A\u003d258.0 Error\u003d12.0"
+    },
+    {
+      "header": {
+        "logLevel": "INFO",
+        "pid": 6990,
+        "tid": 7188,
+        "applicationId": "com.qualcomm.ftcrobotcontroller",
+        "processName": "com.qualcomm.ftcrobotcontroller",
+        "tag": "FTC",
+        "timestamp": {
+          "seconds": 1758907426,
+          "nanos": 420000000
+        }
+      },
+      "message": "Phase\u003dconst Target\u003d1000.0 Vel\u003d900.0 V\u003d12.603 A\u003d244.0 Error\u003d12.0"
+    },
+    {
+      "header": {
+        "logLevel": "INFO",
+        "pid": 6990,
+        "tid": 7188,
+        "applicationId": "com.qualcomm.ftcrobotcontroller",
+        "processName": "com.qualcomm.ftcrobotcontroller",
+        "tag": "FTC",
+        "timestamp": {
+          "seconds": 1758907426,
+          "nanos": 433000000
+        }
+      },
+      "message": "Phase\u003dconst Target\u003d1000.0 Vel\u003d880.0 V\u003d12.603 A\u003d244.0 Error\u003d10.0"
+    },
+    {
+      "header": {
+        "logLevel": "INFO",
+        "pid": 6990,
+        "tid": 7188,
+        "applicationId": "com.qualcomm.ftcrobotcontroller",
+        "processName": "com.qualcomm.ftcrobotcontroller",
+        "tag": "FTC",
+        "timestamp": {
+          "seconds": 1758907426,
+          "nanos": 446000000
+        }
+      },
+      "message": "Phase\u003dconst Target\u003d1000.0 Vel\u003d880.0 V\u003d12.603 A\u003d240.0 Error\u003d12.0"
+    },
+    {
+      "header": {
+        "logLevel": "INFO",
+        "pid": 6990,
+        "tid": 7188,
+        "applicationId": "com.qualcomm.ftcrobotcontroller",
+        "processName": "com.qualcomm.ftcrobotcontroller",
+        "tag": "FTC",
+        "timestamp": {
+          "seconds": 1758907426,
+          "nanos": 459000000
+        }
+      },
+      "message": "Phase\u003dconst Target\u003d1000.0 Vel\u003d880.0 V\u003d12.598 A\u003d284.0 Error\u003d12.0"
+    },
+    {
+      "header": {
+        "logLevel": "INFO",
+        "pid": 6990,
+        "tid": 7188,
+        "applicationId": "com.qualcomm.ftcrobotcontroller",
+        "processName": "com.qualcomm.ftcrobotcontroller",
+        "tag": "FTC",
+        "timestamp": {
+          "seconds": 1758907426,
+          "nanos": 471000000
+        }
+      },
+      "message": "Phase\u003dconst Target\u003d1000.0 Vel\u003d860.0 V\u003d12.594 A\u003d295.0 Error\u003d12.0"
+    },
+    {
+      "header": {
+        "logLevel": "INFO",
+        "pid": 6990,
+        "tid": 7188,
+        "applicationId": "com.qualcomm.ftcrobotcontroller",
+        "processName": "com.qualcomm.ftcrobotcontroller",
+        "tag": "FTC",
+        "timestamp": {
+          "seconds": 1758907426,
+          "nanos": 484000000
+        }
+      },
+      "message": "Phase\u003dconst Target\u003d1000.0 Vel\u003d880.0 V\u003d12.598 A\u003d284.0 Error\u003d14.000000000000002"
+    },
+    {
+      "header": {
+        "logLevel": "INFO",
+        "pid": 6990,
+        "tid": 7188,
+        "applicationId": "com.qualcomm.ftcrobotcontroller",
+        "processName": "com.qualcomm.ftcrobotcontroller",
+        "tag": "FTC",
+        "timestamp": {
+          "seconds": 1758907426,
+          "nanos": 496000000
+        }
+      },
+      "message": "Phase\u003dconst Target\u003d1000.0 Vel\u003d880.0 V\u003d12.603 A\u003d280.0 Error\u003d12.0"
+    },
+    {
+      "header": {
+        "logLevel": "INFO",
+        "pid": 6990,
+        "tid": 7188,
+        "applicationId": "com.qualcomm.ftcrobotcontroller",
+        "processName": "com.qualcomm.ftcrobotcontroller",
+        "tag": "FTC",
+        "timestamp": {
+          "seconds": 1758907426,
+          "nanos": 509000000
+        }
+      },
+      "message": "Phase\u003dconst Target\u003d1000.0 Vel\u003d880.0 V\u003d12.598 A\u003d284.0 Error\u003d12.0"
+    },
+    {
+      "header": {
+        "logLevel": "INFO",
+        "pid": 6990,
+        "tid": 7188,
+        "applicationId": "com.qualcomm.ftcrobotcontroller",
+        "processName": "com.qualcomm.ftcrobotcontroller",
+        "tag": "FTC",
+        "timestamp": {
+          "seconds": 1758907426,
+          "nanos": 521000000
+        }
+      },
+      "message": "Phase\u003dconst Target\u003d1000.0 Vel\u003d900.0 V\u003d12.598 A\u003d284.0 Error\u003d12.0"
+    },
+    {
+      "header": {
+        "logLevel": "INFO",
+        "pid": 6990,
+        "tid": 7188,
+        "applicationId": "com.qualcomm.ftcrobotcontroller",
+        "processName": "com.qualcomm.ftcrobotcontroller",
+        "tag": "FTC",
+        "timestamp": {
+          "seconds": 1758907426,
+          "nanos": 534000000
+        }
+      },
+      "message": "Phase\u003dconst Target\u003d1000.0 Vel\u003d900.0 V\u003d12.598 A\u003d273.0 Error\u003d10.0"
+    },
+    {
+      "header": {
+        "logLevel": "INFO",
+        "pid": 6990,
+        "tid": 7188,
+        "applicationId": "com.qualcomm.ftcrobotcontroller",
+        "processName": "com.qualcomm.ftcrobotcontroller",
+        "tag": "FTC",
+        "timestamp": {
+          "seconds": 1758907426,
+          "nanos": 548000000
+        }
+      },
+      "message": "Phase\u003dconst Target\u003d1000.0 Vel\u003d900.0 V\u003d12.598 A\u003d273.0 Error\u003d10.0"
+    },
+    {
+      "header": {
+        "logLevel": "INFO",
+        "pid": 6990,
+        "tid": 7188,
+        "applicationId": "com.qualcomm.ftcrobotcontroller",
+        "processName": "com.qualcomm.ftcrobotcontroller",
+        "tag": "FTC",
+        "timestamp": {
+          "seconds": 1758907426,
+          "nanos": 560000000
+        }
+      },
+      "message": "Phase\u003dconst Target\u003d1000.0 Vel\u003d900.0 V\u003d12.603 A\u003d247.0 Error\u003d10.0"
+    },
+    {
+      "header": {
+        "logLevel": "INFO",
+        "pid": 6990,
+        "tid": 7188,
+        "applicationId": "com.qualcomm.ftcrobotcontroller",
+        "processName": "com.qualcomm.ftcrobotcontroller",
+        "tag": "FTC",
+        "timestamp": {
+          "seconds": 1758907426,
+          "nanos": 578000000
+        }
+      },
+      "message": "Phase\u003dconst Target\u003d1000.0 Vel\u003d900.0 V\u003d12.598 A\u003d236.0 Error\u003d10.0"
+    },
+    {
+      "header": {
+        "logLevel": "INFO",
+        "pid": 6990,
+        "tid": 7188,
+        "applicationId": "com.qualcomm.ftcrobotcontroller",
+        "processName": "com.qualcomm.ftcrobotcontroller",
+        "tag": "FTC",
+        "timestamp": {
+          "seconds": 1758907426,
+          "nanos": 591000000
+        }
+      },
+      "message": "Phase\u003dconst Target\u003d1000.0 Vel\u003d900.0 V\u003d12.603 A\u003d236.0 Error\u003d10.0"
+    },
+    {
+      "header": {
+        "logLevel": "INFO",
+        "pid": 6990,
+        "tid": 7188,
+        "applicationId": "com.qualcomm.ftcrobotcontroller",
+        "processName": "com.qualcomm.ftcrobotcontroller",
+        "tag": "FTC",
+        "timestamp": {
+          "seconds": 1758907426,
+          "nanos": 608000000
+        }
+      },
+      "message": "Phase\u003dconst Target\u003d1000.0 Vel\u003d880.0 V\u003d12.594 A\u003d277.0 Error\u003d10.0"
+    },
+    {
+      "header": {
+        "logLevel": "INFO",
+        "pid": 6990,
+        "tid": 7188,
+        "applicationId": "com.qualcomm.ftcrobotcontroller",
+        "processName": "com.qualcomm.ftcrobotcontroller",
+        "tag": "FTC",
+        "timestamp": {
+          "seconds": 1758907426,
+          "nanos": 620000000
+        }
+      },
+      "message": "Phase\u003dconst Target\u003d1000.0 Vel\u003d880.0 V\u003d12.598 A\u003d280.0 Error\u003d12.0"
+    },
+    {
+      "header": {
+        "logLevel": "INFO",
+        "pid": 6990,
+        "tid": 7188,
+        "applicationId": "com.qualcomm.ftcrobotcontroller",
+        "processName": "com.qualcomm.ftcrobotcontroller",
+        "tag": "FTC",
+        "timestamp": {
+          "seconds": 1758907426,
+          "nanos": 633000000
+        }
+      },
+      "message": "Phase\u003dconst Target\u003d1000.0 Vel\u003d880.0 V\u003d12.598 A\u003d291.0 Error\u003d12.0"
+    },
+    {
+      "header": {
+        "logLevel": "INFO",
+        "pid": 6990,
+        "tid": 7188,
+        "applicationId": "com.qualcomm.ftcrobotcontroller",
+        "processName": "com.qualcomm.ftcrobotcontroller",
+        "tag": "FTC",
+        "timestamp": {
+          "seconds": 1758907426,
+          "nanos": 645000000
+        }
+      },
+      "message": "Phase\u003dconst Target\u003d1000.0 Vel\u003d860.0 V\u003d12.594 A\u003d284.0 Error\u003d14.000000000000002"
+    },
+    {
+      "header": {
+        "logLevel": "INFO",
+        "pid": 6990,
+        "tid": 7188,
+        "applicationId": "com.qualcomm.ftcrobotcontroller",
+        "processName": "com.qualcomm.ftcrobotcontroller",
+        "tag": "FTC",
+        "timestamp": {
+          "seconds": 1758907426,
+          "nanos": 658000000
+        }
+      },
+      "message": "Phase\u003dconst Target\u003d1000.0 Vel\u003d900.0 V\u003d12.598 A\u003d280.0 Error\u003d10.0"
+    },
+    {
+      "header": {
+        "logLevel": "INFO",
+        "pid": 6990,
+        "tid": 7188,
+        "applicationId": "com.qualcomm.ftcrobotcontroller",
+        "processName": "com.qualcomm.ftcrobotcontroller",
+        "tag": "FTC",
+        "timestamp": {
+          "seconds": 1758907426,
+          "nanos": 671000000
+        }
+      },
+      "message": "Phase\u003dconst Target\u003d1000.0 Vel\u003d900.0 V\u003d12.594 A\u003d277.0 Error\u003d12.0"
+    },
+    {
+      "header": {
+        "logLevel": "INFO",
+        "pid": 6990,
+        "tid": 7188,
+        "applicationId": "com.qualcomm.ftcrobotcontroller",
+        "processName": "com.qualcomm.ftcrobotcontroller",
+        "tag": "FTC",
+        "timestamp": {
+          "seconds": 1758907426,
+          "nanos": 683000000
+        }
+      },
+      "message": "Phase\u003dconst Target\u003d1000.0 Vel\u003d880.0 V\u003d12.598 A\u003d277.0 Error\u003d10.0"
+    },
+    {
+      "header": {
+        "logLevel": "INFO",
+        "pid": 6990,
+        "tid": 7188,
+        "applicationId": "com.qualcomm.ftcrobotcontroller",
+        "processName": "com.qualcomm.ftcrobotcontroller",
+        "tag": "FTC",
+        "timestamp": {
+          "seconds": 1758907426,
+          "nanos": 695000000
+        }
+      },
+      "message": "Phase\u003dconst Target\u003d1000.0 Vel\u003d900.0 V\u003d12.598 A\u003d280.0 Error\u003d10.0"
+    },
+    {
+      "header": {
+        "logLevel": "INFO",
+        "pid": 6990,
+        "tid": 7188,
+        "applicationId": "com.qualcomm.ftcrobotcontroller",
+        "processName": "com.qualcomm.ftcrobotcontroller",
+        "tag": "FTC",
+        "timestamp": {
+          "seconds": 1758907426,
+          "nanos": 708000000
+        }
+      },
+      "message": "Phase\u003dconst Target\u003d1000.0 Vel\u003d880.0 V\u003d12.594 A\u003d306.0 Error\u003d12.0"
+    },
+    {
+      "header": {
+        "logLevel": "INFO",
+        "pid": 6990,
+        "tid": 7188,
+        "applicationId": "com.qualcomm.ftcrobotcontroller",
+        "processName": "com.qualcomm.ftcrobotcontroller",
+        "tag": "FTC",
+        "timestamp": {
+          "seconds": 1758907426,
+          "nanos": 720000000
+        }
+      },
+      "message": "Phase\u003dconst Target\u003d1000.0 Vel\u003d900.0 V\u003d12.594 A\u003d313.0 Error\u003d8.0"
+    },
+    {
+      "header": {
+        "logLevel": "INFO",
+        "pid": 6990,
+        "tid": 7188,
+        "applicationId": "com.qualcomm.ftcrobotcontroller",
+        "processName": "com.qualcomm.ftcrobotcontroller",
+        "tag": "FTC",
+        "timestamp": {
+          "seconds": 1758907426,
+          "nanos": 732000000
+        }
+      },
+      "message": "Phase\u003dconst Target\u003d1000.0 Vel\u003d920.0 V\u003d12.598 A\u003d309.0 Error\u003d10.0"
+    },
+    {
+      "header": {
+        "logLevel": "INFO",
+        "pid": 6990,
+        "tid": 7188,
+        "applicationId": "com.qualcomm.ftcrobotcontroller",
+        "processName": "com.qualcomm.ftcrobotcontroller",
+        "tag": "FTC",
+        "timestamp": {
+          "seconds": 1758907426,
+          "nanos": 744000000
+        }
+      },
+      "message": "Phase\u003dconst Target\u003d1000.0 Vel\u003d940.0 V\u003d12.598 A\u003d302.0 Error\u003d8.0"
+    },
+    {
+      "header": {
+        "logLevel": "INFO",
+        "pid": 6990,
+        "tid": 7188,
+        "applicationId": "com.qualcomm.ftcrobotcontroller",
+        "processName": "com.qualcomm.ftcrobotcontroller",
+        "tag": "FTC",
+        "timestamp": {
+          "seconds": 1758907426,
+          "nanos": 756000000
+        }
+      },
+      "message": "Phase\u003dconst Target\u003d1000.0 Vel\u003d940.0 V\u003d12.598 A\u003d291.0 Error\u003d6.0"
+    },
+    {
+      "header": {
+        "logLevel": "INFO",
+        "pid": 6990,
+        "tid": 7188,
+        "applicationId": "com.qualcomm.ftcrobotcontroller",
+        "processName": "com.qualcomm.ftcrobotcontroller",
+        "tag": "FTC",
+        "timestamp": {
+          "seconds": 1758907426,
+          "nanos": 768000000
+        }
+      },
+      "message": "Phase\u003dconst Target\u003d1000.0 Vel\u003d920.0 V\u003d12.603 A\u003d233.0 Error\u003d8.0"
+    },
+    {
+      "header": {
+        "logLevel": "INFO",
+        "pid": 6990,
+        "tid": 7188,
+        "applicationId": "com.qualcomm.ftcrobotcontroller",
+        "processName": "com.qualcomm.ftcrobotcontroller",
+        "tag": "FTC",
+        "timestamp": {
+          "seconds": 1758907426,
+          "nanos": 780000000
+        }
+      },
+      "message": "Phase\u003dconst Target\u003d1000.0 Vel\u003d940.0 V\u003d12.603 A\u003d222.0 Error\u003d8.0"
+    },
+    {
+      "header": {
+        "logLevel": "INFO",
+        "pid": 6990,
+        "tid": 7188,
+        "applicationId": "com.qualcomm.ftcrobotcontroller",
+        "processName": "com.qualcomm.ftcrobotcontroller",
+        "tag": "FTC",
+        "timestamp": {
+          "seconds": 1758907426,
+          "nanos": 793000000
+        }
+      },
+      "message": "Phase\u003dconst Target\u003d1000.0 Vel\u003d920.0 V\u003d12.603 A\u003d225.0 Error\u003d6.0"
+    },
+    {
+      "header": {
+        "logLevel": "INFO",
+        "pid": 6990,
+        "tid": 7188,
+        "applicationId": "com.qualcomm.ftcrobotcontroller",
+        "processName": "com.qualcomm.ftcrobotcontroller",
+        "tag": "FTC",
+        "timestamp": {
+          "seconds": 1758907426,
+          "nanos": 805000000
+        }
+      },
+      "message": "Phase\u003dconst Target\u003d1000.0 Vel\u003d900.0 V\u003d12.598 A\u003d229.0 Error\u003d10.0"
+    },
+    {
+      "header": {
+        "logLevel": "INFO",
+        "pid": 6990,
+        "tid": 7188,
+        "applicationId": "com.qualcomm.ftcrobotcontroller",
+        "processName": "com.qualcomm.ftcrobotcontroller",
+        "tag": "FTC",
+        "timestamp": {
+          "seconds": 1758907426,
+          "nanos": 818000000
+        }
+      },
+      "message": "Phase\u003dconst Target\u003d1000.0 Vel\u003d920.0 V\u003d12.594 A\u003d309.0 Error\u003d8.0"
+    },
+    {
+      "header": {
+        "logLevel": "INFO",
+        "pid": 6990,
+        "tid": 7188,
+        "applicationId": "com.qualcomm.ftcrobotcontroller",
+        "processName": "com.qualcomm.ftcrobotcontroller",
+        "tag": "FTC",
+        "timestamp": {
+          "seconds": 1758907426,
+          "nanos": 831000000
+        }
+      },
+      "message": "Phase\u003dconst Target\u003d1000.0 Vel\u003d900.0 V\u003d12.594 A\u003d309.0 Error\u003d8.0"
+    },
+    {
+      "header": {
+        "logLevel": "INFO",
+        "pid": 6990,
+        "tid": 7188,
+        "applicationId": "com.qualcomm.ftcrobotcontroller",
+        "processName": "com.qualcomm.ftcrobotcontroller",
+        "tag": "FTC",
+        "timestamp": {
+          "seconds": 1758907426,
+          "nanos": 843000000
+        }
+      },
+      "message": "Phase\u003dconst Target\u003d1000.0 Vel\u003d900.0 V\u003d12.598 A\u003d302.0 Error\u003d10.0"
+    },
+    {
+      "header": {
+        "logLevel": "INFO",
+        "pid": 6990,
+        "tid": 7188,
+        "applicationId": "com.qualcomm.ftcrobotcontroller",
+        "processName": "com.qualcomm.ftcrobotcontroller",
+        "tag": "FTC",
+        "timestamp": {
+          "seconds": 1758907426,
+          "nanos": 856000000
+        }
+      },
+      "message": "Phase\u003dconst Target\u003d1000.0 Vel\u003d940.0 V\u003d12.598 A\u003d298.0 Error\u003d6.0"
+    },
+    {
+      "header": {
+        "logLevel": "INFO",
+        "pid": 6990,
+        "tid": 7188,
+        "applicationId": "com.qualcomm.ftcrobotcontroller",
+        "processName": "com.qualcomm.ftcrobotcontroller",
+        "tag": "FTC",
+        "timestamp": {
+          "seconds": 1758907426,
+          "nanos": 870000000
+        }
+      },
+      "message": "Phase\u003dconst Target\u003d1000.0 Vel\u003d920.0 V\u003d12.603 A\u003d229.0 Error\u003d8.0"
+    },
+    {
+      "header": {
+        "logLevel": "INFO",
+        "pid": 6990,
+        "tid": 7188,
+        "applicationId": "com.qualcomm.ftcrobotcontroller",
+        "processName": "com.qualcomm.ftcrobotcontroller",
+        "tag": "FTC",
+        "timestamp": {
+          "seconds": 1758907426,
+          "nanos": 882000000
+        }
+      },
+      "message": "Phase\u003dconst Target\u003d1000.0 Vel\u003d920.0 V\u003d12.603 A\u003d222.0 Error\u003d8.0"
+    },
+    {
+      "header": {
+        "logLevel": "INFO",
+        "pid": 6990,
+        "tid": 7188,
+        "applicationId": "com.qualcomm.ftcrobotcontroller",
+        "processName": "com.qualcomm.ftcrobotcontroller",
+        "tag": "FTC",
+        "timestamp": {
+          "seconds": 1758907426,
+          "nanos": 893000000
+        }
+      },
+      "message": "Phase\u003dconst Target\u003d1000.0 Vel\u003d920.0 V\u003d12.603 A\u003d222.0 Error\u003d8.0"
+    },
+    {
+      "header": {
+        "logLevel": "INFO",
+        "pid": 6990,
+        "tid": 7188,
+        "applicationId": "com.qualcomm.ftcrobotcontroller",
+        "processName": "com.qualcomm.ftcrobotcontroller",
+        "tag": "FTC",
+        "timestamp": {
+          "seconds": 1758907426,
+          "nanos": 905000000
+        }
+      },
+      "message": "Phase\u003dconst Target\u003d1000.0 Vel\u003d900.0 V\u003d12.598 A\u003d236.0 Error\u003d10.0"
+    },
+    {
+      "header": {
+        "logLevel": "INFO",
+        "pid": 6990,
+        "tid": 7188,
+        "applicationId": "com.qualcomm.ftcrobotcontroller",
+        "processName": "com.qualcomm.ftcrobotcontroller",
+        "tag": "FTC",
+        "timestamp": {
+          "seconds": 1758907426,
+          "nanos": 916000000
+        }
+      },
+      "message": "Phase\u003dconst Target\u003d1000.0 Vel\u003d900.0 V\u003d12.594 A\u003d302.0 Error\u003d10.0"
+    },
+    {
+      "header": {
+        "logLevel": "INFO",
+        "pid": 6990,
+        "tid": 7188,
+        "applicationId": "com.qualcomm.ftcrobotcontroller",
+        "processName": "com.qualcomm.ftcrobotcontroller",
+        "tag": "FTC",
+        "timestamp": {
+          "seconds": 1758907426,
+          "nanos": 928000000
+        }
+      },
+      "message": "Phase\u003dconst Target\u003d1000.0 Vel\u003d900.0 V\u003d12.594 A\u003d313.0 Error\u003d10.0"
+    },
+    {
+      "header": {
+        "logLevel": "INFO",
+        "pid": 6990,
+        "tid": 7188,
+        "applicationId": "com.qualcomm.ftcrobotcontroller",
+        "processName": "com.qualcomm.ftcrobotcontroller",
+        "tag": "FTC",
+        "timestamp": {
+          "seconds": 1758907426,
+          "nanos": 940000000
+        }
+      },
+      "message": "Phase\u003dconst Target\u003d1000.0 Vel\u003d920.0 V\u003d12.594 A\u003d309.0 Error\u003d8.0"
+    },
+    {
+      "header": {
+        "logLevel": "INFO",
+        "pid": 6990,
+        "tid": 7188,
+        "applicationId": "com.qualcomm.ftcrobotcontroller",
+        "processName": "com.qualcomm.ftcrobotcontroller",
+        "tag": "FTC",
+        "timestamp": {
+          "seconds": 1758907426,
+          "nanos": 951000000
+        }
+      },
+      "message": "Phase\u003dconst Target\u003d1000.0 Vel\u003d920.0 V\u003d12.594 A\u003d298.0 Error\u003d8.0"
+    },
+    {
+      "header": {
+        "logLevel": "INFO",
+        "pid": 6990,
+        "tid": 7188,
+        "applicationId": "com.qualcomm.ftcrobotcontroller",
+        "processName": "com.qualcomm.ftcrobotcontroller",
+        "tag": "FTC",
+        "timestamp": {
+          "seconds": 1758907426,
+          "nanos": 963000000
+        }
+      },
+      "message": "Phase\u003dconst Target\u003d1000.0 Vel\u003d940.0 V\u003d12.598 A\u003d295.0 Error\u003d8.0"
+    },
+    {
+      "header": {
+        "logLevel": "INFO",
+        "pid": 6990,
+        "tid": 7188,
+        "applicationId": "com.qualcomm.ftcrobotcontroller",
+        "processName": "com.qualcomm.ftcrobotcontroller",
+        "tag": "FTC",
+        "timestamp": {
+          "seconds": 1758907426,
+          "nanos": 974000000
+        }
+      },
+      "message": "Phase\u003dconst Target\u003d1000.0 Vel\u003d940.0 V\u003d12.594 A\u003d291.0 Error\u003d6.0"
+    },
+    {
+      "header": {
+        "logLevel": "INFO",
+        "pid": 6990,
+        "tid": 7188,
+        "applicationId": "com.qualcomm.ftcrobotcontroller",
+        "processName": "com.qualcomm.ftcrobotcontroller",
+        "tag": "FTC",
+        "timestamp": {
+          "seconds": 1758907426,
+          "nanos": 986000000
+        }
+      },
+      "message": "Phase\u003dconst Target\u003d1000.0 Vel\u003d940.0 V\u003d12.594 A\u003d284.0 Error\u003d6.0"
+    },
+    {
+      "header": {
+        "logLevel": "INFO",
+        "pid": 6990,
+        "tid": 7188,
+        "applicationId": "com.qualcomm.ftcrobotcontroller",
+        "processName": "com.qualcomm.ftcrobotcontroller",
+        "tag": "FTC",
+        "timestamp": {
+          "seconds": 1758907426,
+          "nanos": 998000000
+        }
+      },
+      "message": "Phase\u003dconst Target\u003d1000.0 Vel\u003d940.0 V\u003d12.598 A\u003d284.0 Error\u003d6.0"
+    },
+    {
+      "header": {
+        "logLevel": "INFO",
+        "pid": 6990,
+        "tid": 7188,
+        "applicationId": "com.qualcomm.ftcrobotcontroller",
+        "processName": "com.qualcomm.ftcrobotcontroller",
+        "tag": "FTC",
+        "timestamp": {
+          "seconds": 1758907427,
+          "nanos": 10000000
+        }
+      },
+      "message": "Phase\u003dconst Target\u003d1000.0 Vel\u003d940.0 V\u003d12.598 A\u003d280.0 Error\u003d4.0"
+    },
+    {
+      "header": {
+        "logLevel": "INFO",
+        "pid": 6990,
+        "tid": 7188,
+        "applicationId": "com.qualcomm.ftcrobotcontroller",
+        "processName": "com.qualcomm.ftcrobotcontroller",
+        "tag": "FTC",
+        "timestamp": {
+          "seconds": 1758907427,
+          "nanos": 23000000
+        }
+      },
+      "message": "Phase\u003dconst Target\u003d1000.0 Vel\u003d940.0 V\u003d12.598 A\u003d258.0 Error\u003d6.0"
+    },
+    {
+      "header": {
+        "logLevel": "INFO",
+        "pid": 6990,
+        "tid": 7188,
+        "applicationId": "com.qualcomm.ftcrobotcontroller",
+        "processName": "com.qualcomm.ftcrobotcontroller",
+        "tag": "FTC",
+        "timestamp": {
+          "seconds": 1758907427,
+          "nanos": 37000000
+        }
+      },
+      "message": "Phase\u003dconst Target\u003d1000.0 Vel\u003d940.0 V\u003d12.598 A\u003d244.0 Error\u003d6.0"
+    },
+    {
+      "header": {
+        "logLevel": "INFO",
+        "pid": 6990,
+        "tid": 7188,
+        "applicationId": "com.qualcomm.ftcrobotcontroller",
+        "processName": "com.qualcomm.ftcrobotcontroller",
+        "tag": "FTC",
+        "timestamp": {
+          "seconds": 1758907427,
+          "nanos": 51000000
+        }
+      },
+      "message": "Phase\u003dconst Target\u003d1000.0 Vel\u003d920.0 V\u003d12.594 A\u003d247.0 Error\u003d6.0"
+    },
+    {
+      "header": {
+        "logLevel": "INFO",
+        "pid": 6990,
+        "tid": 7188,
+        "applicationId": "com.qualcomm.ftcrobotcontroller",
+        "processName": "com.qualcomm.ftcrobotcontroller",
+        "tag": "FTC",
+        "timestamp": {
+          "seconds": 1758907427,
+          "nanos": 64000000
+        }
+      },
+      "message": "Phase\u003dconst Target\u003d1000.0 Vel\u003d940.0 V\u003d12.603 A\u003d244.0 Error\u003d8.0"
+    },
+    {
+      "header": {
+        "logLevel": "INFO",
+        "pid": 6990,
+        "tid": 7188,
+        "applicationId": "com.qualcomm.ftcrobotcontroller",
+        "processName": "com.qualcomm.ftcrobotcontroller",
+        "tag": "FTC",
+        "timestamp": {
+          "seconds": 1758907427,
+          "nanos": 79000000
+        }
+      },
+      "message": "Phase\u003dconst Target\u003d1000.0 Vel\u003d920.0 V\u003d12.594 A\u003d255.0 Error\u003d6.0"
+    },
+    {
+      "header": {
+        "logLevel": "INFO",
+        "pid": 6990,
+        "tid": 7188,
+        "applicationId": "com.qualcomm.ftcrobotcontroller",
+        "processName": "com.qualcomm.ftcrobotcontroller",
+        "tag": "FTC",
+        "timestamp": {
+          "seconds": 1758907427,
+          "nanos": 91000000
+        }
+      },
+      "message": "Phase\u003dconst Target\u003d1000.0 Vel\u003d920.0 V\u003d12.598 A\u003d251.0 Error\u003d8.0"
+    },
+    {
+      "header": {
+        "logLevel": "INFO",
+        "pid": 6990,
+        "tid": 7188,
+        "applicationId": "com.qualcomm.ftcrobotcontroller",
+        "processName": "com.qualcomm.ftcrobotcontroller",
+        "tag": "FTC",
+        "timestamp": {
+          "seconds": 1758907427,
+          "nanos": 103000000
+        }
+      },
+      "message": "Phase\u003dconst Target\u003d1000.0 Vel\u003d920.0 V\u003d12.598 A\u003d258.0 Error\u003d8.0"
+    },
+    {
+      "header": {
+        "logLevel": "INFO",
+        "pid": 6990,
+        "tid": 7188,
+        "applicationId": "com.qualcomm.ftcrobotcontroller",
+        "processName": "com.qualcomm.ftcrobotcontroller",
+        "tag": "FTC",
+        "timestamp": {
+          "seconds": 1758907427,
+          "nanos": 116000000
+        }
+      },
+      "message": "Phase\u003dconst Target\u003d1000.0 Vel\u003d900.0 V\u003d12.594 A\u003d262.0 Error\u003d10.0"
+    },
+    {
+      "header": {
+        "logLevel": "INFO",
+        "pid": 6990,
+        "tid": 7188,
+        "applicationId": "com.qualcomm.ftcrobotcontroller",
+        "processName": "com.qualcomm.ftcrobotcontroller",
+        "tag": "FTC",
+        "timestamp": {
+          "seconds": 1758907427,
+          "nanos": 130000000
+        }
+      },
+      "message": "Phase\u003dconst Target\u003d1000.0 Vel\u003d920.0 V\u003d12.594 A\u003d302.0 Error\u003d8.0"
+    },
+    {
+      "header": {
+        "logLevel": "INFO",
+        "pid": 6990,
+        "tid": 7188,
+        "applicationId": "com.qualcomm.ftcrobotcontroller",
+        "processName": "com.qualcomm.ftcrobotcontroller",
+        "tag": "FTC",
+        "timestamp": {
+          "seconds": 1758907427,
+          "nanos": 142000000
+        }
+      },
+      "message": "Phase\u003dconst Target\u003d1000.0 Vel\u003d920.0 V\u003d12.594 A\u003d302.0 Error\u003d8.0"
+    },
+    {
+      "header": {
+        "logLevel": "INFO",
+        "pid": 6990,
+        "tid": 7188,
+        "applicationId": "com.qualcomm.ftcrobotcontroller",
+        "processName": "com.qualcomm.ftcrobotcontroller",
+        "tag": "FTC",
+        "timestamp": {
+          "seconds": 1758907427,
+          "nanos": 154000000
+        }
+      },
+      "message": "Phase\u003dconst Target\u003d1000.0 Vel\u003d940.0 V\u003d12.594 A\u003d302.0 Error\u003d6.0"
+    },
+    {
+      "header": {
+        "logLevel": "INFO",
+        "pid": 6990,
+        "tid": 7188,
+        "applicationId": "com.qualcomm.ftcrobotcontroller",
+        "processName": "com.qualcomm.ftcrobotcontroller",
+        "tag": "FTC",
+        "timestamp": {
+          "seconds": 1758907427,
+          "nanos": 166000000
+        }
+      },
+      "message": "Phase\u003dconst Target\u003d1000.0 Vel\u003d940.0 V\u003d12.598 A\u003d295.0 Error\u003d6.0"
+    },
+    {
+      "header": {
+        "logLevel": "INFO",
+        "pid": 6990,
+        "tid": 7188,
+        "applicationId": "com.qualcomm.ftcrobotcontroller",
+        "processName": "com.qualcomm.ftcrobotcontroller",
+        "tag": "FTC",
+        "timestamp": {
+          "seconds": 1758907427,
+          "nanos": 178000000
+        }
+      },
+      "message": "Phase\u003dconst Target\u003d1000.0 Vel\u003d920.0 V\u003d12.594 A\u003d284.0 Error\u003d8.0"
+    },
+    {
+      "header": {
+        "logLevel": "INFO",
+        "pid": 6990,
+        "tid": 7188,
+        "applicationId": "com.qualcomm.ftcrobotcontroller",
+        "processName": "com.qualcomm.ftcrobotcontroller",
+        "tag": "FTC",
+        "timestamp": {
+          "seconds": 1758907427,
+          "nanos": 190000000
+        }
+      },
+      "message": "Phase\u003dconst Target\u003d1000.0 Vel\u003d940.0 V\u003d12.598 A\u003d284.0 Error\u003d6.0"
+    },
+    {
+      "header": {
+        "logLevel": "INFO",
+        "pid": 6990,
+        "tid": 7188,
+        "applicationId": "com.qualcomm.ftcrobotcontroller",
+        "processName": "com.qualcomm.ftcrobotcontroller",
+        "tag": "FTC",
+        "timestamp": {
+          "seconds": 1758907427,
+          "nanos": 201000000
+        }
+      },
+      "message": "Phase\u003dconst Target\u003d1000.0 Vel\u003d940.0 V\u003d12.594 A\u003d284.0 Error\u003d6.0"
+    },
+    {
+      "header": {
+        "logLevel": "INFO",
+        "pid": 6990,
+        "tid": 7188,
+        "applicationId": "com.qualcomm.ftcrobotcontroller",
+        "processName": "com.qualcomm.ftcrobotcontroller",
+        "tag": "FTC",
+        "timestamp": {
+          "seconds": 1758907427,
+          "nanos": 213000000
+        }
+      },
+      "message": "Phase\u003dconst Target\u003d1000.0 Vel\u003d960.0 V\u003d12.598 A\u003d277.0 Error\u003d6.0"
+    },
+    {
+      "header": {
+        "logLevel": "INFO",
+        "pid": 6990,
+        "tid": 7188,
+        "applicationId": "com.qualcomm.ftcrobotcontroller",
+        "processName": "com.qualcomm.ftcrobotcontroller",
+        "tag": "FTC",
+        "timestamp": {
+          "seconds": 1758907427,
+          "nanos": 226000000
+        }
+      },
+      "message": "Phase\u003dconst Target\u003d1000.0 Vel\u003d960.0 V\u003d12.598 A\u003d277.0 Error\u003d4.0"
+    },
+    {
+      "header": {
+        "logLevel": "INFO",
+        "pid": 6990,
+        "tid": 7188,
+        "applicationId": "com.qualcomm.ftcrobotcontroller",
+        "processName": "com.qualcomm.ftcrobotcontroller",
+        "tag": "FTC",
+        "timestamp": {
+          "seconds": 1758907427,
+          "nanos": 239000000
+        }
+      },
+      "message": "Phase\u003dconst Target\u003d1000.0 Vel\u003d940.0 V\u003d12.603 A\u003d244.0 Error\u003d6.0"
+    },
+    {
+      "header": {
+        "logLevel": "INFO",
+        "pid": 6990,
+        "tid": 7188,
+        "applicationId": "com.qualcomm.ftcrobotcontroller",
+        "processName": "com.qualcomm.ftcrobotcontroller",
+        "tag": "FTC",
+        "timestamp": {
+          "seconds": 1758907427,
+          "nanos": 251000000
+        }
+      },
+      "message": "Phase\u003dconst Target\u003d1000.0 Vel\u003d940.0 V\u003d12.603 A\u003d240.0 Error\u003d4.0"
+    },
+    {
+      "header": {
+        "logLevel": "INFO",
+        "pid": 6990,
+        "tid": 7188,
+        "applicationId": "com.qualcomm.ftcrobotcontroller",
+        "processName": "com.qualcomm.ftcrobotcontroller",
+        "tag": "FTC",
+        "timestamp": {
+          "seconds": 1758907427,
+          "nanos": 263000000
+        }
+      },
+      "message": "Phase\u003dconst Target\u003d1000.0 Vel\u003d940.0 V\u003d12.603 A\u003d244.0 Error\u003d6.0"
+    },
+    {
+      "header": {
+        "logLevel": "INFO",
+        "pid": 6990,
+        "tid": 7188,
+        "applicationId": "com.qualcomm.ftcrobotcontroller",
+        "processName": "com.qualcomm.ftcrobotcontroller",
+        "tag": "FTC",
+        "timestamp": {
+          "seconds": 1758907427,
+          "nanos": 276000000
+        }
+      },
+      "message": "Phase\u003dconst Target\u003d1000.0 Vel\u003d940.0 V\u003d12.598 A\u003d244.0 Error\u003d6.0"
+    },
+    {
+      "header": {
+        "logLevel": "INFO",
+        "pid": 6990,
+        "tid": 7188,
+        "applicationId": "com.qualcomm.ftcrobotcontroller",
+        "processName": "com.qualcomm.ftcrobotcontroller",
+        "tag": "FTC",
+        "timestamp": {
+          "seconds": 1758907427,
+          "nanos": 287000000
+        }
+      },
+      "message": "Phase\u003dconst Target\u003d1000.0 Vel\u003d940.0 V\u003d12.598 A\u003d287.0 Error\u003d6.0"
+    },
+    {
+      "header": {
+        "logLevel": "INFO",
+        "pid": 6990,
+        "tid": 7188,
+        "applicationId": "com.qualcomm.ftcrobotcontroller",
+        "processName": "com.qualcomm.ftcrobotcontroller",
+        "tag": "FTC",
+        "timestamp": {
+          "seconds": 1758907427,
+          "nanos": 299000000
+        }
+      },
+      "message": "Phase\u003dconst Target\u003d1000.0 Vel\u003d940.0 V\u003d12.598 A\u003d287.0 Error\u003d8.0"
+    },
+    {
+      "header": {
+        "logLevel": "INFO",
+        "pid": 6990,
+        "tid": 7188,
+        "applicationId": "com.qualcomm.ftcrobotcontroller",
+        "processName": "com.qualcomm.ftcrobotcontroller",
+        "tag": "FTC",
+        "timestamp": {
+          "seconds": 1758907427,
+          "nanos": 311000000
+        }
+      },
+      "message": "Phase\u003dconst Target\u003d1000.0 Vel\u003d920.0 V\u003d12.598 A\u003d287.0 Error\u003d6.0"
+    },
+    {
+      "header": {
+        "logLevel": "INFO",
+        "pid": 6990,
+        "tid": 7188,
+        "applicationId": "com.qualcomm.ftcrobotcontroller",
+        "processName": "com.qualcomm.ftcrobotcontroller",
+        "tag": "FTC",
+        "timestamp": {
+          "seconds": 1758907427,
+          "nanos": 323000000
+        }
+      },
+      "message": "Phase\u003dconst Target\u003d1000.0 Vel\u003d940.0 V\u003d12.598 A\u003d284.0 Error\u003d8.0"
+    },
+    {
+      "header": {
+        "logLevel": "INFO",
+        "pid": 6990,
+        "tid": 7188,
+        "applicationId": "com.qualcomm.ftcrobotcontroller",
+        "processName": "com.qualcomm.ftcrobotcontroller",
+        "tag": "FTC",
+        "timestamp": {
+          "seconds": 1758907427,
+          "nanos": 335000000
+        }
+      },
+      "message": "Phase\u003dconst Target\u003d1000.0 Vel\u003d940.0 V\u003d12.594 A\u003d280.0 Error\u003d6.0"
+    },
+    {
+      "header": {
+        "logLevel": "INFO",
+        "pid": 6990,
+        "tid": 7188,
+        "applicationId": "com.qualcomm.ftcrobotcontroller",
+        "processName": "com.qualcomm.ftcrobotcontroller",
+        "tag": "FTC",
+        "timestamp": {
+          "seconds": 1758907427,
+          "nanos": 347000000
+        }
+      },
+      "message": "Phase\u003dconst Target\u003d1000.0 Vel\u003d960.0 V\u003d12.598 A\u003d280.0 Error\u003d4.0"
+    },
+    {
+      "header": {
+        "logLevel": "INFO",
+        "pid": 6990,
+        "tid": 7188,
+        "applicationId": "com.qualcomm.ftcrobotcontroller",
+        "processName": "com.qualcomm.ftcrobotcontroller",
+        "tag": "FTC",
+        "timestamp": {
+          "seconds": 1758907427,
+          "nanos": 358000000
+        }
+      },
+      "message": "Phase\u003dconst Target\u003d1000.0 Vel\u003d940.0 V\u003d12.594 A\u003d280.0 Error\u003d6.0"
+    },
+    {
+      "header": {
+        "logLevel": "INFO",
+        "pid": 6990,
+        "tid": 7188,
+        "applicationId": "com.qualcomm.ftcrobotcontroller",
+        "processName": "com.qualcomm.ftcrobotcontroller",
+        "tag": "FTC",
+        "timestamp": {
+          "seconds": 1758907427,
+          "nanos": 371000000
+        }
+      },
+      "message": "Phase\u003dconst Target\u003d1000.0 Vel\u003d940.0 V\u003d12.594 A\u003d277.0 Error\u003d4.0"
+    },
+    {
+      "header": {
+        "logLevel": "INFO",
+        "pid": 6990,
+        "tid": 7188,
+        "applicationId": "com.qualcomm.ftcrobotcontroller",
+        "processName": "com.qualcomm.ftcrobotcontroller",
+        "tag": "FTC",
+        "timestamp": {
+          "seconds": 1758907427,
+          "nanos": 383000000
+        }
+      },
+      "message": "Phase\u003dconst Target\u003d1000.0 Vel\u003d960.0 V\u003d12.598 A\u003d273.0 Error\u003d6.0"
+    },
+    {
+      "header": {
+        "logLevel": "INFO",
+        "pid": 6990,
+        "tid": 7188,
+        "applicationId": "com.qualcomm.ftcrobotcontroller",
+        "processName": "com.qualcomm.ftcrobotcontroller",
+        "tag": "FTC",
+        "timestamp": {
+          "seconds": 1758907427,
+          "nanos": 396000000
+        }
+      },
+      "message": "Phase\u003dconst Target\u003d1000.0 Vel\u003d960.0 V\u003d12.594 A\u003d269.0 Error\u003d4.0"
+    },
+    {
+      "header": {
+        "logLevel": "INFO",
+        "pid": 6990,
+        "tid": 7188,
+        "applicationId": "com.qualcomm.ftcrobotcontroller",
+        "processName": "com.qualcomm.ftcrobotcontroller",
+        "tag": "FTC",
+        "timestamp": {
+          "seconds": 1758907427,
+          "nanos": 408000000
+        }
+      },
+      "message": "Phase\u003dconst Target\u003d1000.0 Vel\u003d960.0 V\u003d12.594 A\u003d277.0 Error\u003d4.0"
+    },
+    {
+      "header": {
+        "logLevel": "INFO",
+        "pid": 6990,
+        "tid": 7188,
+        "applicationId": "com.qualcomm.ftcrobotcontroller",
+        "processName": "com.qualcomm.ftcrobotcontroller",
+        "tag": "FTC",
+        "timestamp": {
+          "seconds": 1758907427,
+          "nanos": 421000000
+        }
+      },
+      "message": "Phase\u003dconst Target\u003d1000.0 Vel\u003d960.0 V\u003d12.598 A\u003d269.0 Error\u003d4.0"
+    },
+    {
+      "header": {
+        "logLevel": "INFO",
+        "pid": 6990,
+        "tid": 7188,
+        "applicationId": "com.qualcomm.ftcrobotcontroller",
+        "processName": "com.qualcomm.ftcrobotcontroller",
+        "tag": "FTC",
+        "timestamp": {
+          "seconds": 1758907427,
+          "nanos": 435000000
+        }
+      },
+      "message": "Phase\u003dconst Target\u003d1000.0 Vel\u003d960.0 V\u003d12.598 A\u003d247.0 Error\u003d4.0"
+    },
+    {
+      "header": {
+        "logLevel": "INFO",
+        "pid": 6990,
+        "tid": 7188,
+        "applicationId": "com.qualcomm.ftcrobotcontroller",
+        "processName": "com.qualcomm.ftcrobotcontroller",
+        "tag": "FTC",
+        "timestamp": {
+          "seconds": 1758907427,
+          "nanos": 447000000
+        }
+      },
+      "message": "Phase\u003dconst Target\u003d1000.0 Vel\u003d940.0 V\u003d12.598 A\u003d236.0 Error\u003d6.0"
+    },
+    {
+      "header": {
+        "logLevel": "INFO",
+        "pid": 6990,
+        "tid": 7188,
+        "applicationId": "com.qualcomm.ftcrobotcontroller",
+        "processName": "com.qualcomm.ftcrobotcontroller",
+        "tag": "FTC",
+        "timestamp": {
+          "seconds": 1758907427,
+          "nanos": 459000000
+        }
+      },
+      "message": "Phase\u003dconst Target\u003d1000.0 Vel\u003d940.0 V\u003d12.603 A\u003d240.0 Error\u003d6.0"
+    },
+    {
+      "header": {
+        "logLevel": "INFO",
+        "pid": 6990,
+        "tid": 7188,
+        "applicationId": "com.qualcomm.ftcrobotcontroller",
+        "processName": "com.qualcomm.ftcrobotcontroller",
+        "tag": "FTC",
+        "timestamp": {
+          "seconds": 1758907427,
+          "nanos": 471000000
+        }
+      },
+      "message": "Phase\u003dconst Target\u003d1000.0 Vel\u003d940.0 V\u003d12.598 A\u003d244.0 Error\u003d6.0"
+    },
+    {
+      "header": {
+        "logLevel": "INFO",
+        "pid": 6990,
+        "tid": 7188,
+        "applicationId": "com.qualcomm.ftcrobotcontroller",
+        "processName": "com.qualcomm.ftcrobotcontroller",
+        "tag": "FTC",
+        "timestamp": {
+          "seconds": 1758907427,
+          "nanos": 483000000
+        }
+      },
+      "message": "Phase\u003dconst Target\u003d1000.0 Vel\u003d920.0 V\u003d12.594 A\u003d258.0 Error\u003d6.0"
+    },
+    {
+      "header": {
+        "logLevel": "INFO",
+        "pid": 6990,
+        "tid": 7188,
+        "applicationId": "com.qualcomm.ftcrobotcontroller",
+        "processName": "com.qualcomm.ftcrobotcontroller",
+        "tag": "FTC",
+        "timestamp": {
+          "seconds": 1758907427,
+          "nanos": 496000000
+        }
+      },
+      "message": "Phase\u003dconst Target\u003d1000.0 Vel\u003d940.0 V\u003d12.594 A\u003d280.0 Error\u003d6.0"
+    },
+    {
+      "header": {
+        "logLevel": "INFO",
+        "pid": 6990,
+        "tid": 7188,
+        "applicationId": "com.qualcomm.ftcrobotcontroller",
+        "processName": "com.qualcomm.ftcrobotcontroller",
+        "tag": "FTC",
+        "timestamp": {
+          "seconds": 1758907427,
+          "nanos": 508000000
+        }
+      },
+      "message": "Phase\u003dconst Target\u003d1000.0 Vel\u003d940.0 V\u003d12.598 A\u003d291.0 Error\u003d6.0"
+    },
+    {
+      "header": {
+        "logLevel": "INFO",
+        "pid": 6990,
+        "tid": 7188,
+        "applicationId": "com.qualcomm.ftcrobotcontroller",
+        "processName": "com.qualcomm.ftcrobotcontroller",
+        "tag": "FTC",
+        "timestamp": {
+          "seconds": 1758907427,
+          "nanos": 520000000
+        }
+      },
+      "message": "Phase\u003dconst Target\u003d1000.0 Vel\u003d940.0 V\u003d12.594 A\u003d287.0 Error\u003d8.0"
+    },
+    {
+      "header": {
+        "logLevel": "INFO",
+        "pid": 6990,
+        "tid": 7188,
+        "applicationId": "com.qualcomm.ftcrobotcontroller",
+        "processName": "com.qualcomm.ftcrobotcontroller",
+        "tag": "FTC",
+        "timestamp": {
+          "seconds": 1758907427,
+          "nanos": 532000000
+        }
+      },
+      "message": "Phase\u003dconst Target\u003d1000.0 Vel\u003d940.0 V\u003d12.594 A\u003d291.0 Error\u003d6.0"
+    },
+    {
+      "header": {
+        "logLevel": "INFO",
+        "pid": 6990,
+        "tid": 7188,
+        "applicationId": "com.qualcomm.ftcrobotcontroller",
+        "processName": "com.qualcomm.ftcrobotcontroller",
+        "tag": "FTC",
+        "timestamp": {
+          "seconds": 1758907427,
+          "nanos": 546000000
+        }
+      },
+      "message": "Phase\u003dconst Target\u003d1000.0 Vel\u003d920.0 V\u003d12.594 A\u003d280.0 Error\u003d8.0"
+    },
+    {
+      "header": {
+        "logLevel": "INFO",
+        "pid": 6990,
+        "tid": 7188,
+        "applicationId": "com.qualcomm.ftcrobotcontroller",
+        "processName": "com.qualcomm.ftcrobotcontroller",
+        "tag": "FTC",
+        "timestamp": {
+          "seconds": 1758907427,
+          "nanos": 559000000
+        }
+      },
+      "message": "Phase\u003dconst Target\u003d1000.0 Vel\u003d960.0 V\u003d12.594 A\u003d284.0 Error\u003d6.0"
+    },
+    {
+      "header": {
+        "logLevel": "INFO",
+        "pid": 6990,
+        "tid": 7188,
+        "applicationId": "com.qualcomm.ftcrobotcontroller",
+        "processName": "com.qualcomm.ftcrobotcontroller",
+        "tag": "FTC",
+        "timestamp": {
+          "seconds": 1758907427,
+          "nanos": 571000000
+        }
+      },
+      "message": "Phase\u003dconst Target\u003d1000.0 Vel\u003d940.0 V\u003d12.594 A\u003d277.0 Error\u003d4.0"
+    },
+    {
+      "header": {
+        "logLevel": "INFO",
+        "pid": 6990,
+        "tid": 7188,
+        "applicationId": "com.qualcomm.ftcrobotcontroller",
+        "processName": "com.qualcomm.ftcrobotcontroller",
+        "tag": "FTC",
+        "timestamp": {
+          "seconds": 1758907427,
+          "nanos": 586000000
+        }
+      },
+      "message": "Phase\u003dconst Target\u003d1000.0 Vel\u003d940.0 V\u003d12.594 A\u003d277.0 Error\u003d6.0"
+    },
+    {
+      "header": {
+        "logLevel": "INFO",
+        "pid": 6990,
+        "tid": 7188,
+        "applicationId": "com.qualcomm.ftcrobotcontroller",
+        "processName": "com.qualcomm.ftcrobotcontroller",
+        "tag": "FTC",
+        "timestamp": {
+          "seconds": 1758907427,
+          "nanos": 600000000
+        }
+      },
+      "message": "Phase\u003dconst Target\u003d1000.0 Vel\u003d960.0 V\u003d12.598 A\u003d277.0 Error\u003d4.0"
+    },
+    {
+      "header": {
+        "logLevel": "INFO",
+        "pid": 6990,
+        "tid": 7188,
+        "applicationId": "com.qualcomm.ftcrobotcontroller",
+        "processName": "com.qualcomm.ftcrobotcontroller",
+        "tag": "FTC",
+        "timestamp": {
+          "seconds": 1758907427,
+          "nanos": 611000000
+        }
+      },
+      "message": "Phase\u003dconst Target\u003d1000.0 Vel\u003d940.0 V\u003d12.594 A\u003d273.0 Error\u003d4.0"
+    },
+    {
+      "header": {
+        "logLevel": "INFO",
+        "pid": 6990,
+        "tid": 7188,
+        "applicationId": "com.qualcomm.ftcrobotcontroller",
+        "processName": "com.qualcomm.ftcrobotcontroller",
+        "tag": "FTC",
+        "timestamp": {
+          "seconds": 1758907427,
+          "nanos": 623000000
+        }
+      },
+      "message": "Phase\u003dconst Target\u003d1000.0 Vel\u003d960.0 V\u003d12.598 A\u003d273.0 Error\u003d6.0"
+    },
+    {
+      "header": {
+        "logLevel": "INFO",
+        "pid": 6990,
+        "tid": 7188,
+        "applicationId": "com.qualcomm.ftcrobotcontroller",
+        "processName": "com.qualcomm.ftcrobotcontroller",
+        "tag": "FTC",
+        "timestamp": {
+          "seconds": 1758907427,
+          "nanos": 639000000
+        }
+      },
+      "message": "Phase\u003dconst Target\u003d1000.0 Vel\u003d960.0 V\u003d12.598 A\u003d269.0 Error\u003d4.0"
+    },
+    {
+      "header": {
+        "logLevel": "INFO",
+        "pid": 6990,
+        "tid": 7188,
+        "applicationId": "com.qualcomm.ftcrobotcontroller",
+        "processName": "com.qualcomm.ftcrobotcontroller",
+        "tag": "FTC",
+        "timestamp": {
+          "seconds": 1758907427,
+          "nanos": 652000000
+        }
+      },
+      "message": "Phase\u003dconst Target\u003d1000.0 Vel\u003d940.0 V\u003d12.598 A\u003d273.0 Error\u003d4.0"
+    },
+    {
+      "header": {
+        "logLevel": "INFO",
+        "pid": 6990,
+        "tid": 7188,
+        "applicationId": "com.qualcomm.ftcrobotcontroller",
+        "processName": "com.qualcomm.ftcrobotcontroller",
+        "tag": "FTC",
+        "timestamp": {
+          "seconds": 1758907427,
+          "nanos": 665000000
+        }
+      },
+      "message": "Phase\u003dconst Target\u003d1000.0 Vel\u003d960.0 V\u003d12.598 A\u003d277.0 Error\u003d4.0"
+    },
+    {
+      "header": {
+        "logLevel": "INFO",
+        "pid": 6990,
+        "tid": 7188,
+        "applicationId": "com.qualcomm.ftcrobotcontroller",
+        "processName": "com.qualcomm.ftcrobotcontroller",
+        "tag": "FTC",
+        "timestamp": {
+          "seconds": 1758907427,
+          "nanos": 678000000
+        }
+      },
+      "message": "Phase\u003dconst Target\u003d1000.0 Vel\u003d940.0 V\u003d12.598 A\u003d277.0 Error\u003d6.0"
+    },
+    {
+      "header": {
+        "logLevel": "INFO",
+        "pid": 6990,
+        "tid": 7188,
+        "applicationId": "com.qualcomm.ftcrobotcontroller",
+        "processName": "com.qualcomm.ftcrobotcontroller",
+        "tag": "FTC",
+        "timestamp": {
+          "seconds": 1758907427,
+          "nanos": 691000000
+        }
+      },
+      "message": "Phase\u003dconst Target\u003d1000.0 Vel\u003d940.0 V\u003d12.598 A\u003d266.0 Error\u003d4.0"
+    },
+    {
+      "header": {
+        "logLevel": "INFO",
+        "pid": 6990,
+        "tid": 7188,
+        "applicationId": "com.qualcomm.ftcrobotcontroller",
+        "processName": "com.qualcomm.ftcrobotcontroller",
+        "tag": "FTC",
+        "timestamp": {
+          "seconds": 1758907427,
+          "nanos": 704000000
+        }
+      },
+      "message": "Phase\u003dconst Target\u003d1000.0 Vel\u003d960.0 V\u003d12.598 A\u003d269.0 Error\u003d6.0"
+    },
+    {
+      "header": {
+        "logLevel": "INFO",
+        "pid": 6990,
+        "tid": 7188,
+        "applicationId": "com.qualcomm.ftcrobotcontroller",
+        "processName": "com.qualcomm.ftcrobotcontroller",
+        "tag": "FTC",
+        "timestamp": {
+          "seconds": 1758907427,
+          "nanos": 717000000
+        }
+      },
+      "message": "Phase\u003dconst Target\u003d1000.0 Vel\u003d960.0 V\u003d12.598 A\u003d269.0 Error\u003d4.0"
+    },
+    {
+      "header": {
+        "logLevel": "INFO",
+        "pid": 6990,
+        "tid": 7188,
+        "applicationId": "com.qualcomm.ftcrobotcontroller",
+        "processName": "com.qualcomm.ftcrobotcontroller",
+        "tag": "FTC",
+        "timestamp": {
+          "seconds": 1758907427,
+          "nanos": 730000000
+        }
+      },
+      "message": "Phase\u003dconst Target\u003d1000.0 Vel\u003d960.0 V\u003d12.598 A\u003d273.0 Error\u003d4.0"
+    },
+    {
+      "header": {
+        "logLevel": "INFO",
+        "pid": 6990,
+        "tid": 7188,
+        "applicationId": "com.qualcomm.ftcrobotcontroller",
+        "processName": "com.qualcomm.ftcrobotcontroller",
+        "tag": "FTC",
+        "timestamp": {
+          "seconds": 1758907427,
+          "nanos": 745000000
+        }
+      },
+      "message": "Phase\u003dconst Target\u003d1000.0 Vel\u003d960.0 V\u003d12.594 A\u003d273.0 Error\u003d4.0"
+    },
+    {
+      "header": {
+        "logLevel": "INFO",
+        "pid": 6990,
+        "tid": 7188,
+        "applicationId": "com.qualcomm.ftcrobotcontroller",
+        "processName": "com.qualcomm.ftcrobotcontroller",
+        "tag": "FTC",
+        "timestamp": {
+          "seconds": 1758907427,
+          "nanos": 759000000
+        }
+      },
+      "message": "Phase\u003dconst Target\u003d1000.0 Vel\u003d960.0 V\u003d12.594 A\u003d273.0 Error\u003d4.0"
+    },
+    {
+      "header": {
+        "logLevel": "INFO",
+        "pid": 6990,
+        "tid": 7188,
+        "applicationId": "com.qualcomm.ftcrobotcontroller",
+        "processName": "com.qualcomm.ftcrobotcontroller",
+        "tag": "FTC",
+        "timestamp": {
+          "seconds": 1758907427,
+          "nanos": 771000000
+        }
+      },
+      "message": "Phase\u003dconst Target\u003d1000.0 Vel\u003d960.0 V\u003d12.594 A\u003d273.0 Error\u003d6.0"
+    },
+    {
+      "header": {
+        "logLevel": "INFO",
+        "pid": 6990,
+        "tid": 7188,
+        "applicationId": "com.qualcomm.ftcrobotcontroller",
+        "processName": "com.qualcomm.ftcrobotcontroller",
+        "tag": "FTC",
+        "timestamp": {
+          "seconds": 1758907427,
+          "nanos": 783000000
+        }
+      },
+      "message": "Phase\u003dconst Target\u003d1000.0 Vel\u003d960.0 V\u003d12.598 A\u003d273.0 Error\u003d4.0"
+    },
+    {
+      "header": {
+        "logLevel": "INFO",
+        "pid": 6990,
+        "tid": 7188,
+        "applicationId": "com.qualcomm.ftcrobotcontroller",
+        "processName": "com.qualcomm.ftcrobotcontroller",
+        "tag": "FTC",
+        "timestamp": {
+          "seconds": 1758907427,
+          "nanos": 795000000
+        }
+      },
+      "message": "Phase\u003dconst Target\u003d1000.0 Vel\u003d960.0 V\u003d12.598 A\u003d266.0 Error\u003d4.0"
+    },
+    {
+      "header": {
+        "logLevel": "INFO",
+        "pid": 6990,
+        "tid": 7188,
+        "applicationId": "com.qualcomm.ftcrobotcontroller",
+        "processName": "com.qualcomm.ftcrobotcontroller",
+        "tag": "FTC",
+        "timestamp": {
+          "seconds": 1758907427,
+          "nanos": 807000000
+        }
+      },
+      "message": "Phase\u003dconst Target\u003d1000.0 Vel\u003d960.0 V\u003d12.594 A\u003d269.0 Error\u003d4.0"
+    },
+    {
+      "header": {
+        "logLevel": "INFO",
+        "pid": 6990,
+        "tid": 7188,
+        "applicationId": "com.qualcomm.ftcrobotcontroller",
+        "processName": "com.qualcomm.ftcrobotcontroller",
+        "tag": "FTC",
+        "timestamp": {
+          "seconds": 1758907427,
+          "nanos": 818000000
+        }
+      },
+      "message": "Phase\u003dconst Target\u003d1000.0 Vel\u003d960.0 V\u003d12.598 A\u003d269.0 Error\u003d4.0"
+    },
+    {
+      "header": {
+        "logLevel": "INFO",
+        "pid": 6990,
+        "tid": 7188,
+        "applicationId": "com.qualcomm.ftcrobotcontroller",
+        "processName": "com.qualcomm.ftcrobotcontroller",
+        "tag": "FTC",
+        "timestamp": {
+          "seconds": 1758907427,
+          "nanos": 830000000
+        }
+      },
+      "message": "Phase\u003dconst Target\u003d1000.0 Vel\u003d940.0 V\u003d12.598 A\u003d269.0 Error\u003d4.0"
+    },
+    {
+      "header": {
+        "logLevel": "INFO",
+        "pid": 6990,
+        "tid": 7188,
+        "applicationId": "com.qualcomm.ftcrobotcontroller",
+        "processName": "com.qualcomm.ftcrobotcontroller",
+        "tag": "FTC",
+        "timestamp": {
+          "seconds": 1758907427,
+          "nanos": 843000000
+        }
+      },
+      "message": "Phase\u003dconst Target\u003d1000.0 Vel\u003d960.0 V\u003d12.598 A\u003d269.0 Error\u003d6.0"
+    },
+    {
+      "header": {
+        "logLevel": "INFO",
+        "pid": 6990,
+        "tid": 7188,
+        "applicationId": "com.qualcomm.ftcrobotcontroller",
+        "processName": "com.qualcomm.ftcrobotcontroller",
+        "tag": "FTC",
+        "timestamp": {
+          "seconds": 1758907427,
+          "nanos": 854000000
+        }
+      },
+      "message": "Phase\u003dconst Target\u003d1000.0 Vel\u003d940.0 V\u003d12.594 A\u003d277.0 Error\u003d6.0"
+    },
+    {
+      "header": {
+        "logLevel": "INFO",
+        "pid": 6990,
+        "tid": 7188,
+        "applicationId": "com.qualcomm.ftcrobotcontroller",
+        "processName": "com.qualcomm.ftcrobotcontroller",
+        "tag": "FTC",
+        "timestamp": {
+          "seconds": 1758907427,
+          "nanos": 866000000
+        }
+      },
+      "message": "Phase\u003dconst Target\u003d1000.0 Vel\u003d960.0 V\u003d12.598 A\u003d273.0 Error\u003d4.0"
+    },
+    {
+      "header": {
+        "logLevel": "INFO",
+        "pid": 6990,
+        "tid": 7188,
+        "applicationId": "com.qualcomm.ftcrobotcontroller",
+        "processName": "com.qualcomm.ftcrobotcontroller",
+        "tag": "FTC",
+        "timestamp": {
+          "seconds": 1758907427,
+          "nanos": 878000000
+        }
+      },
+      "message": "Phase\u003dconst Target\u003d1000.0 Vel\u003d940.0 V\u003d12.598 A\u003d273.0 Error\u003d6.0"
+    },
+    {
+      "header": {
+        "logLevel": "INFO",
+        "pid": 6990,
+        "tid": 7188,
+        "applicationId": "com.qualcomm.ftcrobotcontroller",
+        "processName": "com.qualcomm.ftcrobotcontroller",
+        "tag": "FTC",
+        "timestamp": {
+          "seconds": 1758907427,
+          "nanos": 891000000
+        }
+      },
+      "message": "Phase\u003dconst Target\u003d1000.0 Vel\u003d960.0 V\u003d12.598 A\u003d277.0 Error\u003d4.0"
+    },
+    {
+      "header": {
+        "logLevel": "INFO",
+        "pid": 6990,
+        "tid": 7188,
+        "applicationId": "com.qualcomm.ftcrobotcontroller",
+        "processName": "com.qualcomm.ftcrobotcontroller",
+        "tag": "FTC",
+        "timestamp": {
+          "seconds": 1758907427,
+          "nanos": 903000000
+        }
+      },
+      "message": "Phase\u003dconst Target\u003d1000.0 Vel\u003d960.0 V\u003d12.594 A\u003d277.0 Error\u003d4.0"
+    },
+    {
+      "header": {
+        "logLevel": "INFO",
+        "pid": 6990,
+        "tid": 7188,
+        "applicationId": "com.qualcomm.ftcrobotcontroller",
+        "processName": "com.qualcomm.ftcrobotcontroller",
+        "tag": "FTC",
+        "timestamp": {
+          "seconds": 1758907427,
+          "nanos": 916000000
+        }
+      },
+      "message": "Phase\u003dconst Target\u003d1000.0 Vel\u003d960.0 V\u003d12.598 A\u003d269.0 Error\u003d4.0"
+    },
+    {
+      "header": {
+        "logLevel": "INFO",
+        "pid": 6990,
+        "tid": 7188,
+        "applicationId": "com.qualcomm.ftcrobotcontroller",
+        "processName": "com.qualcomm.ftcrobotcontroller",
+        "tag": "FTC",
+        "timestamp": {
+          "seconds": 1758907427,
+          "nanos": 928000000
+        }
+      },
+      "message": "Phase\u003dconst Target\u003d1000.0 Vel\u003d960.0 V\u003d12.598 A\u003d269.0 Error\u003d4.0"
+    },
+    {
+      "header": {
+        "logLevel": "INFO",
+        "pid": 6990,
+        "tid": 7188,
+        "applicationId": "com.qualcomm.ftcrobotcontroller",
+        "processName": "com.qualcomm.ftcrobotcontroller",
+        "tag": "FTC",
+        "timestamp": {
+          "seconds": 1758907427,
+          "nanos": 943000000
+        }
+      },
+      "message": "Phase\u003dconst Target\u003d1000.0 Vel\u003d940.0 V\u003d12.598 A\u003d277.0 Error\u003d4.0"
+    },
+    {
+      "header": {
+        "logLevel": "INFO",
+        "pid": 6990,
+        "tid": 7188,
+        "applicationId": "com.qualcomm.ftcrobotcontroller",
+        "processName": "com.qualcomm.ftcrobotcontroller",
+        "tag": "FTC",
+        "timestamp": {
+          "seconds": 1758907427,
+          "nanos": 956000000
+        }
+      },
+      "message": "Phase\u003dconst Target\u003d1000.0 Vel\u003d960.0 V\u003d12.594 A\u003d277.0 Error\u003d4.0"
+    },
+    {
+      "header": {
+        "logLevel": "INFO",
+        "pid": 6990,
+        "tid": 7188,
+        "applicationId": "com.qualcomm.ftcrobotcontroller",
+        "processName": "com.qualcomm.ftcrobotcontroller",
+        "tag": "FTC",
+        "timestamp": {
+          "seconds": 1758907427,
+          "nanos": 970000000
+        }
+      },
+      "message": "Phase\u003dconst Target\u003d1000.0 Vel\u003d960.0 V\u003d12.594 A\u003d277.0 Error\u003d4.0"
+    },
+    {
+      "header": {
+        "logLevel": "INFO",
+        "pid": 6990,
+        "tid": 7188,
+        "applicationId": "com.qualcomm.ftcrobotcontroller",
+        "processName": "com.qualcomm.ftcrobotcontroller",
+        "tag": "FTC",
+        "timestamp": {
+          "seconds": 1758907427,
+          "nanos": 985000000
+        }
+      },
+      "message": "Phase\u003dconst Target\u003d1000.0 Vel\u003d960.0 V\u003d12.598 A\u003d277.0 Error\u003d4.0"
+    },
+    {
+      "header": {
+        "logLevel": "INFO",
+        "pid": 6990,
+        "tid": 7188,
+        "applicationId": "com.qualcomm.ftcrobotcontroller",
+        "processName": "com.qualcomm.ftcrobotcontroller",
+        "tag": "FTC",
+        "timestamp": {
+          "seconds": 1758907427,
+          "nanos": 998000000
+        }
+      },
+      "message": "Phase\u003dconst Target\u003d1000.0 Vel\u003d960.0 V\u003d12.598 A\u003d277.0 Error\u003d4.0"
+    },
+    {
+      "header": {
+        "logLevel": "INFO",
+        "pid": 6990,
+        "tid": 7188,
+        "applicationId": "com.qualcomm.ftcrobotcontroller",
+        "processName": "com.qualcomm.ftcrobotcontroller",
+        "tag": "FTC",
+        "timestamp": {
+          "seconds": 1758907428,
+          "nanos": 12000000
+        }
+      },
+      "message": "Phase\u003dconst Target\u003d1000.0 Vel\u003d940.0 V\u003d12.598 A\u003d273.0 Error\u003d4.0"
+    },
+    {
+      "header": {
+        "logLevel": "INFO",
+        "pid": 6990,
+        "tid": 7188,
+        "applicationId": "com.qualcomm.ftcrobotcontroller",
+        "processName": "com.qualcomm.ftcrobotcontroller",
+        "tag": "FTC",
+        "timestamp": {
+          "seconds": 1758907428,
+          "nanos": 26000000
+        }
+      },
+      "message": "Phase\u003dconst Target\u003d1000.0 Vel\u003d940.0 V\u003d12.598 A\u003d273.0 Error\u003d6.0"
+    },
+    {
+      "header": {
+        "logLevel": "INFO",
+        "pid": 6990,
+        "tid": 7188,
+        "applicationId": "com.qualcomm.ftcrobotcontroller",
+        "processName": "com.qualcomm.ftcrobotcontroller",
+        "tag": "FTC",
+        "timestamp": {
+          "seconds": 1758907428,
+          "nanos": 41000000
+        }
+      },
+      "message": "Phase\u003dconst Target\u003d1000.0 Vel\u003d960.0 V\u003d12.594 A\u003d306.0 Error\u003d6.0"
+    },
+    {
+      "header": {
+        "logLevel": "INFO",
+        "pid": 6990,
+        "tid": 7188,
+        "applicationId": "com.qualcomm.ftcrobotcontroller",
+        "processName": "com.qualcomm.ftcrobotcontroller",
+        "tag": "FTC",
+        "timestamp": {
+          "seconds": 1758907428,
+          "nanos": 56000000
+        }
+      },
+      "message": "Phase\u003dconst Target\u003d1000.0 Vel\u003d960.0 V\u003d12.589 A\u003d317.0 Error\u003d4.0"
+    },
+    {
+      "header": {
+        "logLevel": "INFO",
+        "pid": 6990,
+        "tid": 7188,
+        "applicationId": "com.qualcomm.ftcrobotcontroller",
+        "processName": "com.qualcomm.ftcrobotcontroller",
+        "tag": "FTC",
+        "timestamp": {
+          "seconds": 1758907428,
+          "nanos": 71000000
+        }
+      },
+      "message": "Phase\u003dconst Target\u003d1000.0 Vel\u003d1000.0 V\u003d12.598 A\u003d306.0 Error\u003d2.0"
+    },
+    {
+      "header": {
+        "logLevel": "INFO",
+        "pid": 6990,
+        "tid": 7188,
+        "applicationId": "com.qualcomm.ftcrobotcontroller",
+        "processName": "com.qualcomm.ftcrobotcontroller",
+        "tag": "FTC",
+        "timestamp": {
+          "seconds": 1758907428,
+          "nanos": 83000000
+        }
+      },
+      "message": "Phase\u003dconst Target\u003d1000.0 Vel\u003d980.0 V\u003d12.594 A\u003d298.0 Error\u003d0.0"
+    },
+    {
+      "header": {
+        "logLevel": "INFO",
+        "pid": 6990,
+        "tid": 7188,
+        "applicationId": "com.qualcomm.ftcrobotcontroller",
+        "processName": "com.qualcomm.ftcrobotcontroller",
+        "tag": "FTC",
+        "timestamp": {
+          "seconds": 1758907428,
+          "nanos": 99000000
+        }
+      },
+      "message": "Phase\u003dconst Target\u003d1000.0 Vel\u003d980.0 V\u003d12.598 A\u003d262.0 Error\u003d2.0"
+    },
+    {
+      "header": {
+        "logLevel": "INFO",
+        "pid": 6990,
+        "tid": 7188,
+        "applicationId": "com.qualcomm.ftcrobotcontroller",
+        "processName": "com.qualcomm.ftcrobotcontroller",
+        "tag": "FTC",
+        "timestamp": {
+          "seconds": 1758907428,
+          "nanos": 112000000
+        }
+      },
+      "message": "Phase\u003dconst Target\u003d1000.0 Vel\u003d980.0 V\u003d12.603 A\u003d255.0 Error\u003d2.0"
+    },
+    {
+      "header": {
+        "logLevel": "INFO",
+        "pid": 6990,
+        "tid": 7188,
+        "applicationId": "com.qualcomm.ftcrobotcontroller",
+        "processName": "com.qualcomm.ftcrobotcontroller",
+        "tag": "FTC",
+        "timestamp": {
+          "seconds": 1758907428,
+          "nanos": 125000000
+        }
+      },
+      "message": "Phase\u003dconst Target\u003d1000.0 Vel\u003d980.0 V\u003d12.598 A\u003d258.0 Error\u003d2.0"
+    },
+    {
+      "header": {
+        "logLevel": "INFO",
+        "pid": 6990,
+        "tid": 7188,
+        "applicationId": "com.qualcomm.ftcrobotcontroller",
+        "processName": "com.qualcomm.ftcrobotcontroller",
+        "tag": "FTC",
+        "timestamp": {
+          "seconds": 1758907428,
+          "nanos": 138000000
+        }
+      },
+      "message": "Phase\u003dconst Target\u003d1000.0 Vel\u003d1000.0 V\u003d12.603 A\u003d240.0 Error\u003d0.0"
+    },
+    {
+      "header": {
+        "logLevel": "INFO",
+        "pid": 6990,
+        "tid": 7188,
+        "applicationId": "com.qualcomm.ftcrobotcontroller",
+        "processName": "com.qualcomm.ftcrobotcontroller",
+        "tag": "FTC",
+        "timestamp": {
+          "seconds": 1758907428,
+          "nanos": 153000000
+        }
+      },
+      "message": "Phase\u003dconst Target\u003d1000.0 Vel\u003d980.0 V\u003d12.603 A\u003d233.0 Error\u003d2.0"
+    },
+    {
+      "header": {
+        "logLevel": "INFO",
+        "pid": 6990,
+        "tid": 7188,
+        "applicationId": "com.qualcomm.ftcrobotcontroller",
+        "processName": "com.qualcomm.ftcrobotcontroller",
+        "tag": "FTC",
+        "timestamp": {
+          "seconds": 1758907428,
+          "nanos": 167000000
+        }
+      },
+      "message": "Phase\u003dconst Target\u003d1000.0 Vel\u003d960.0 V\u003d12.603 A\u003d233.0 Error\u003d4.0"
+    },
+    {
+      "header": {
+        "logLevel": "INFO",
+        "pid": 6990,
+        "tid": 7188,
+        "applicationId": "com.qualcomm.ftcrobotcontroller",
+        "processName": "com.qualcomm.ftcrobotcontroller",
+        "tag": "FTC",
+        "timestamp": {
+          "seconds": 1758907428,
+          "nanos": 180000000
+        }
+      },
+      "message": "Phase\u003dconst Target\u003d1000.0 Vel\u003d940.0 V\u003d12.598 A\u003d240.0 Error\u003d4.0"
+    },
+    {
+      "header": {
+        "logLevel": "INFO",
+        "pid": 6990,
+        "tid": 7188,
+        "applicationId": "com.qualcomm.ftcrobotcontroller",
+        "processName": "com.qualcomm.ftcrobotcontroller",
+        "tag": "FTC",
+        "timestamp": {
+          "seconds": 1758907428,
+          "nanos": 192000000
+        }
+      },
+      "message": "Phase\u003dconst Target\u003d1000.0 Vel\u003d960.0 V\u003d12.589 A\u003d313.0 Error\u003d6.0"
+    },
+    {
+      "header": {
+        "logLevel": "INFO",
+        "pid": 6990,
+        "tid": 7188,
+        "applicationId": "com.qualcomm.ftcrobotcontroller",
+        "processName": "com.qualcomm.ftcrobotcontroller",
+        "tag": "FTC",
+        "timestamp": {
+          "seconds": 1758907428,
+          "nanos": 203000000
+        }
+      },
+      "message": "Phase\u003dconst Target\u003d1000.0 Vel\u003d940.0 V\u003d12.594 A\u003d320.0 Error\u003d4.0"
+    },
+    {
+      "header": {
+        "logLevel": "INFO",
+        "pid": 6990,
+        "tid": 7188,
+        "applicationId": "com.qualcomm.ftcrobotcontroller",
+        "processName": "com.qualcomm.ftcrobotcontroller",
+        "tag": "FTC",
+        "timestamp": {
+          "seconds": 1758907428,
+          "nanos": 215000000
+        }
+      },
+      "message": "Phase\u003dconst Target\u003d1000.0 Vel\u003d960.0 V\u003d12.589 A\u003d324.0 Error\u003d4.0"
+    },
+    {
+      "header": {
+        "logLevel": "INFO",
+        "pid": 6990,
+        "tid": 7188,
+        "applicationId": "com.qualcomm.ftcrobotcontroller",
+        "processName": "com.qualcomm.ftcrobotcontroller",
+        "tag": "FTC",
+        "timestamp": {
+          "seconds": 1758907428,
+          "nanos": 227000000
+        }
+      },
+      "message": "Phase\u003dconst Target\u003d1000.0 Vel\u003d960.0 V\u003d12.594 A\u003d309.0 Error\u003d4.0"
+    },
+    {
+      "header": {
+        "logLevel": "INFO",
+        "pid": 6990,
+        "tid": 7188,
+        "applicationId": "com.qualcomm.ftcrobotcontroller",
+        "processName": "com.qualcomm.ftcrobotcontroller",
+        "tag": "FTC",
+        "timestamp": {
+          "seconds": 1758907428,
+          "nanos": 238000000
+        }
+      },
+      "message": "Phase\u003dconst Target\u003d1000.0 Vel\u003d980.0 V\u003d12.598 A\u003d269.0 Error\u003d2.0"
+    },
+    {
+      "header": {
+        "logLevel": "INFO",
+        "pid": 6990,
+        "tid": 7188,
+        "applicationId": "com.qualcomm.ftcrobotcontroller",
+        "processName": "com.qualcomm.ftcrobotcontroller",
+        "tag": "FTC",
+        "timestamp": {
+          "seconds": 1758907428,
+          "nanos": 250000000
+        }
+      },
+      "message": "Phase\u003dconst Target\u003d1000.0 Vel\u003d980.0 V\u003d12.598 A\u003d262.0 Error\u003d4.0"
+    },
+    {
+      "header": {
+        "logLevel": "INFO",
+        "pid": 6990,
+        "tid": 7188,
+        "applicationId": "com.qualcomm.ftcrobotcontroller",
+        "processName": "com.qualcomm.ftcrobotcontroller",
+        "tag": "FTC",
+        "timestamp": {
+          "seconds": 1758907428,
+          "nanos": 262000000
+        }
+      },
+      "message": "Phase\u003dconst Target\u003d1000.0 Vel\u003d980.0 V\u003d12.594 A\u003d258.0 Error\u003d2.0"
+    },
+    {
+      "header": {
+        "logLevel": "INFO",
+        "pid": 6990,
+        "tid": 7188,
+        "applicationId": "com.qualcomm.ftcrobotcontroller",
+        "processName": "com.qualcomm.ftcrobotcontroller",
+        "tag": "FTC",
+        "timestamp": {
+          "seconds": 1758907428,
+          "nanos": 274000000
+        }
+      },
+      "message": "Phase\u003dconst Target\u003d1000.0 Vel\u003d980.0 V\u003d12.598 A\u003d258.0 Error\u003d2.0"
+    },
+    {
+      "header": {
+        "logLevel": "INFO",
+        "pid": 6990,
+        "tid": 7188,
+        "applicationId": "com.qualcomm.ftcrobotcontroller",
+        "processName": "com.qualcomm.ftcrobotcontroller",
+        "tag": "FTC",
+        "timestamp": {
+          "seconds": 1758907428,
+          "nanos": 286000000
+        }
+      },
+      "message": "Phase\u003dconst Target\u003d1000.0 Vel\u003d960.0 V\u003d12.598 A\u003d258.0 Error\u003d4.0"
+    },
+    {
+      "header": {
+        "logLevel": "INFO",
+        "pid": 6990,
+        "tid": 7188,
+        "applicationId": "com.qualcomm.ftcrobotcontroller",
+        "processName": "com.qualcomm.ftcrobotcontroller",
+        "tag": "FTC",
+        "timestamp": {
+          "seconds": 1758907428,
+          "nanos": 297000000
+        }
+      },
+      "message": "Phase\u003dconst Target\u003d1000.0 Vel\u003d980.0 V\u003d12.598 A\u003d262.0 Error\u003d2.0"
+    },
+    {
+      "header": {
+        "logLevel": "INFO",
+        "pid": 6990,
+        "tid": 7188,
+        "applicationId": "com.qualcomm.ftcrobotcontroller",
+        "processName": "com.qualcomm.ftcrobotcontroller",
+        "tag": "FTC",
+        "timestamp": {
+          "seconds": 1758907428,
+          "nanos": 308000000
+        }
+      },
+      "message": "Phase\u003dconst Target\u003d1000.0 Vel\u003d960.0 V\u003d12.598 A\u003d262.0 Error\u003d2.0"
+    },
+    {
+      "header": {
+        "logLevel": "INFO",
+        "pid": 6990,
+        "tid": 7188,
+        "applicationId": "com.qualcomm.ftcrobotcontroller",
+        "processName": "com.qualcomm.ftcrobotcontroller",
+        "tag": "FTC",
+        "timestamp": {
+          "seconds": 1758907428,
+          "nanos": 320000000
+        }
+      },
+      "message": "Phase\u003dconst Target\u003d1000.0 Vel\u003d960.0 V\u003d12.594 A\u003d266.0 Error\u003d4.0"
+    },
+    {
+      "header": {
+        "logLevel": "INFO",
+        "pid": 6990,
+        "tid": 7188,
+        "applicationId": "com.qualcomm.ftcrobotcontroller",
+        "processName": "com.qualcomm.ftcrobotcontroller",
+        "tag": "FTC",
+        "timestamp": {
+          "seconds": 1758907428,
+          "nanos": 331000000
+        }
+      },
+      "message": "Phase\u003dconst Target\u003d1000.0 Vel\u003d980.0 V\u003d12.594 A\u003d262.0 Error\u003d4.0"
+    },
+    {
+      "header": {
+        "logLevel": "INFO",
+        "pid": 6990,
+        "tid": 7188,
+        "applicationId": "com.qualcomm.ftcrobotcontroller",
+        "processName": "com.qualcomm.ftcrobotcontroller",
+        "tag": "FTC",
+        "timestamp": {
+          "seconds": 1758907428,
+          "nanos": 343000000
+        }
+      },
+      "message": "Phase\u003dconst Target\u003d1000.0 Vel\u003d960.0 V\u003d12.594 A\u003d266.0 Error\u003d2.0"
+    },
+    {
+      "header": {
+        "logLevel": "INFO",
+        "pid": 6990,
+        "tid": 7188,
+        "applicationId": "com.qualcomm.ftcrobotcontroller",
+        "processName": "com.qualcomm.ftcrobotcontroller",
+        "tag": "FTC",
+        "timestamp": {
+          "seconds": 1758907428,
+          "nanos": 354000000
+        }
+      },
+      "message": "Phase\u003dconst Target\u003d1000.0 Vel\u003d960.0 V\u003d12.598 A\u003d266.0 Error\u003d4.0"
+    },
+    {
+      "header": {
+        "logLevel": "INFO",
+        "pid": 6990,
+        "tid": 7188,
+        "applicationId": "com.qualcomm.ftcrobotcontroller",
+        "processName": "com.qualcomm.ftcrobotcontroller",
+        "tag": "FTC",
+        "timestamp": {
+          "seconds": 1758907428,
+          "nanos": 366000000
+        }
+      },
+      "message": "Phase\u003dconst Target\u003d1000.0 Vel\u003d960.0 V\u003d12.589 A\u003d266.0 Error\u003d4.0"
+    },
+    {
+      "header": {
+        "logLevel": "INFO",
+        "pid": 6990,
+        "tid": 7188,
+        "applicationId": "com.qualcomm.ftcrobotcontroller",
+        "processName": "com.qualcomm.ftcrobotcontroller",
+        "tag": "FTC",
+        "timestamp": {
+          "seconds": 1758907428,
+          "nanos": 378000000
+        }
+      },
+      "message": "Phase\u003dconst Target\u003d1000.0 Vel\u003d960.0 V\u003d12.594 A\u003d269.0 Error\u003d4.0"
+    },
+    {
+      "header": {
+        "logLevel": "INFO",
+        "pid": 6990,
+        "tid": 7188,
+        "applicationId": "com.qualcomm.ftcrobotcontroller",
+        "processName": "com.qualcomm.ftcrobotcontroller",
+        "tag": "FTC",
+        "timestamp": {
+          "seconds": 1758907428,
+          "nanos": 389000000
+        }
+      },
+      "message": "Phase\u003dconst Target\u003d1000.0 Vel\u003d960.0 V\u003d12.589 A\u003d273.0 Error\u003d4.0"
+    },
+    {
+      "header": {
+        "logLevel": "INFO",
+        "pid": 6990,
+        "tid": 7188,
+        "applicationId": "com.qualcomm.ftcrobotcontroller",
+        "processName": "com.qualcomm.ftcrobotcontroller",
+        "tag": "FTC",
+        "timestamp": {
+          "seconds": 1758907428,
+          "nanos": 401000000
+        }
+      },
+      "message": "Phase\u003dconst Target\u003d1000.0 Vel\u003d960.0 V\u003d12.594 A\u003d298.0 Error\u003d4.0"
+    },
+    {
+      "header": {
+        "logLevel": "INFO",
+        "pid": 6990,
+        "tid": 7188,
+        "applicationId": "com.qualcomm.ftcrobotcontroller",
+        "processName": "com.qualcomm.ftcrobotcontroller",
+        "tag": "FTC",
+        "timestamp": {
+          "seconds": 1758907428,
+          "nanos": 413000000
+        }
+      },
+      "message": "Phase\u003dconst Target\u003d1000.0 Vel\u003d980.0 V\u003d12.594 A\u003d317.0 Error\u003d4.0"
+    },
+    {
+      "header": {
+        "logLevel": "INFO",
+        "pid": 6990,
+        "tid": 7188,
+        "applicationId": "com.qualcomm.ftcrobotcontroller",
+        "processName": "com.qualcomm.ftcrobotcontroller",
+        "tag": "FTC",
+        "timestamp": {
+          "seconds": 1758907428,
+          "nanos": 425000000
+        }
+      },
+      "message": "Phase\u003dconst Target\u003d1000.0 Vel\u003d960.0 V\u003d12.594 A\u003d306.0 Error\u003d4.0"
+    },
+    {
+      "header": {
+        "logLevel": "INFO",
+        "pid": 6990,
+        "tid": 7188,
+        "applicationId": "com.qualcomm.ftcrobotcontroller",
+        "processName": "com.qualcomm.ftcrobotcontroller",
+        "tag": "FTC",
+        "timestamp": {
+          "seconds": 1758907428,
+          "nanos": 436000000
+        }
+      },
+      "message": "Phase\u003dconst Target\u003d1000.0 Vel\u003d960.0 V\u003d12.594 A\u003d313.0 Error\u003d4.0"
+    },
+    {
+      "header": {
+        "logLevel": "INFO",
+        "pid": 6990,
+        "tid": 7188,
+        "applicationId": "com.qualcomm.ftcrobotcontroller",
+        "processName": "com.qualcomm.ftcrobotcontroller",
+        "tag": "FTC",
+        "timestamp": {
+          "seconds": 1758907428,
+          "nanos": 448000000
+        }
+      },
+      "message": "Phase\u003dconst Target\u003d1000.0 Vel\u003d980.0 V\u003d12.598 A\u003d273.0 Error\u003d2.0"
+    },
+    {
+      "header": {
+        "logLevel": "INFO",
+        "pid": 6990,
+        "tid": 7188,
+        "applicationId": "com.qualcomm.ftcrobotcontroller",
+        "processName": "com.qualcomm.ftcrobotcontroller",
+        "tag": "FTC",
+        "timestamp": {
+          "seconds": 1758907428,
+          "nanos": 460000000
+        }
+      },
+      "message": "Phase\u003dconst Target\u003d1000.0 Vel\u003d980.0 V\u003d12.598 A\u003d255.0 Error\u003d2.0"
+    },
+    {
+      "header": {
+        "logLevel": "INFO",
+        "pid": 6990,
+        "tid": 7188,
+        "applicationId": "com.qualcomm.ftcrobotcontroller",
+        "processName": "com.qualcomm.ftcrobotcontroller",
+        "tag": "FTC",
+        "timestamp": {
+          "seconds": 1758907428,
+          "nanos": 471000000
+        }
+      },
+      "message": "Phase\u003dconst Target\u003d1000.0 Vel\u003d1000.0 V\u003d12.598 A\u003d255.0 Error\u003d2.0"
+    },
+    {
+      "header": {
+        "logLevel": "INFO",
+        "pid": 6990,
+        "tid": 7188,
+        "applicationId": "com.qualcomm.ftcrobotcontroller",
+        "processName": "com.qualcomm.ftcrobotcontroller",
+        "tag": "FTC",
+        "timestamp": {
+          "seconds": 1758907428,
+          "nanos": 482000000
+        }
+      },
+      "message": "Phase\u003dconst Target\u003d1000.0 Vel\u003d1000.0 V\u003d12.594 A\u003d247.0 Error\u003d0.0"
+    },
+    {
+      "header": {
+        "logLevel": "INFO",
+        "pid": 6990,
+        "tid": 7188,
+        "applicationId": "com.qualcomm.ftcrobotcontroller",
+        "processName": "com.qualcomm.ftcrobotcontroller",
+        "tag": "FTC",
+        "timestamp": {
+          "seconds": 1758907428,
+          "nanos": 494000000
+        }
+      },
+      "message": "Phase\u003dconst Target\u003d1000.0 Vel\u003d980.0 V\u003d12.598 A\u003d258.0 Error\u003d2.0"
+    },
+    {
+      "header": {
+        "logLevel": "INFO",
+        "pid": 6990,
+        "tid": 7188,
+        "applicationId": "com.qualcomm.ftcrobotcontroller",
+        "processName": "com.qualcomm.ftcrobotcontroller",
+        "tag": "FTC",
+        "timestamp": {
+          "seconds": 1758907428,
+          "nanos": 505000000
+        }
+      },
+      "message": "Phase\u003dconst Target\u003d1000.0 Vel\u003d980.0 V\u003d12.594 A\u003d255.0 Error\u003d2.0"
+    },
+    {
+      "header": {
+        "logLevel": "INFO",
+        "pid": 6990,
+        "tid": 7188,
+        "applicationId": "com.qualcomm.ftcrobotcontroller",
+        "processName": "com.qualcomm.ftcrobotcontroller",
+        "tag": "FTC",
+        "timestamp": {
+          "seconds": 1758907428,
+          "nanos": 516000000
+        }
+      },
+      "message": "Phase\u003dconst Target\u003d1000.0 Vel\u003d980.0 V\u003d12.598 A\u003d258.0 Error\u003d2.0"
+    },
+    {
+      "header": {
+        "logLevel": "INFO",
+        "pid": 6990,
+        "tid": 7188,
+        "applicationId": "com.qualcomm.ftcrobotcontroller",
+        "processName": "com.qualcomm.ftcrobotcontroller",
+        "tag": "FTC",
+        "timestamp": {
+          "seconds": 1758907428,
+          "nanos": 528000000
+        }
+      },
+      "message": "Phase\u003dconst Target\u003d1000.0 Vel\u003d960.0 V\u003d12.598 A\u003d266.0 Error\u003d4.0"
+    },
+    {
+      "header": {
+        "logLevel": "INFO",
+        "pid": 6990,
+        "tid": 7188,
+        "applicationId": "com.qualcomm.ftcrobotcontroller",
+        "processName": "com.qualcomm.ftcrobotcontroller",
+        "tag": "FTC",
+        "timestamp": {
+          "seconds": 1758907428,
+          "nanos": 542000000
+        }
+      },
+      "message": "Phase\u003dconst Target\u003d1000.0 Vel\u003d980.0 V\u003d12.594 A\u003d266.0 Error\u003d4.0"
+    },
+    {
+      "header": {
+        "logLevel": "INFO",
+        "pid": 6990,
+        "tid": 7188,
+        "applicationId": "com.qualcomm.ftcrobotcontroller",
+        "processName": "com.qualcomm.ftcrobotcontroller",
+        "tag": "FTC",
+        "timestamp": {
+          "seconds": 1758907428,
+          "nanos": 554000000
+        }
+      },
+      "message": "Phase\u003dconst Target\u003d1000.0 Vel\u003d960.0 V\u003d12.594 A\u003d266.0 Error\u003d4.0"
+    },
+    {
+      "header": {
+        "logLevel": "INFO",
+        "pid": 6990,
+        "tid": 7188,
+        "applicationId": "com.qualcomm.ftcrobotcontroller",
+        "processName": "com.qualcomm.ftcrobotcontroller",
+        "tag": "FTC",
+        "timestamp": {
+          "seconds": 1758907428,
+          "nanos": 567000000
+        }
+      },
+      "message": "Phase\u003dconst Target\u003d1000.0 Vel\u003d960.0 V\u003d12.594 A\u003d266.0 Error\u003d4.0"
+    },
+    {
+      "header": {
+        "logLevel": "INFO",
+        "pid": 6990,
+        "tid": 7188,
+        "applicationId": "com.qualcomm.ftcrobotcontroller",
+        "processName": "com.qualcomm.ftcrobotcontroller",
+        "tag": "FTC",
+        "timestamp": {
+          "seconds": 1758907428,
+          "nanos": 580000000
+        }
+      },
+      "message": "Phase\u003dconst Target\u003d1000.0 Vel\u003d960.0 V\u003d12.594 A\u003d277.0 Error\u003d4.0"
+    },
+    {
+      "header": {
+        "logLevel": "INFO",
+        "pid": 6990,
+        "tid": 7188,
+        "applicationId": "com.qualcomm.ftcrobotcontroller",
+        "processName": "com.qualcomm.ftcrobotcontroller",
+        "tag": "FTC",
+        "timestamp": {
+          "seconds": 1758907428,
+          "nanos": 594000000
+        }
+      },
+      "message": "Phase\u003dconst Target\u003d1000.0 Vel\u003d960.0 V\u003d12.594 A\u003d269.0 Error\u003d4.0"
+    },
+    {
+      "header": {
+        "logLevel": "INFO",
+        "pid": 6990,
+        "tid": 7188,
+        "applicationId": "com.qualcomm.ftcrobotcontroller",
+        "processName": "com.qualcomm.ftcrobotcontroller",
+        "tag": "FTC",
+        "timestamp": {
+          "seconds": 1758907428,
+          "nanos": 608000000
+        }
+      },
+      "message": "Phase\u003dconst Target\u003d1000.0 Vel\u003d960.0 V\u003d12.594 A\u003d302.0 Error\u003d4.0"
+    },
+    {
+      "header": {
+        "logLevel": "INFO",
+        "pid": 6990,
+        "tid": 7188,
+        "applicationId": "com.qualcomm.ftcrobotcontroller",
+        "processName": "com.qualcomm.ftcrobotcontroller",
+        "tag": "FTC",
+        "timestamp": {
+          "seconds": 1758907428,
+          "nanos": 620000000
+        }
+      },
+      "message": "Phase\u003dconst Target\u003d1000.0 Vel\u003d960.0 V\u003d12.594 A\u003d317.0 Error\u003d4.0"
+    },
+    {
+      "header": {
+        "logLevel": "INFO",
+        "pid": 6990,
+        "tid": 7188,
+        "applicationId": "com.qualcomm.ftcrobotcontroller",
+        "processName": "com.qualcomm.ftcrobotcontroller",
+        "tag": "FTC",
+        "timestamp": {
+          "seconds": 1758907428,
+          "nanos": 631000000
+        }
+      },
+      "message": "Phase\u003dconst Target\u003d1000.0 Vel\u003d960.0 V\u003d12.594 A\u003d313.0 Error\u003d4.0"
+    },
+    {
+      "header": {
+        "logLevel": "INFO",
+        "pid": 6990,
+        "tid": 7188,
+        "applicationId": "com.qualcomm.ftcrobotcontroller",
+        "processName": "com.qualcomm.ftcrobotcontroller",
+        "tag": "FTC",
+        "timestamp": {
+          "seconds": 1758907428,
+          "nanos": 643000000
+        }
+      },
+      "message": "Phase\u003dconst Target\u003d1000.0 Vel\u003d960.0 V\u003d12.589 A\u003d306.0 Error\u003d4.0"
+    },
+    {
+      "header": {
+        "logLevel": "INFO",
+        "pid": 6990,
+        "tid": 7188,
+        "applicationId": "com.qualcomm.ftcrobotcontroller",
+        "processName": "com.qualcomm.ftcrobotcontroller",
+        "tag": "FTC",
+        "timestamp": {
+          "seconds": 1758907428,
+          "nanos": 655000000
+        }
+      },
+      "message": "Phase\u003dconst Target\u003d1000.0 Vel\u003d980.0 V\u003d12.598 A\u003d302.0 Error\u003d2.0"
+    },
+    {
+      "header": {
+        "logLevel": "INFO",
+        "pid": 6990,
+        "tid": 7188,
+        "applicationId": "com.qualcomm.ftcrobotcontroller",
+        "processName": "com.qualcomm.ftcrobotcontroller",
+        "tag": "FTC",
+        "timestamp": {
+          "seconds": 1758907428,
+          "nanos": 669000000
+        }
+      },
+      "message": "Phase\u003dconst Target\u003d1000.0 Vel\u003d980.0 V\u003d12.603 A\u003d258.0 Error\u003d2.0"
+    },
+    {
+      "header": {
+        "logLevel": "INFO",
+        "pid": 6990,
+        "tid": 7188,
+        "applicationId": "com.qualcomm.ftcrobotcontroller",
+        "processName": "com.qualcomm.ftcrobotcontroller",
+        "tag": "FTC",
+        "timestamp": {
+          "seconds": 1758907428,
+          "nanos": 681000000
+        }
+      },
+      "message": "Phase\u003dconst Target\u003d1000.0 Vel\u003d1000.0 V\u003d12.598 A\u003d258.0 Error\u003d0.0"
+    },
+    {
+      "header": {
+        "logLevel": "INFO",
+        "pid": 6990,
+        "tid": 7188,
+        "applicationId": "com.qualcomm.ftcrobotcontroller",
+        "processName": "com.qualcomm.ftcrobotcontroller",
+        "tag": "FTC",
+        "timestamp": {
+          "seconds": 1758907428,
+          "nanos": 694000000
+        }
+      },
+      "message": "Phase\u003dconst Target\u003d1000.0 Vel\u003d980.0 V\u003d12.598 A\u003d251.0 Error\u003d0.0"
+    },
+    {
+      "header": {
+        "logLevel": "INFO",
+        "pid": 6990,
+        "tid": 7188,
+        "applicationId": "com.qualcomm.ftcrobotcontroller",
+        "processName": "com.qualcomm.ftcrobotcontroller",
+        "tag": "FTC",
+        "timestamp": {
+          "seconds": 1758907428,
+          "nanos": 706000000
+        }
+      },
+      "message": "Phase\u003dconst Target\u003d1000.0 Vel\u003d980.0 V\u003d12.598 A\u003d255.0 Error\u003d2.0"
+    },
+    {
+      "header": {
+        "logLevel": "INFO",
+        "pid": 6990,
+        "tid": 7188,
+        "applicationId": "com.qualcomm.ftcrobotcontroller",
+        "processName": "com.qualcomm.ftcrobotcontroller",
+        "tag": "FTC",
+        "timestamp": {
+          "seconds": 1758907428,
+          "nanos": 719000000
+        }
+      },
+      "message": "Phase\u003dconst Target\u003d1000.0 Vel\u003d980.0 V\u003d12.598 A\u003d258.0 Error\u003d2.0"
+    },
+    {
+      "header": {
+        "logLevel": "INFO",
+        "pid": 6990,
+        "tid": 7188,
+        "applicationId": "com.qualcomm.ftcrobotcontroller",
+        "processName": "com.qualcomm.ftcrobotcontroller",
+        "tag": "FTC",
+        "timestamp": {
+          "seconds": 1758907428,
+          "nanos": 731000000
+        }
+      },
+      "message": "Phase\u003dconst Target\u003d1000.0 Vel\u003d960.0 V\u003d12.598 A\u003d258.0 Error\u003d2.0"
+    },
+    {
+      "header": {
+        "logLevel": "INFO",
+        "pid": 6990,
+        "tid": 7188,
+        "applicationId": "com.qualcomm.ftcrobotcontroller",
+        "processName": "com.qualcomm.ftcrobotcontroller",
+        "tag": "FTC",
+        "timestamp": {
+          "seconds": 1758907428,
+          "nanos": 744000000
+        }
+      },
+      "message": "Phase\u003dconst Target\u003d1000.0 Vel\u003d980.0 V\u003d12.598 A\u003d262.0 Error\u003d4.0"
+    },
+    {
+      "header": {
+        "logLevel": "INFO",
+        "pid": 6990,
+        "tid": 7188,
+        "applicationId": "com.qualcomm.ftcrobotcontroller",
+        "processName": "com.qualcomm.ftcrobotcontroller",
+        "tag": "FTC",
+        "timestamp": {
+          "seconds": 1758907428,
+          "nanos": 757000000
+        }
+      },
+      "message": "Phase\u003dconst Target\u003d1000.0 Vel\u003d960.0 V\u003d12.594 A\u003d298.0 Error\u003d4.0"
+    },
+    {
+      "header": {
+        "logLevel": "INFO",
+        "pid": 6990,
+        "tid": 7188,
+        "applicationId": "com.qualcomm.ftcrobotcontroller",
+        "processName": "com.qualcomm.ftcrobotcontroller",
+        "tag": "FTC",
+        "timestamp": {
+          "seconds": 1758907428,
+          "nanos": 769000000
+        }
+      },
+      "message": "Phase\u003dconst Target\u003d1000.0 Vel\u003d960.0 V\u003d12.589 A\u003d313.0 Error\u003d4.0"
+    },
+    {
+      "header": {
+        "logLevel": "INFO",
+        "pid": 6990,
+        "tid": 7188,
+        "applicationId": "com.qualcomm.ftcrobotcontroller",
+        "processName": "com.qualcomm.ftcrobotcontroller",
+        "tag": "FTC",
+        "timestamp": {
+          "seconds": 1758907428,
+          "nanos": 783000000
+        }
+      },
+      "message": "Phase\u003dconst Target\u003d1000.0 Vel\u003d980.0 V\u003d12.594 A\u003d306.0 Error\u003d4.0"
+    },
+    {
+      "header": {
+        "logLevel": "INFO",
+        "pid": 6990,
+        "tid": 7188,
+        "applicationId": "com.qualcomm.ftcrobotcontroller",
+        "processName": "com.qualcomm.ftcrobotcontroller",
+        "tag": "FTC",
+        "timestamp": {
+          "seconds": 1758907428,
+          "nanos": 795000000
+        }
+      },
+      "message": "Phase\u003dconst Target\u003d1000.0 Vel\u003d960.0 V\u003d12.594 A\u003d302.0 Error\u003d4.0"
+    },
+    {
+      "header": {
+        "logLevel": "INFO",
+        "pid": 6990,
+        "tid": 7188,
+        "applicationId": "com.qualcomm.ftcrobotcontroller",
+        "processName": "com.qualcomm.ftcrobotcontroller",
+        "tag": "FTC",
+        "timestamp": {
+          "seconds": 1758907428,
+          "nanos": 808000000
+        }
+      },
+      "message": "Phase\u003dconst Target\u003d1000.0 Vel\u003d1000.0 V\u003d12.603 A\u003d266.0 Error\u003d0.0"
+    },
+    {
+      "header": {
+        "logLevel": "INFO",
+        "pid": 6990,
+        "tid": 7188,
+        "applicationId": "com.qualcomm.ftcrobotcontroller",
+        "processName": "com.qualcomm.ftcrobotcontroller",
+        "tag": "FTC",
+        "timestamp": {
+          "seconds": 1758907428,
+          "nanos": 821000000
+        }
+      },
+      "message": "Phase\u003dconst Target\u003d1000.0 Vel\u003d980.0 V\u003d12.598 A\u003d262.0 Error\u003d2.0"
+    },
+    {
+      "header": {
+        "logLevel": "INFO",
+        "pid": 6990,
+        "tid": 6995,
+        "applicationId": "com.qualcomm.ftcrobotcontroller",
+        "processName": "com.qualcomm.ftcrobotcontroller",
+        "tag": "art",
+        "timestamp": {
+          "seconds": 1758907428,
+          "nanos": 829000000
+        }
+      },
+      "message": "Do partial code cache collection, code\u003d124KB, data\u003d105KB"
+    },
+    {
+      "header": {
+        "logLevel": "INFO",
+        "pid": 6990,
+        "tid": 6995,
+        "applicationId": "com.qualcomm.ftcrobotcontroller",
+        "processName": "com.qualcomm.ftcrobotcontroller",
+        "tag": "art",
+        "timestamp": {
+          "seconds": 1758907428,
+          "nanos": 830000000
+        }
+      },
+      "message": "After code cache collection, code\u003d124KB, data\u003d105KB"
+    },
+    {
+      "header": {
+        "logLevel": "INFO",
+        "pid": 6990,
+        "tid": 6995,
+        "applicationId": "com.qualcomm.ftcrobotcontroller",
+        "processName": "com.qualcomm.ftcrobotcontroller",
+        "tag": "art",
+        "timestamp": {
+          "seconds": 1758907428,
+          "nanos": 830000000
+        }
+      },
+      "message": "Increasing code cache capacity to 512KB"
+    },
+    {
+      "header": {
+        "logLevel": "INFO",
+        "pid": 6990,
+        "tid": 7188,
+        "applicationId": "com.qualcomm.ftcrobotcontroller",
+        "processName": "com.qualcomm.ftcrobotcontroller",
+        "tag": "FTC",
+        "timestamp": {
+          "seconds": 1758907428,
+          "nanos": 835000000
+        }
+      },
+      "message": "Phase\u003dconst Target\u003d1000.0 Vel\u003d980.0 V\u003d12.598 A\u003d255.0 Error\u003d2.0"
+    },
+    {
+      "header": {
+        "logLevel": "INFO",
+        "pid": 6990,
+        "tid": 7188,
+        "applicationId": "com.qualcomm.ftcrobotcontroller",
+        "processName": "com.qualcomm.ftcrobotcontroller",
+        "tag": "FTC",
+        "timestamp": {
+          "seconds": 1758907428,
+          "nanos": 848000000
+        }
+      },
+      "message": "Phase\u003dconst Target\u003d1000.0 Vel\u003d1000.0 V\u003d12.603 A\u003d258.0 Error\u003d0.0"
+    },
+    {
+      "header": {
+        "logLevel": "INFO",
+        "pid": 6990,
+        "tid": 7188,
+        "applicationId": "com.qualcomm.ftcrobotcontroller",
+        "processName": "com.qualcomm.ftcrobotcontroller",
+        "tag": "FTC",
+        "timestamp": {
+          "seconds": 1758907428,
+          "nanos": 860000000
+        }
+      },
+      "message": "Phase\u003dconst Target\u003d1000.0 Vel\u003d980.0 V\u003d12.594 A\u003d258.0 Error\u003d2.0"
+    },
+    {
+      "header": {
+        "logLevel": "INFO",
+        "pid": 6990,
+        "tid": 7188,
+        "applicationId": "com.qualcomm.ftcrobotcontroller",
+        "processName": "com.qualcomm.ftcrobotcontroller",
+        "tag": "FTC",
+        "timestamp": {
+          "seconds": 1758907428,
+          "nanos": 872000000
+        }
+      },
+      "message": "Phase\u003dconst Target\u003d1000.0 Vel\u003d980.0 V\u003d12.598 A\u003d258.0 Error\u003d2.0"
+    },
+    {
+      "header": {
+        "logLevel": "INFO",
+        "pid": 6990,
+        "tid": 7188,
+        "applicationId": "com.qualcomm.ftcrobotcontroller",
+        "processName": "com.qualcomm.ftcrobotcontroller",
+        "tag": "FTC",
+        "timestamp": {
+          "seconds": 1758907428,
+          "nanos": 883000000
+        }
+      },
+      "message": "Phase\u003dconst Target\u003d1000.0 Vel\u003d980.0 V\u003d12.598 A\u003d262.0 Error\u003d2.0"
+    },
+    {
+      "header": {
+        "logLevel": "INFO",
+        "pid": 6990,
+        "tid": 7188,
+        "applicationId": "com.qualcomm.ftcrobotcontroller",
+        "processName": "com.qualcomm.ftcrobotcontroller",
+        "tag": "FTC",
+        "timestamp": {
+          "seconds": 1758907428,
+          "nanos": 895000000
+        }
+      },
+      "message": "Phase\u003dconst Target\u003d1000.0 Vel\u003d960.0 V\u003d12.594 A\u003d266.0 Error\u003d4.0"
+    },
+    {
+      "header": {
+        "logLevel": "INFO",
+        "pid": 6990,
+        "tid": 7188,
+        "applicationId": "com.qualcomm.ftcrobotcontroller",
+        "processName": "com.qualcomm.ftcrobotcontroller",
+        "tag": "FTC",
+        "timestamp": {
+          "seconds": 1758907428,
+          "nanos": 906000000
+        }
+      },
+      "message": "Phase\u003dconst Target\u003d1000.0 Vel\u003d960.0 V\u003d12.598 A\u003d280.0 Error\u003d4.0"
+    },
+    {
+      "header": {
+        "logLevel": "INFO",
+        "pid": 6990,
+        "tid": 7188,
+        "applicationId": "com.qualcomm.ftcrobotcontroller",
+        "processName": "com.qualcomm.ftcrobotcontroller",
+        "tag": "FTC",
+        "timestamp": {
+          "seconds": 1758907428,
+          "nanos": 918000000
+        }
+      },
+      "message": "Phase\u003dconst Target\u003d1000.0 Vel\u003d960.0 V\u003d12.594 A\u003d298.0 Error\u003d4.0"
+    },
+    {
+      "header": {
+        "logLevel": "INFO",
+        "pid": 6990,
+        "tid": 7188,
+        "applicationId": "com.qualcomm.ftcrobotcontroller",
+        "processName": "com.qualcomm.ftcrobotcontroller",
+        "tag": "FTC",
+        "timestamp": {
+          "seconds": 1758907428,
+          "nanos": 930000000
+        }
+      },
+      "message": "Phase\u003dconst Target\u003d1000.0 Vel\u003d960.0 V\u003d12.589 A\u003d309.0 Error\u003d4.0"
+    },
+    {
+      "header": {
+        "logLevel": "INFO",
+        "pid": 6990,
+        "tid": 7188,
+        "applicationId": "com.qualcomm.ftcrobotcontroller",
+        "processName": "com.qualcomm.ftcrobotcontroller",
+        "tag": "FTC",
+        "timestamp": {
+          "seconds": 1758907428,
+          "nanos": 942000000
+        }
+      },
+      "message": "Phase\u003dconst Target\u003d1000.0 Vel\u003d980.0 V\u003d12.598 A\u003d309.0 Error\u003d4.0"
+    },
+    {
+      "header": {
+        "logLevel": "INFO",
+        "pid": 6990,
+        "tid": 7188,
+        "applicationId": "com.qualcomm.ftcrobotcontroller",
+        "processName": "com.qualcomm.ftcrobotcontroller",
+        "tag": "FTC",
+        "timestamp": {
+          "seconds": 1758907428,
+          "nanos": 954000000
+        }
+      },
+      "message": "Phase\u003dconst Target\u003d1000.0 Vel\u003d980.0 V\u003d12.594 A\u003d306.0 Error\u003d2.0"
+    },
+    {
+      "header": {
+        "logLevel": "INFO",
+        "pid": 6990,
+        "tid": 7188,
+        "applicationId": "com.qualcomm.ftcrobotcontroller",
+        "processName": "com.qualcomm.ftcrobotcontroller",
+        "tag": "FTC",
+        "timestamp": {
+          "seconds": 1758907428,
+          "nanos": 966000000
+        }
+      },
+      "message": "Phase\u003dconst Target\u003d1000.0 Vel\u003d1000.0 V\u003d12.594 A\u003d298.0 Error\u003d0.0"
+    },
+    {
+      "header": {
+        "logLevel": "INFO",
+        "pid": 6990,
+        "tid": 7188,
+        "applicationId": "com.qualcomm.ftcrobotcontroller",
+        "processName": "com.qualcomm.ftcrobotcontroller",
+        "tag": "FTC",
+        "timestamp": {
+          "seconds": 1758907428,
+          "nanos": 978000000
+        }
+      },
+      "message": "Phase\u003dconst Target\u003d1000.0 Vel\u003d980.0 V\u003d12.598 A\u003d258.0 Error\u003d2.0"
+    },
+    {
+      "header": {
+        "logLevel": "INFO",
+        "pid": 6990,
+        "tid": 7188,
+        "applicationId": "com.qualcomm.ftcrobotcontroller",
+        "processName": "com.qualcomm.ftcrobotcontroller",
+        "tag": "FTC",
+        "timestamp": {
+          "seconds": 1758907428,
+          "nanos": 990000000
+        }
+      },
+      "message": "Phase\u003dconst Target\u003d1000.0 Vel\u003d980.0 V\u003d12.594 A\u003d255.0 Error\u003d2.0"
+    },
+    {
+      "header": {
+        "logLevel": "INFO",
+        "pid": 6990,
+        "tid": 7188,
+        "applicationId": "com.qualcomm.ftcrobotcontroller",
+        "processName": "com.qualcomm.ftcrobotcontroller",
+        "tag": "FTC",
+        "timestamp": {
+          "seconds": 1758907429,
+          "nanos": 1000000
+        }
+      },
+      "message": "Phase\u003dconst Target\u003d1000.0 Vel\u003d980.0 V\u003d12.598 A\u003d255.0 Error\u003d2.0"
+    },
+    {
+      "header": {
+        "logLevel": "INFO",
+        "pid": 6990,
+        "tid": 7188,
+        "applicationId": "com.qualcomm.ftcrobotcontroller",
+        "processName": "com.qualcomm.ftcrobotcontroller",
+        "tag": "FTC",
+        "timestamp": {
+          "seconds": 1758907429,
+          "nanos": 13000000
+        }
+      },
+      "message": "Phase\u003dconst Target\u003d1000.0 Vel\u003d980.0 V\u003d12.594 A\u003d258.0 Error\u003d2.0"
+    },
+    {
+      "header": {
+        "logLevel": "INFO",
+        "pid": 6990,
+        "tid": 7188,
+        "applicationId": "com.qualcomm.ftcrobotcontroller",
+        "processName": "com.qualcomm.ftcrobotcontroller",
+        "tag": "FTC",
+        "timestamp": {
+          "seconds": 1758907429,
+          "nanos": 25000000
+        }
+      },
+      "message": "Phase\u003dconst Target\u003d1000.0 Vel\u003d980.0 V\u003d12.594 A\u003d258.0 Error\u003d2.0"
+    },
+    {
+      "header": {
+        "logLevel": "INFO",
+        "pid": 6990,
+        "tid": 7188,
+        "applicationId": "com.qualcomm.ftcrobotcontroller",
+        "processName": "com.qualcomm.ftcrobotcontroller",
+        "tag": "FTC",
+        "timestamp": {
+          "seconds": 1758907429,
+          "nanos": 38000000
+        }
+      },
+      "message": "Phase\u003dconst Target\u003d1000.0 Vel\u003d980.0 V\u003d12.598 A\u003d262.0 Error\u003d2.0"
+    },
+    {
+      "header": {
+        "logLevel": "INFO",
+        "pid": 6990,
+        "tid": 7188,
+        "applicationId": "com.qualcomm.ftcrobotcontroller",
+        "processName": "com.qualcomm.ftcrobotcontroller",
+        "tag": "FTC",
+        "timestamp": {
+          "seconds": 1758907429,
+          "nanos": 51000000
+        }
+      },
+      "message": "Phase\u003dconst Target\u003d1000.0 Vel\u003d960.0 V\u003d12.589 A\u003d269.0 Error\u003d2.0"
+    },
+    {
+      "header": {
+        "logLevel": "INFO",
+        "pid": 6990,
+        "tid": 7188,
+        "applicationId": "com.qualcomm.ftcrobotcontroller",
+        "processName": "com.qualcomm.ftcrobotcontroller",
+        "tag": "FTC",
+        "timestamp": {
+          "seconds": 1758907429,
+          "nanos": 64000000
+        }
+      },
+      "message": "Phase\u003dconst Target\u003d1000.0 Vel\u003d960.0 V\u003d12.594 A\u003d269.0 Error\u003d4.0"
+    },
+    {
+      "header": {
+        "logLevel": "INFO",
+        "pid": 6990,
+        "tid": 7188,
+        "applicationId": "com.qualcomm.ftcrobotcontroller",
+        "processName": "com.qualcomm.ftcrobotcontroller",
+        "tag": "FTC",
+        "timestamp": {
+          "seconds": 1758907429,
+          "nanos": 76000000
+        }
+      },
+      "message": "Phase\u003dconst Target\u003d1000.0 Vel\u003d980.0 V\u003d12.594 A\u003d302.0 Error\u003d2.0"
+    },
+    {
+      "header": {
+        "logLevel": "INFO",
+        "pid": 6990,
+        "tid": 7188,
+        "applicationId": "com.qualcomm.ftcrobotcontroller",
+        "processName": "com.qualcomm.ftcrobotcontroller",
+        "tag": "FTC",
+        "timestamp": {
+          "seconds": 1758907429,
+          "nanos": 88000000
+        }
+      },
+      "message": "Phase\u003dconst Target\u003d1000.0 Vel\u003d960.0 V\u003d12.594 A\u003d309.0 Error\u003d4.0"
+    },
+    {
+      "header": {
+        "logLevel": "INFO",
+        "pid": 6990,
+        "tid": 7188,
+        "applicationId": "com.qualcomm.ftcrobotcontroller",
+        "processName": "com.qualcomm.ftcrobotcontroller",
+        "tag": "FTC",
+        "timestamp": {
+          "seconds": 1758907429,
+          "nanos": 99000000
+        }
+      },
+      "message": "Phase\u003dconst Target\u003d1000.0 Vel\u003d980.0 V\u003d12.594 A\u003d306.0 Error\u003d4.0"
+    },
+    {
+      "header": {
+        "logLevel": "INFO",
+        "pid": 6990,
+        "tid": 7188,
+        "applicationId": "com.qualcomm.ftcrobotcontroller",
+        "processName": "com.qualcomm.ftcrobotcontroller",
+        "tag": "FTC",
+        "timestamp": {
+          "seconds": 1758907429,
+          "nanos": 114000000
+        }
+      },
+      "message": "Phase\u003dconst Target\u003d1000.0 Vel\u003d980.0 V\u003d12.594 A\u003d298.0 Error\u003d2.0"
+    },
+    {
+      "header": {
+        "logLevel": "INFO",
+        "pid": 6990,
+        "tid": 7188,
+        "applicationId": "com.qualcomm.ftcrobotcontroller",
+        "processName": "com.qualcomm.ftcrobotcontroller",
+        "tag": "FTC",
+        "timestamp": {
+          "seconds": 1758907429,
+          "nanos": 126000000
+        }
+      },
+      "message": "Phase\u003dconst Target\u003d1000.0 Vel\u003d980.0 V\u003d12.594 A\u003d295.0 Error\u003d2.0"
+    },
+    {
+      "header": {
+        "logLevel": "INFO",
+        "pid": 6990,
+        "tid": 7188,
+        "applicationId": "com.qualcomm.ftcrobotcontroller",
+        "processName": "com.qualcomm.ftcrobotcontroller",
+        "tag": "FTC",
+        "timestamp": {
+          "seconds": 1758907429,
+          "nanos": 138000000
+        }
+      },
+      "message": "Phase\u003dconst Target\u003d1000.0 Vel\u003d1000.0 V\u003d12.598 A\u003d287.0 Error\u003d0.0"
+    },
+    {
+      "header": {
+        "logLevel": "INFO",
+        "pid": 6990,
+        "tid": 7188,
+        "applicationId": "com.qualcomm.ftcrobotcontroller",
+        "processName": "com.qualcomm.ftcrobotcontroller",
+        "tag": "FTC",
+        "timestamp": {
+          "seconds": 1758907429,
+          "nanos": 150000000
+        }
+      },
+      "message": "Phase\u003dconst Target\u003d1000.0 Vel\u003d1000.0 V\u003d12.594 A\u003d291.0 Error\u003d0.0"
+    },
+    {
+      "header": {
+        "logLevel": "INFO",
+        "pid": 6990,
+        "tid": 7188,
+        "applicationId": "com.qualcomm.ftcrobotcontroller",
+        "processName": "com.qualcomm.ftcrobotcontroller",
+        "tag": "FTC",
+        "timestamp": {
+          "seconds": 1758907429,
+          "nanos": 162000000
+        }
+      },
+      "message": "Phase\u003dconst Target\u003d1000.0 Vel\u003d1000.0 V\u003d12.598 A\u003d280.0 Error\u003d0.0"
+    },
+    {
+      "header": {
+        "logLevel": "INFO",
+        "pid": 6990,
+        "tid": 7188,
+        "applicationId": "com.qualcomm.ftcrobotcontroller",
+        "processName": "com.qualcomm.ftcrobotcontroller",
+        "tag": "FTC",
+        "timestamp": {
+          "seconds": 1758907429,
+          "nanos": 173000000
+        }
+      },
+      "message": "Phase\u003dconst Target\u003d1000.0 Vel\u003d1000.0 V\u003d12.598 A\u003d262.0 Error\u003d0.0"
+    },
+    {
+      "header": {
+        "logLevel": "INFO",
+        "pid": 6990,
+        "tid": 7188,
+        "applicationId": "com.qualcomm.ftcrobotcontroller",
+        "processName": "com.qualcomm.ftcrobotcontroller",
+        "tag": "FTC",
+        "timestamp": {
+          "seconds": 1758907429,
+          "nanos": 186000000
+        }
+      },
+      "message": "Phase\u003dconst Target\u003d1000.0 Vel\u003d1000.0 V\u003d12.594 A\u003d244.0 Error\u003d0.0"
+    },
+    {
+      "header": {
+        "logLevel": "INFO",
+        "pid": 6990,
+        "tid": 7188,
+        "applicationId": "com.qualcomm.ftcrobotcontroller",
+        "processName": "com.qualcomm.ftcrobotcontroller",
+        "tag": "FTC",
+        "timestamp": {
+          "seconds": 1758907429,
+          "nanos": 198000000
+        }
+      },
+      "message": "Phase\u003dconst Target\u003d1000.0 Vel\u003d1000.0 V\u003d12.598 A\u003d247.0 Error\u003d0.0"
+    },
+    {
+      "header": {
+        "logLevel": "INFO",
+        "pid": 6990,
+        "tid": 7188,
+        "applicationId": "com.qualcomm.ftcrobotcontroller",
+        "processName": "com.qualcomm.ftcrobotcontroller",
+        "tag": "FTC",
+        "timestamp": {
+          "seconds": 1758907429,
+          "nanos": 210000000
+        }
+      },
+      "message": "Phase\u003dconst Target\u003d1000.0 Vel\u003d1000.0 V\u003d12.598 A\u003d251.0 Error\u003d0.0"
+    },
+    {
+      "header": {
+        "logLevel": "INFO",
+        "pid": 6990,
+        "tid": 7188,
+        "applicationId": "com.qualcomm.ftcrobotcontroller",
+        "processName": "com.qualcomm.ftcrobotcontroller",
+        "tag": "FTC",
+        "timestamp": {
+          "seconds": 1758907429,
+          "nanos": 221000000
+        }
+      },
+      "message": "Phase\u003dconst Target\u003d1000.0 Vel\u003d980.0 V\u003d12.598 A\u003d255.0 Error\u003d0.0"
+    },
+    {
+      "header": {
+        "logLevel": "INFO",
+        "pid": 6990,
+        "tid": 7188,
+        "applicationId": "com.qualcomm.ftcrobotcontroller",
+        "processName": "com.qualcomm.ftcrobotcontroller",
+        "tag": "FTC",
+        "timestamp": {
+          "seconds": 1758907429,
+          "nanos": 232000000
+        }
+      },
+      "message": "Phase\u003dconst Target\u003d1000.0 Vel\u003d980.0 V\u003d12.598 A\u003d258.0 Error\u003d2.0"
+    },
+    {
+      "header": {
+        "logLevel": "INFO",
+        "pid": 6990,
+        "tid": 7188,
+        "applicationId": "com.qualcomm.ftcrobotcontroller",
+        "processName": "com.qualcomm.ftcrobotcontroller",
+        "tag": "FTC",
+        "timestamp": {
+          "seconds": 1758907429,
+          "nanos": 245000000
+        }
+      },
+      "message": "Phase\u003dconst Target\u003d1000.0 Vel\u003d980.0 V\u003d12.598 A\u003d255.0 Error\u003d2.0"
+    },
+    {
+      "header": {
+        "logLevel": "INFO",
+        "pid": 6990,
+        "tid": 7188,
+        "applicationId": "com.qualcomm.ftcrobotcontroller",
+        "processName": "com.qualcomm.ftcrobotcontroller",
+        "tag": "FTC",
+        "timestamp": {
+          "seconds": 1758907429,
+          "nanos": 257000000
+        }
+      },
+      "message": "Phase\u003dconst Target\u003d1000.0 Vel\u003d960.0 V\u003d12.594 A\u003d269.0 Error\u003d4.0"
+    },
+    {
+      "header": {
+        "logLevel": "INFO",
+        "pid": 6990,
+        "tid": 7188,
+        "applicationId": "com.qualcomm.ftcrobotcontroller",
+        "processName": "com.qualcomm.ftcrobotcontroller",
+        "tag": "FTC",
+        "timestamp": {
+          "seconds": 1758907429,
+          "nanos": 269000000
+        }
+      },
+      "message": "Phase\u003dconst Target\u003d1000.0 Vel\u003d980.0 V\u003d12.585 A\u003d346.0 Error\u003d4.0"
+    },
+    {
+      "header": {
+        "logLevel": "INFO",
+        "pid": 6990,
+        "tid": 7188,
+        "applicationId": "com.qualcomm.ftcrobotcontroller",
+        "processName": "com.qualcomm.ftcrobotcontroller",
+        "tag": "FTC",
+        "timestamp": {
+          "seconds": 1758907429,
+          "nanos": 282000000
+        }
+      },
+      "message": "Phase\u003dconst Target\u003d1000.0 Vel\u003d980.0 V\u003d12.589 A\u003d357.0 Error\u003d2.0"
+    },
+    {
+      "header": {
+        "logLevel": "INFO",
+        "pid": 6990,
+        "tid": 7188,
+        "applicationId": "com.qualcomm.ftcrobotcontroller",
+        "processName": "com.qualcomm.ftcrobotcontroller",
+        "tag": "FTC",
+        "timestamp": {
+          "seconds": 1758907429,
+          "nanos": 293000000
+        }
+      },
+      "message": "Phase\u003dconst Target\u003d1000.0 Vel\u003d980.0 V\u003d12.589 A\u003d346.0 Error\u003d2.0"
+    },
+    {
+      "header": {
+        "logLevel": "INFO",
+        "pid": 6990,
+        "tid": 7188,
+        "applicationId": "com.qualcomm.ftcrobotcontroller",
+        "processName": "com.qualcomm.ftcrobotcontroller",
+        "tag": "FTC",
+        "timestamp": {
+          "seconds": 1758907429,
+          "nanos": 304000000
+        }
+      },
+      "message": "Phase\u003dconst Target\u003d1000.0 Vel\u003d1000.0 V\u003d12.589 A\u003d342.0 Error\u003d0.0"
+    },
+    {
+      "header": {
+        "logLevel": "INFO",
+        "pid": 6990,
+        "tid": 7188,
+        "applicationId": "com.qualcomm.ftcrobotcontroller",
+        "processName": "com.qualcomm.ftcrobotcontroller",
+        "tag": "FTC",
+        "timestamp": {
+          "seconds": 1758907429,
+          "nanos": 316000000
+        }
+      },
+      "message": "Phase\u003dconst Target\u003d1000.0 Vel\u003d1020.0 V\u003d12.594 A\u003d320.0 Error\u003d-2.0"
+    },
+    {
+      "header": {
+        "logLevel": "INFO",
+        "pid": 6990,
+        "tid": 7188,
+        "applicationId": "com.qualcomm.ftcrobotcontroller",
+        "processName": "com.qualcomm.ftcrobotcontroller",
+        "tag": "FTC",
+        "timestamp": {
+          "seconds": 1758907429,
+          "nanos": 326000000
+        }
+      },
+      "message": "Phase\u003dconst Target\u003d1000.0 Vel\u003d1020.0 V\u003d12.598 A\u003d247.0 Error\u003d-2.0"
+    },
+    {
+      "header": {
+        "logLevel": "INFO",
+        "pid": 6990,
+        "tid": 7188,
+        "applicationId": "com.qualcomm.ftcrobotcontroller",
+        "processName": "com.qualcomm.ftcrobotcontroller",
+        "tag": "FTC",
+        "timestamp": {
+          "seconds": 1758907429,
+          "nanos": 337000000
+        }
+      },
+      "message": "Phase\u003dconst Target\u003d1000.0 Vel\u003d1020.0 V\u003d12.594 A\u003d236.0 Error\u003d-2.0"
+    },
+    {
+      "header": {
+        "logLevel": "INFO",
+        "pid": 6990,
+        "tid": 7188,
+        "applicationId": "com.qualcomm.ftcrobotcontroller",
+        "processName": "com.qualcomm.ftcrobotcontroller",
+        "tag": "FTC",
+        "timestamp": {
+          "seconds": 1758907429,
+          "nanos": 349000000
+        }
+      },
+      "message": "Phase\u003dconst Target\u003d1000.0 Vel\u003d1020.0 V\u003d12.598 A\u003d236.0 Error\u003d-2.0"
+    },
+    {
+      "header": {
+        "logLevel": "INFO",
+        "pid": 6990,
+        "tid": 7188,
+        "applicationId": "com.qualcomm.ftcrobotcontroller",
+        "processName": "com.qualcomm.ftcrobotcontroller",
+        "tag": "FTC",
+        "timestamp": {
+          "seconds": 1758907429,
+          "nanos": 360000000
+        }
+      },
+      "message": "Phase\u003dconst Target\u003d1000.0 Vel\u003d1000.0 V\u003d12.598 A\u003d236.0 Error\u003d-2.0"
+    },
+    {
+      "header": {
+        "logLevel": "INFO",
+        "pid": 6990,
+        "tid": 7188,
+        "applicationId": "com.qualcomm.ftcrobotcontroller",
+        "processName": "com.qualcomm.ftcrobotcontroller",
+        "tag": "FTC",
+        "timestamp": {
+          "seconds": 1758907429,
+          "nanos": 372000000
+        }
+      },
+      "message": "Phase\u003dconst Target\u003d1000.0 Vel\u003d1000.0 V\u003d12.598 A\u003d236.0 Error\u003d0.0"
+    },
+    {
+      "header": {
+        "logLevel": "INFO",
+        "pid": 6990,
+        "tid": 7188,
+        "applicationId": "com.qualcomm.ftcrobotcontroller",
+        "processName": "com.qualcomm.ftcrobotcontroller",
+        "tag": "FTC",
+        "timestamp": {
+          "seconds": 1758907429,
+          "nanos": 383000000
+        }
+      },
+      "message": "Phase\u003dconst Target\u003d1000.0 Vel\u003d1000.0 V\u003d12.598 A\u003d244.0 Error\u003d0.0"
+    },
+    {
+      "header": {
+        "logLevel": "INFO",
+        "pid": 6990,
+        "tid": 7188,
+        "applicationId": "com.qualcomm.ftcrobotcontroller",
+        "processName": "com.qualcomm.ftcrobotcontroller",
+        "tag": "FTC",
+        "timestamp": {
+          "seconds": 1758907429,
+          "nanos": 395000000
+        }
+      },
+      "message": "Phase\u003dconst Target\u003d1000.0 Vel\u003d1000.0 V\u003d12.594 A\u003d247.0 Error\u003d0.0"
+    },
+    {
+      "header": {
+        "logLevel": "INFO",
+        "pid": 6990,
+        "tid": 7188,
+        "applicationId": "com.qualcomm.ftcrobotcontroller",
+        "processName": "com.qualcomm.ftcrobotcontroller",
+        "tag": "FTC",
+        "timestamp": {
+          "seconds": 1758907429,
+          "nanos": 406000000
+        }
+      },
+      "message": "Phase\u003dconst Target\u003d1000.0 Vel\u003d1000.0 V\u003d12.594 A\u003d255.0 Error\u003d0.0"
+    },
+    {
+      "header": {
+        "logLevel": "INFO",
+        "pid": 6990,
+        "tid": 7188,
+        "applicationId": "com.qualcomm.ftcrobotcontroller",
+        "processName": "com.qualcomm.ftcrobotcontroller",
+        "tag": "FTC",
+        "timestamp": {
+          "seconds": 1758907429,
+          "nanos": 419000000
+        }
+      },
+      "message": "Phase\u003dconst Target\u003d1000.0 Vel\u003d980.0 V\u003d12.598 A\u003d258.0 Error\u003d0.0"
+    },
+    {
+      "header": {
+        "logLevel": "INFO",
+        "pid": 6990,
+        "tid": 7188,
+        "applicationId": "com.qualcomm.ftcrobotcontroller",
+        "processName": "com.qualcomm.ftcrobotcontroller",
+        "tag": "FTC",
+        "timestamp": {
+          "seconds": 1758907429,
+          "nanos": 431000000
+        }
+      },
+      "message": "Phase\u003dconst Target\u003d1000.0 Vel\u003d980.0 V\u003d12.594 A\u003d262.0 Error\u003d2.0"
+    },
+    {
+      "header": {
+        "logLevel": "INFO",
+        "pid": 6990,
+        "tid": 7188,
+        "applicationId": "com.qualcomm.ftcrobotcontroller",
+        "processName": "com.qualcomm.ftcrobotcontroller",
+        "tag": "FTC",
+        "timestamp": {
+          "seconds": 1758907429,
+          "nanos": 446000000
+        }
+      },
+      "message": "Phase\u003dconst Target\u003d1000.0 Vel\u003d980.0 V\u003d12.598 A\u003d258.0 Error\u003d2.0"
+    },
+    {
+      "header": {
+        "logLevel": "INFO",
+        "pid": 6990,
+        "tid": 7188,
+        "applicationId": "com.qualcomm.ftcrobotcontroller",
+        "processName": "com.qualcomm.ftcrobotcontroller",
+        "tag": "FTC",
+        "timestamp": {
+          "seconds": 1758907429,
+          "nanos": 458000000
+        }
+      },
+      "message": "Phase\u003dconst Target\u003d1000.0 Vel\u003d960.0 V\u003d12.598 A\u003d266.0 Error\u003d4.0"
+    },
+    {
+      "header": {
+        "logLevel": "INFO",
+        "pid": 6990,
+        "tid": 7188,
+        "applicationId": "com.qualcomm.ftcrobotcontroller",
+        "processName": "com.qualcomm.ftcrobotcontroller",
+        "tag": "FTC",
+        "timestamp": {
+          "seconds": 1758907429,
+          "nanos": 471000000
+        }
+      },
+      "message": "Phase\u003dconst Target\u003d1000.0 Vel\u003d960.0 V\u003d12.594 A\u003d280.0 Error\u003d4.0"
+    },
+    {
+      "header": {
+        "logLevel": "INFO",
+        "pid": 6990,
+        "tid": 7188,
+        "applicationId": "com.qualcomm.ftcrobotcontroller",
+        "processName": "com.qualcomm.ftcrobotcontroller",
+        "tag": "FTC",
+        "timestamp": {
+          "seconds": 1758907429,
+          "nanos": 483000000
+        }
+      },
+      "message": "Phase\u003dconst Target\u003d1000.0 Vel\u003d960.0 V\u003d12.589 A\u003d342.0 Error\u003d4.0"
+    },
+    {
+      "header": {
+        "logLevel": "INFO",
+        "pid": 6990,
+        "tid": 7188,
+        "applicationId": "com.qualcomm.ftcrobotcontroller",
+        "processName": "com.qualcomm.ftcrobotcontroller",
+        "tag": "FTC",
+        "timestamp": {
+          "seconds": 1758907429,
+          "nanos": 496000000
+        }
+      },
+      "message": "Phase\u003dconst Target\u003d1000.0 Vel\u003d960.0 V\u003d12.585 A\u003d360.0 Error\u003d4.0"
+    },
+    {
+      "header": {
+        "logLevel": "INFO",
+        "pid": 6990,
+        "tid": 7188,
+        "applicationId": "com.qualcomm.ftcrobotcontroller",
+        "processName": "com.qualcomm.ftcrobotcontroller",
+        "tag": "FTC",
+        "timestamp": {
+          "seconds": 1758907429,
+          "nanos": 510000000
+        }
+      },
+      "message": "Phase\u003dconst Target\u003d1000.0 Vel\u003d980.0 V\u003d12.589 A\u003d335.0 Error\u003d2.0"
+    },
+    {
+      "header": {
+        "logLevel": "INFO",
+        "pid": 6990,
+        "tid": 7188,
+        "applicationId": "com.qualcomm.ftcrobotcontroller",
+        "processName": "com.qualcomm.ftcrobotcontroller",
+        "tag": "FTC",
+        "timestamp": {
+          "seconds": 1758907429,
+          "nanos": 526000000
+        }
+      },
+      "message": "Phase\u003dconst Target\u003d1000.0 Vel\u003d1020.0 V\u003d12.598 A\u003d320.0 Error\u003d0.0"
+    },
+    {
+      "header": {
+        "logLevel": "INFO",
+        "pid": 6990,
+        "tid": 7188,
+        "applicationId": "com.qualcomm.ftcrobotcontroller",
+        "processName": "com.qualcomm.ftcrobotcontroller",
+        "tag": "FTC",
+        "timestamp": {
+          "seconds": 1758907429,
+          "nanos": 539000000
+        }
+      },
+      "message": "Phase\u003dconst Target\u003d1000.0 Vel\u003d1020.0 V\u003d12.603 A\u003d251.0 Error\u003d-2.0"
+    },
+    {
+      "header": {
+        "logLevel": "INFO",
+        "pid": 6990,
+        "tid": 7188,
+        "applicationId": "com.qualcomm.ftcrobotcontroller",
+        "processName": "com.qualcomm.ftcrobotcontroller",
+        "tag": "FTC",
+        "timestamp": {
+          "seconds": 1758907429,
+          "nanos": 560000000
+        }
+      },
+      "message": "Phase\u003dconst Target\u003d1000.0 Vel\u003d1040.0 V\u003d12.598 A\u003d233.0 Error\u003d-2.0"
+    },
+    {
+      "header": {
+        "logLevel": "INFO",
+        "pid": 6990,
+        "tid": 7188,
+        "applicationId": "com.qualcomm.ftcrobotcontroller",
+        "processName": "com.qualcomm.ftcrobotcontroller",
+        "tag": "FTC",
+        "timestamp": {
+          "seconds": 1758907429,
+          "nanos": 574000000
+        }
+      },
+      "message": "Phase\u003dconst Target\u003d1000.0 Vel\u003d1020.0 V\u003d12.598 A\u003d240.0 Error\u003d-2.0"
+    },
+    {
+      "header": {
+        "logLevel": "INFO",
+        "pid": 6990,
+        "tid": 7188,
+        "applicationId": "com.qualcomm.ftcrobotcontroller",
+        "processName": "com.qualcomm.ftcrobotcontroller",
+        "tag": "FTC",
+        "timestamp": {
+          "seconds": 1758907429,
+          "nanos": 590000000
+        }
+      },
+      "message": "Phase\u003dconst Target\u003d1000.0 Vel\u003d1020.0 V\u003d12.598 A\u003d240.0 Error\u003d-2.0"
+    },
+    {
+      "header": {
+        "logLevel": "INFO",
+        "pid": 6990,
+        "tid": 7188,
+        "applicationId": "com.qualcomm.ftcrobotcontroller",
+        "processName": "com.qualcomm.ftcrobotcontroller",
+        "tag": "FTC",
+        "timestamp": {
+          "seconds": 1758907429,
+          "nanos": 606000000
+        }
+      },
+      "message": "Phase\u003dconst Target\u003d1000.0 Vel\u003d980.0 V\u003d12.598 A\u003d247.0 Error\u003d2.0"
+    },
+    {
+      "header": {
+        "logLevel": "INFO",
+        "pid": 6990,
+        "tid": 7188,
+        "applicationId": "com.qualcomm.ftcrobotcontroller",
+        "processName": "com.qualcomm.ftcrobotcontroller",
+        "tag": "FTC",
+        "timestamp": {
+          "seconds": 1758907429,
+          "nanos": 622000000
+        }
+      },
+      "message": "Phase\u003dconst Target\u003d1000.0 Vel\u003d980.0 V\u003d12.598 A\u003d258.0 Error\u003d2.0"
+    },
+    {
+      "header": {
+        "logLevel": "INFO",
+        "pid": 6990,
+        "tid": 7188,
+        "applicationId": "com.qualcomm.ftcrobotcontroller",
+        "processName": "com.qualcomm.ftcrobotcontroller",
+        "tag": "FTC",
+        "timestamp": {
+          "seconds": 1758907429,
+          "nanos": 635000000
+        }
+      },
+      "message": "Phase\u003dconst Target\u003d1000.0 Vel\u003d980.0 V\u003d12.589 A\u003d287.0 Error\u003d2.0"
+    },
+    {
+      "header": {
+        "logLevel": "INFO",
+        "pid": 6990,
+        "tid": 7188,
+        "applicationId": "com.qualcomm.ftcrobotcontroller",
+        "processName": "com.qualcomm.ftcrobotcontroller",
+        "tag": "FTC",
+        "timestamp": {
+          "seconds": 1758907429,
+          "nanos": 649000000
+        }
+      },
+      "message": "Phase\u003dconst Target\u003d1000.0 Vel\u003d980.0 V\u003d12.594 A\u003d302.0 Error\u003d2.0"
+    },
+    {
+      "header": {
+        "logLevel": "INFO",
+        "pid": 6990,
+        "tid": 7188,
+        "applicationId": "com.qualcomm.ftcrobotcontroller",
+        "processName": "com.qualcomm.ftcrobotcontroller",
+        "tag": "FTC",
+        "timestamp": {
+          "seconds": 1758907429,
+          "nanos": 663000000
+        }
+      },
+      "message": "Phase\u003dconst Target\u003d1000.0 Vel\u003d980.0 V\u003d12.594 A\u003d302.0 Error\u003d2.0"
+    },
+    {
+      "header": {
+        "logLevel": "INFO",
+        "pid": 6990,
+        "tid": 7188,
+        "applicationId": "com.qualcomm.ftcrobotcontroller",
+        "processName": "com.qualcomm.ftcrobotcontroller",
+        "tag": "FTC",
+        "timestamp": {
+          "seconds": 1758907429,
+          "nanos": 676000000
+        }
+      },
+      "message": "Phase\u003dconst Target\u003d1000.0 Vel\u003d980.0 V\u003d12.594 A\u003d295.0 Error\u003d2.0"
+    },
+    {
+      "header": {
+        "logLevel": "INFO",
+        "pid": 6990,
+        "tid": 7188,
+        "applicationId": "com.qualcomm.ftcrobotcontroller",
+        "processName": "com.qualcomm.ftcrobotcontroller",
+        "tag": "FTC",
+        "timestamp": {
+          "seconds": 1758907429,
+          "nanos": 689000000
+        }
+      },
+      "message": "Phase\u003dconst Target\u003d1000.0 Vel\u003d1000.0 V\u003d12.598 A\u003d287.0 Error\u003d2.0"
+    },
+    {
+      "header": {
+        "logLevel": "INFO",
+        "pid": 6990,
+        "tid": 7188,
+        "applicationId": "com.qualcomm.ftcrobotcontroller",
+        "processName": "com.qualcomm.ftcrobotcontroller",
+        "tag": "FTC",
+        "timestamp": {
+          "seconds": 1758907429,
+          "nanos": 705000000
+        }
+      },
+      "message": "Phase\u003dconst Target\u003d1000.0 Vel\u003d1000.0 V\u003d12.594 A\u003d291.0 Error\u003d0.0"
+    },
+    {
+      "header": {
+        "logLevel": "INFO",
+        "pid": 6990,
+        "tid": 7188,
+        "applicationId": "com.qualcomm.ftcrobotcontroller",
+        "processName": "com.qualcomm.ftcrobotcontroller",
+        "tag": "FTC",
+        "timestamp": {
+          "seconds": 1758907429,
+          "nanos": 718000000
+        }
+      },
+      "message": "Phase\u003dconst Target\u003d1000.0 Vel\u003d1000.0 V\u003d12.598 A\u003d277.0 Error\u003d0.0"
+    },
+    {
+      "header": {
+        "logLevel": "INFO",
+        "pid": 6990,
+        "tid": 7188,
+        "applicationId": "com.qualcomm.ftcrobotcontroller",
+        "processName": "com.qualcomm.ftcrobotcontroller",
+        "tag": "FTC",
+        "timestamp": {
+          "seconds": 1758907429,
+          "nanos": 730000000
+        }
+      },
+      "message": "Phase\u003dconst Target\u003d1000.0 Vel\u003d1000.0 V\u003d12.598 A\u003d262.0 Error\u003d-2.0"
+    },
+    {
+      "header": {
+        "logLevel": "INFO",
+        "pid": 6990,
+        "tid": 7188,
+        "applicationId": "com.qualcomm.ftcrobotcontroller",
+        "processName": "com.qualcomm.ftcrobotcontroller",
+        "tag": "FTC",
+        "timestamp": {
+          "seconds": 1758907429,
+          "nanos": 743000000
+        }
+      },
+      "message": "Phase\u003dconst Target\u003d1000.0 Vel\u003d1000.0 V\u003d12.598 A\u003d244.0 Error\u003d0.0"
+    },
+    {
+      "header": {
+        "logLevel": "INFO",
+        "pid": 6990,
+        "tid": 7188,
+        "applicationId": "com.qualcomm.ftcrobotcontroller",
+        "processName": "com.qualcomm.ftcrobotcontroller",
+        "tag": "FTC",
+        "timestamp": {
+          "seconds": 1758907429,
+          "nanos": 755000000
+        }
+      },
+      "message": "Phase\u003dconst Target\u003d1000.0 Vel\u003d1000.0 V\u003d12.594 A\u003d247.0 Error\u003d0.0"
+    },
+    {
+      "header": {
+        "logLevel": "INFO",
+        "pid": 6990,
+        "tid": 7188,
+        "applicationId": "com.qualcomm.ftcrobotcontroller",
+        "processName": "com.qualcomm.ftcrobotcontroller",
+        "tag": "FTC",
+        "timestamp": {
+          "seconds": 1758907429,
+          "nanos": 767000000
+        }
+      },
+      "message": "Phase\u003dconst Target\u003d1000.0 Vel\u003d1000.0 V\u003d12.594 A\u003d258.0 Error\u003d0.0"
+    },
+    {
+      "header": {
+        "logLevel": "INFO",
+        "pid": 6990,
+        "tid": 7188,
+        "applicationId": "com.qualcomm.ftcrobotcontroller",
+        "processName": "com.qualcomm.ftcrobotcontroller",
+        "tag": "FTC",
+        "timestamp": {
+          "seconds": 1758907429,
+          "nanos": 780000000
+        }
+      },
+      "message": "Phase\u003dconst Target\u003d1000.0 Vel\u003d1000.0 V\u003d12.598 A\u003d284.0 Error\u003d2.0"
+    },
+    {
+      "header": {
+        "logLevel": "INFO",
+        "pid": 6990,
+        "tid": 7188,
+        "applicationId": "com.qualcomm.ftcrobotcontroller",
+        "processName": "com.qualcomm.ftcrobotcontroller",
+        "tag": "FTC",
+        "timestamp": {
+          "seconds": 1758907429,
+          "nanos": 792000000
+        }
+      },
+      "message": "Phase\u003dconst Target\u003d1000.0 Vel\u003d1000.0 V\u003d12.589 A\u003d298.0 Error\u003d0.0"
+    },
+    {
+      "header": {
+        "logLevel": "INFO",
+        "pid": 6990,
+        "tid": 7188,
+        "applicationId": "com.qualcomm.ftcrobotcontroller",
+        "processName": "com.qualcomm.ftcrobotcontroller",
+        "tag": "FTC",
+        "timestamp": {
+          "seconds": 1758907429,
+          "nanos": 805000000
+        }
+      },
+      "message": "Phase\u003dconst Target\u003d1000.0 Vel\u003d1000.0 V\u003d12.594 A\u003d298.0 Error\u003d0.0"
+    },
+    {
+      "header": {
+        "logLevel": "INFO",
+        "pid": 6990,
+        "tid": 7188,
+        "applicationId": "com.qualcomm.ftcrobotcontroller",
+        "processName": "com.qualcomm.ftcrobotcontroller",
+        "tag": "FTC",
+        "timestamp": {
+          "seconds": 1758907429,
+          "nanos": 818000000
+        }
+      },
+      "message": "Phase\u003dconst Target\u003d1000.0 Vel\u003d980.0 V\u003d12.598 A\u003d287.0 Error\u003d2.0"
+    },
+    {
+      "header": {
+        "logLevel": "INFO",
+        "pid": 6990,
+        "tid": 7188,
+        "applicationId": "com.qualcomm.ftcrobotcontroller",
+        "processName": "com.qualcomm.ftcrobotcontroller",
+        "tag": "FTC",
+        "timestamp": {
+          "seconds": 1758907429,
+          "nanos": 832000000
+        }
+      },
+      "message": "Phase\u003dconst Target\u003d1000.0 Vel\u003d1000.0 V\u003d12.598 A\u003d262.0 Error\u003d0.0"
+    },
+    {
+      "header": {
+        "logLevel": "INFO",
+        "pid": 6990,
+        "tid": 7188,
+        "applicationId": "com.qualcomm.ftcrobotcontroller",
+        "processName": "com.qualcomm.ftcrobotcontroller",
+        "tag": "FTC",
+        "timestamp": {
+          "seconds": 1758907429,
+          "nanos": 845000000
+        }
+      },
+      "message": "Phase\u003dconst Target\u003d1000.0 Vel\u003d980.0 V\u003d12.598 A\u003d258.0 Error\u003d0.0"
+    },
+    {
+      "header": {
+        "logLevel": "INFO",
+        "pid": 6990,
+        "tid": 7188,
+        "applicationId": "com.qualcomm.ftcrobotcontroller",
+        "processName": "com.qualcomm.ftcrobotcontroller",
+        "tag": "FTC",
+        "timestamp": {
+          "seconds": 1758907429,
+          "nanos": 857000000
+        }
+      },
+      "message": "Phase\u003dconst Target\u003d1000.0 Vel\u003d980.0 V\u003d12.598 A\u003d251.0 Error\u003d2.0"
+    },
+    {
+      "header": {
+        "logLevel": "INFO",
+        "pid": 6990,
+        "tid": 7188,
+        "applicationId": "com.qualcomm.ftcrobotcontroller",
+        "processName": "com.qualcomm.ftcrobotcontroller",
+        "tag": "FTC",
+        "timestamp": {
+          "seconds": 1758907429,
+          "nanos": 870000000
+        }
+      },
+      "message": "Phase\u003dconst Target\u003d1000.0 Vel\u003d980.0 V\u003d12.594 A\u003d255.0 Error\u003d0.0"
+    },
+    {
+      "header": {
+        "logLevel": "INFO",
+        "pid": 6990,
+        "tid": 7188,
+        "applicationId": "com.qualcomm.ftcrobotcontroller",
+        "processName": "com.qualcomm.ftcrobotcontroller",
+        "tag": "FTC",
+        "timestamp": {
+          "seconds": 1758907429,
+          "nanos": 882000000
+        }
+      },
+      "message": "Phase\u003dconst Target\u003d1000.0 Vel\u003d980.0 V\u003d12.589 A\u003d291.0 Error\u003d2.0"
+    }
+  ]
+}
