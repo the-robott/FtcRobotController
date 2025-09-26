@@ -1,5 +1,7 @@
 package org.firstinspires.ftc.teamcode.control;
 
+import static org.firstinspires.ftc.teamcode.control.PIDConfig.ticks;
+
 import com.qualcomm.robotcore.eventloop.opmode.LinearOpMode;
 import com.qualcomm.robotcore.eventloop.opmode.TeleOp;
 import com.qualcomm.robotcore.hardware.DcMotorEx;
@@ -7,6 +9,7 @@ import com.qualcomm.robotcore.hardware.PIDFCoefficients;
 import com.qualcomm.robotcore.hardware.VoltageSensor;
 import com.acmerobotics.dashboard.FtcDashboard;
 import com.acmerobotics.dashboard.telemetry.MultipleTelemetry;
+import com.acmerobotics.dashboard.config.Config;
 
 import android.util.Log;
 
@@ -30,15 +33,15 @@ public class MotorVelocityPID extends LinearOpMode {
         motor.setMode(DcMotorEx.RunMode.RUN_USING_ENCODER);
 
         // Example PIDF values (adjust for your motor)
-        PIDFCoefficients pidf = new PIDFCoefficients(15, 1, 0.5, 0);
-        motor.setPIDFCoefficients(DcMotorEx.RunMode.RUN_USING_ENCODER, pidf);
+        //PIDFCoefficients pidf = new PIDFCoefficients(15, 1, 0.5, 0);
+        //motor.setPIDFCoefficients(DcMotorEx.RunMode.RUN_USING_ENCODER, pidf);
 
         // Combine DS telemetry with FTC Dashboard telemetry
         telemetry = new MultipleTelemetry(telemetry, FtcDashboard.getInstance().getTelemetry());
 
         waitForStart();
 
-        double targetVel = 1000; // ticks/sec fixed target
+        double targetVel = ticks; // ticks/sec fixed target
         /**************
          * Encoder Ticks per second=RPM*PPR/60
          * PPR for 312: 537.6
@@ -46,6 +49,10 @@ public class MotorVelocityPID extends LinearOpMode {
          */
 
         while (opModeIsActive()) {
+
+            motor.setPIDFCoefficients(DcMotorEx.RunMode.RUN_USING_ENCODER,
+                    new PIDFCoefficients(PIDConfig.kP, PIDConfig.kI, PIDConfig.kD, PIDConfig.kF));
+
             // Command motor velocity
             motor.setVelocity(targetVel);
 
