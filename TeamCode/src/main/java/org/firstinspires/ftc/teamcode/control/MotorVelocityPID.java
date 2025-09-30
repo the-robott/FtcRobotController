@@ -13,6 +13,7 @@ import com.acmerobotics.dashboard.config.Config;
 
 import android.util.Log;
 
+import org.firstinspires.ftc.robotcore.external.navigation.AngleUnit;
 import org.firstinspires.ftc.robotcore.external.navigation.CurrentUnit;
 
 @TeleOp(name="Motor Velocity PID", group="Control")
@@ -41,7 +42,8 @@ public class MotorVelocityPID extends LinearOpMode {
 
         waitForStart();
 
-        double targetVel = ticks; // ticks/sec fixed target
+        //double targetVel = ticks; // ticks/sec fixed target
+
         /**************
          * Encoder Ticks per second=RPM*PPR/60
          * PPR for 312: 537.6
@@ -50,14 +52,16 @@ public class MotorVelocityPID extends LinearOpMode {
 
         while (opModeIsActive()) {
 
+            double targetVel = PIDConfig.rpm*((2*3.14)/60);
+
             motor.setPIDFCoefficients(DcMotorEx.RunMode.RUN_USING_ENCODER,
                     new PIDFCoefficients(PIDConfig.kP, PIDConfig.kI, PIDConfig.kD, PIDConfig.kF));
 
             // Command motor velocity
-            motor.setVelocity(targetVel);
+            motor.setVelocity(targetVel, AngleUnit.RADIANS);
 
             // Collect sensor data
-            double velocity = motor.getVelocity();
+            double velocity = motor.getVelocity(AngleUnit.RADIANS)*(60/(2*3.14));
             double current = motor.getCurrent(CurrentUnit.MILLIAMPS);
             double voltage  = battery.getVoltage();
 
@@ -70,9 +74,9 @@ public class MotorVelocityPID extends LinearOpMode {
 
             // Logcat (optional)
             Log.i("FTC", "Phase=const Target=" + targetVel
-                    + " Vel=" + motor.getVelocity()
-                    + " V=" + battery.getVoltage()
-                    + " A=" + motor.getCurrent(CurrentUnit.MILLIAMPS)
+                    + " Vel=" + velocity
+                    + " V=" + voltage
+                    + " A=" + current
                     + " Error=" + ((targetVel-velocity)/targetVel)*100);
             /*
             Log.i("FTC", "Phase=constant Target=" + targetVel +
