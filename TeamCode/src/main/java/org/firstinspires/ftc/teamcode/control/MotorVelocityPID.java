@@ -66,18 +66,18 @@ public class MotorVelocityPID extends LinearOpMode {
             double voltage  = battery.getVoltage();
 
             // Log to FTC Dashboard & DS telemetry
-            telemetry.addData("Target Velocity", targetVel);
+            telemetry.addData("Target Velocity", PIDConfig.rpm);
             telemetry.addData("Current Velocity", velocity);
             telemetry.addData("Current (A)", current);
             telemetry.addData("Voltage (V)", voltage);
             telemetry.update();
 
             // Logcat (optional)
-            Log.i("FTC", "Phase=const Target=" + targetVel
+            Log.i("FTC", "Phase=const Target=" + PIDConfig.rpm
                     + " Vel=" + velocity
                     + " V=" + voltage
                     + " A=" + current
-                    + " Error=" + ((targetVel-velocity)/targetVel)*100);
+                    + " Error=" + ((PIDConfig.rpm-velocity)/PIDConfig.rpm)*100);
             /*
             Log.i("FTC", "Phase=constant Target=" + targetVel +
                     " Vel=" + velocity +
