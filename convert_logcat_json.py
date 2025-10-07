@@ -15,10 +15,10 @@ with open(output_file, "w", newline="") as csvfile:
     writer = csv.writer(csvfile)
     
     # Write CSV header
-    writer.writerow(["date", "time", "pid", "tid", "Phase", "Target", "Vel", "V", "A","Error"])
+    writer.writerow(["date", "time", "pid", "tid", "Target", "Vel", "V", "A","Error"])
     
     # Regex to extract motor data
-    pattern = re.compile(r"Phase=(\w+)\s+Target=([\d\.]+)\s+Vel=([\d\.]+)\s+V=([\d\.]+)\s+A=([\d\.]+)\s+Error=([\d\.]+)")
+    pattern = re.compile(r"Target=([\d\.]+)\s+Vel=([\d\.]+)\s+V=([\d\.]+)\s+A=([\d\.]+)\s+Error=([\d\.]+)")
     
     for entry in data.get("logcatMessages", []):
         header = entry["header"]
@@ -35,7 +35,7 @@ with open(output_file, "w", newline="") as csvfile:
         message = entry.get("message", "")
         match = pattern.search(message)
         if match:
-            Phase, Target, Vel, V, A, Error = match.groups()
-            writer.writerow([date_str, time_str, header["pid"], header["tid"], Phase, Target, Vel, V, A,  Error])
+            Target, Vel, V, A, Error = match.groups()
+            writer.writerow([date_str, time_str, header["pid"], header["tid"], Target, Vel, V, A,  Error])
 
 print(f"Filtered FTC log saved to {output_file}")

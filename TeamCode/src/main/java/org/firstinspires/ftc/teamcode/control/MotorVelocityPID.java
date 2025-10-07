@@ -1,6 +1,6 @@
 package org.firstinspires.ftc.teamcode.control;
 
-import static org.firstinspires.ftc.teamcode.control.PIDConfig.ticks;
+import static org.firstinspires.ftc.teamcode.control.PIDConfig.rpm;
 
 import com.qualcomm.robotcore.eventloop.opmode.LinearOpMode;
 import com.qualcomm.robotcore.eventloop.opmode.TeleOp;
@@ -52,16 +52,16 @@ public class MotorVelocityPID extends LinearOpMode {
 
         while (opModeIsActive()) {
 
-            double targetVel = PIDConfig.rpm*((2*3.14)/60);
+            double targetVel = PIDConfig.rpm*103.8/60;
 
             motor.setPIDFCoefficients(DcMotorEx.RunMode.RUN_USING_ENCODER,
                     new PIDFCoefficients(PIDConfig.kP, PIDConfig.kI, PIDConfig.kD, PIDConfig.kF));
 
             // Command motor velocity
-            motor.setVelocity(targetVel, AngleUnit.RADIANS);
+            motor.setVelocity(targetVel);
 
             // Collect sensor data
-            double velocity = motor.getVelocity(AngleUnit.RADIANS)*(60/(2*3.14));
+            double velocity = motor.getVelocity()*(60/103.8);
             double current = motor.getCurrent(CurrentUnit.MILLIAMPS);
             double voltage  = battery.getVoltage();
 
@@ -70,10 +70,12 @@ public class MotorVelocityPID extends LinearOpMode {
             telemetry.addData("Current Velocity", velocity);
             telemetry.addData("Current (A)", current);
             telemetry.addData("Voltage (V)", voltage);
+            telemetry.addData("kp", PIDConfig.kP);
+            telemetry.addData("kf", PIDConfig.kF);
             telemetry.update();
 
             // Logcat (optional)
-            Log.i("FTC", "Phase=const Target=" + PIDConfig.rpm
+            Log.i("FTC", "Target=" + PIDConfig.rpm
                     + " Vel=" + velocity
                     + " V=" + voltage
                     + " A=" + current
